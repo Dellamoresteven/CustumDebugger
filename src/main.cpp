@@ -6,6 +6,7 @@
 #include <unistd.h>
 #include <sstream>
 #include <iostream>
+#include <sys/personality.h>
 #include "debugger.h"
 
 // https://blog.tartanllama.xyz/writing-a-linux-debugger-setup/
@@ -23,7 +24,11 @@ int main(int argc, char* argv[]) {
     auto pid = fork();
     if(pid == 0) {
         // child
-        ptrace(PTRACE_TRACEME, 0, nullptr, nullptr);
+        personality(ADDR_NO_RANDOMIZE);
+        if (ptrace(PTRACE_TRACEME, 0, 0, 0) < 0) {
+            std::cerr << "Error in ptrace\n";
+            exit(1);
+        }
         execl(program, program, nullptr);
     } else if(pid >= 1) {
         // parent

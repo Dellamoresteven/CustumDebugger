@@ -4,7 +4,7 @@ project (MiniDbg)
 add_compile_options(-std=c++14)
 
 include_directories(ext/libelfin ext/linenoise include)
-add_executable(minidbg src/main.cpp src/debugger.cpp ext/linenoise/linenoise.c)
+add_executable(minidbg src/main.cpp src/debugger.cpp src/breakpoint.cpp ext/linenoise/linenoise.c)
 
 add_executable(hello examples/hello.cpp)
 set_target_properties(hello

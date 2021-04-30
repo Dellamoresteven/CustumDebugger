@@ -6,8 +6,8 @@
 #include <iostream>
 
 #include "linenoise.h"
-
 #include "debugger.h"
+#include "registers.h"
 
 using std::string;
 using std::vector;
@@ -36,6 +36,9 @@ void debugger::handle_command(const string& line) {
 
     if(is_prefix(command, "continue")) {
         continue_execution();
+    } else if(is_prefix(command, "breakpoint")) {
+        string addr {args[1], 2};
+        set_breakpoint_at_address(std::stol(addr,0,16));
     } else {
         cerr << "Unknown Command\n";
     }
@@ -47,6 +50,13 @@ void debugger::continue_execution() {
     int wait_status;
     auto options = 0;
     waitpid(m_pid, &wait_status, options);
+}
+
+void debugger::set_breakpoint_at_address(std::intptr_t addr) {
+    std::cout << "Set breakpoint at address 0x" << std::hex << addr << std::endl;
+    breakpoint bp{m_pid, addr};
+    bp.enable();
+    m_breakpoints[addr] = bp;
 }
 
 vector<string> split(const string &s, const char delimiter) {

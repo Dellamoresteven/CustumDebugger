@@ -35,4 +35,5 @@ int main(int argc, char* argv[]) {
         debugger dbg{program, pid};
         dbg.run();
     }
+    return 0;
 }

@@ -25,6 +25,7 @@ namespace minidbg {
         void set_pc(uint64_t pc);
         void step_over_breakpoint();
         void wait_for_signal();
+        uint64_t get_program_base_address(pid_t pid);
 
     private:
         void handle_command(const std::string& line);

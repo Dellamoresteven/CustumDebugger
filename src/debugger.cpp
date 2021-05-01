@@ -125,6 +125,9 @@ void debugger::wait_for_signal() {
     waitpid(m_pid, &wait_status, options);
 }
 
+uint64_t debugger::get_program_base_address(pid_t pid) {
+}
+
 vector<string> split(const string &s, const char delimiter) {
     vector<string> ret;
     std::stringstream ss{s};

@@ -45,12 +45,15 @@ namespace minidbg {
         void handle_sigtrap(siginfo_t info);
         void single_step_instruction();
         void single_step_instruction_with_breakpoint_check();
-        void step_out();
-        void remove_reakpoint(std::intptr_t addr);
+        void remove_breakpoint(std::intptr_t addr);
+
+        /* Stepping functions */
         void step_in();
-        void get_offset_pc();
-        uint64_t offset_dwarf_address(uint64_t addr);
         void step_over();
+        void step_out();
+
+        uint64_t get_offset_pc();
+        uint64_t offset_dwarf_address(uint64_t addr);
 
     private:
         void handle_command(const std::string& line);

@@ -14,9 +14,9 @@ set_target_properties(hello
 #set_target_properties(variable
                       #PROPERTIES COMPILE_FLAGS "-gdwarf-2 -O0")
 
-#add_executable(unwinding examples/stack_unwinding.cpp)
-#set_target_properties(unwinding
-                      #PROPERTIES COMPILE_FLAGS "-g -O0")
+add_executable(more_code examples/more_code.cpp)
+set_target_properties(more_code
+                      PROPERTIES COMPILE_FLAGS "-gdwarf-2 -O0")
 
 
 add_custom_target(

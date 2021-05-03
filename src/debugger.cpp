@@ -19,6 +19,7 @@ using namespace minidbg;
 
 vector<string> split(const string &s, const char delimiter);
 bool is_prefix(const string &s, const string &of);
+std::string exec(const char* cmd);
 
 void debugger::run() {
     int wait_status;
@@ -73,10 +74,10 @@ void debugger::continue_execution() {
 }
 
 void debugger::set_breakpoint_at_address(std::intptr_t addr) {
-    std::cout << "Set breakpoint at address 0x" << std::hex << addr << std::endl;
-    breakpoint bp{m_pid, addr};
+    std::cout << "Set breakpoint at address 0x" << std::hex << addr+m_base_addr << std::endl;
+    breakpoint bp{m_pid, addr + m_base_addr};
     bp.enable();
-    m_breakpoints[addr] = bp;
+    m_breakpoints[addr + m_base_addr] = bp;
 }
 
 void debugger::dump_registers() {
@@ -125,7 +126,12 @@ void debugger::wait_for_signal() {
     waitpid(m_pid, &wait_status, options);
 }
 
-uint64_t debugger::get_program_base_address(pid_t pid) {
+void debugger::set_program_base_address(pid_t pid) {
+    string s = "cat /proc/" + std::to_string(pid) + "/maps";
+    auto catRet = exec(s.c_str());
+    std::string baseAddrStr = catRet.substr(0 , catRet.find("-" , 0));
+    cout << baseAddrStr << endl;
+    m_base_addr = std::stol(baseAddrStr,0,16);
 }
 
 vector<string> split(const string &s, const char delimiter) {
@@ -142,3 +148,17 @@ bool is_prefix(const string &s, const string &of) {
     if(s.size() > of.size()) return false;
     return std::equal(s.begin(), s.end(), of.begin());
 }
+
+std::string exec(const char* cmd) {
+    std::array<char, 128> buffer;
+    std::string result;
+    std::unique_ptr<FILE, decltype(&pclose)> pipe(popen(cmd, "r"), pclose);
+    if (!pipe) {
+        throw std::runtime_error("popen() failed!");
+    }
+    while (fgets(buffer.data(), buffer.size(), pipe.get()) != nullptr) {
+        result += buffer.data();
+    }
+    return result;
+}
+

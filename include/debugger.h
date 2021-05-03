@@ -13,7 +13,8 @@ namespace minidbg {
     public:
         debugger (std::string prog_name, pid_t pid)
             : m_prog_name{std::move(prog_name)}, m_pid{pid} {
-                std::cout << "Debugger hooked to process " << pid << std::endl;
+                set_program_base_address(m_pid);
+                std::cout << "Debugger hooked to process " << pid << " on base address " << std::hex << m_base_addr << std::endl;
             }
 
         void run();
@@ -25,13 +26,14 @@ namespace minidbg {
         void set_pc(uint64_t pc);
         void step_over_breakpoint();
         void wait_for_signal();
-        uint64_t get_program_base_address(pid_t pid);
+        void set_program_base_address(pid_t pid);
 
     private:
         void handle_command(const std::string& line);
         void continue_execution();
 
         std::string m_prog_name;
+        intptr_t m_base_addr;
         pid_t m_pid;
         std::unordered_map<std::intptr_t, breakpoint> m_breakpoints;
     };

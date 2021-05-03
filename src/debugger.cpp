@@ -134,6 +134,40 @@ void debugger::set_program_base_address(pid_t pid) {
     m_base_addr = std::stol(baseAddrStr,0,16);
 }
 
+dwarf::die debugger::get_function_from_pc(uint64_t pc) {
+    for(auto &cu : m_dwarf.compilation_units()) {
+        if(die_pc_range(cu.root()).contains(pc)) {
+            for(const auto &die : cu.root()) {
+                if(die.tag == dwarf::DW_TAG::subprogram) {
+                    if(die_pc_range(die).contains(pc)) {
+                        return die;
+                    }
+                }
+            }
+        }
+    }
+    throw std::out_of_range{"Cannot find function"};
+}
+
+dwarf::line_table::iterator debugger::get_line_entry_from_pc(uint64_t pc) {
+    for(auto &cu : m_dwarf.compilation_units()) {
+        if(die_pc_range(cu.root()).contains(pc)) {
+            auto &lt = cu.get_line_table();
+            auto it = lt.find_address(pc);
+            if(it == lt.end()) {
+                throw std::out_of_range{"Cannot find line entry"};
+            } else {
+                return it;
+            }
+        }
+    }
+    throw std::out_of_range{"Cannot find line entry"};
+}
+
+uint64_t debugger::offset_load_address(uint64_t addr) {
+    return addr-m_base_addr;
+}
+
 vector<string> split(const string &s, const char delimiter) {
     vector<string> ret;
     std::stringstream ss{s};

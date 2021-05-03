@@ -5,14 +5,24 @@
 #include <string>
 #include <linux/types.h>
 #include <unordered_map>
+#include <fcntl.h>
+#include <inttypes.h>
 
 #include "breakpoint.h"
+#include "elf/elf++.hh"
+#include "dwarf/dwarf++.hh"
+
 
 namespace minidbg {
     class debugger {
     public:
         debugger (std::string prog_name, pid_t pid)
             : m_prog_name{std::move(prog_name)}, m_pid{pid} {
+                auto fd = open(m_prog_name.c_str(), O_RDONLY);
+
+                m_elf = elf::elf{elf::create_mmap_loader(fd)};
+                m_dwarf = dwarf::dwarf{dwarf::elf::create_loader(m_elf)};
+
                 set_program_base_address(m_pid);
                 std::cout << "Debugger hooked to process " << pid << " on base address " << std::hex << m_base_addr << std::endl;
             }
@@ -27,6 +37,9 @@ namespace minidbg {
         void step_over_breakpoint();
         void wait_for_signal();
         void set_program_base_address(pid_t pid);
+        dwarf::die get_function_from_pc(uint64_t pc);
+        dwarf::line_table::iterator get_line_entry_from_pc(uint64_t pc);
+        uint64_t offset_load_address(uint64_t addr);
 
     private:
         void handle_command(const std::string& line);
@@ -35,6 +48,8 @@ namespace minidbg {
         std::string m_prog_name;
         intptr_t m_base_addr;
         pid_t m_pid;
+        dwarf::dwarf m_dwarf;
+        elf::elf m_elf;
         std::unordered_map<std::intptr_t, breakpoint> m_breakpoints;
     };
 }

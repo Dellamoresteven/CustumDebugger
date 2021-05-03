@@ -63,6 +63,10 @@ void debugger::handle_command(const string& line) {
             std::string val{args[3], 2};
             write_memory(std::stol(addr,0,16), std::stol(val, 0, 16));
         }
+    } else if(is_prefix(command, "stepi")) {
+        single_step_instruction_with_breakpoint_check();
+        auto line_entry = get_line_entry_from_pc(get_pc());
+        print_source(line_entry->file->path, line_entry->line);
     } else {
         cerr << "Unknown Command\n";
     }
@@ -104,15 +108,9 @@ void debugger::set_pc(uint64_t pc) {
 }
 
 void debugger::step_over_breakpoint() {
-    auto possible_breakpoint_location = get_pc() - 1;
-
-    if(m_breakpoints.count(possible_breakpoint_location)) {
-        auto &bp = m_breakpoints[possible_breakpoint_location];
-
+    if(m_breakpoints.count(get_pc())) {
+        auto &bp = m_breakpoints[get_pc()];
         if(bp.is_enabled()) {
-            auto previous_instruction_address = possible_breakpoint_location;
-            set_pc(previous_instruction_address);
-
             bp.disable();
             ptrace(PTRACE_SINGLESTEP, m_pid, nullptr, nullptr);
             wait_for_signal();
@@ -125,6 +123,19 @@ void debugger::wait_for_signal() {
     int wait_status;
     auto options = 0;
     waitpid(m_pid, &wait_status, options);
+
+    auto siginfo = get_signal_info();
+
+    switch(siginfo.si_signo) {
+        case SIGTRAP:
+            handle_sigtrap(siginfo);
+            break;
+        case SIGSEGV:
+            std::cout << "SEGFAULT: " << siginfo.si_code << std::endl;
+            break;
+        default:
+            std::cout << "Got Signal " << strsignal(siginfo.si_signo) << std::endl;
+    }
 }
 
 void debugger::set_program_base_address(pid_t pid) {
@@ -197,6 +208,45 @@ void debugger::print_source(const std::string &file_name, unsigned line, unsigne
     std::cout << std::endl;
 }
 
+siginfo_t debugger::get_signal_info() {
+    siginfo_t info;
+    ptrace(PTRACE_GETSIGINFO, m_pid, nullptr, &info);
+    return info;
+}
+
+void debugger::handle_sigtrap(siginfo_t info) {
+    switch(info.si_code) {
+        case SI_KERNEL:
+        case TRAP_BRKPT:
+            {
+                set_pc(get_pc()-1);
+                std::cout << "Hit breakpoint at address 0x" << std::hex << get_pc() << std::endl;
+                auto offset_pc = offset_load_address(get_pc());
+
+                auto line_entry = get_line_entry_from_pc(offset_pc);
+                print_source(line_entry->file->path, line_entry->line);
+                return;
+            }
+        case TRAP_TRACE:
+            return;
+        default:
+            std::cout << "Unkown SIGTRAP code " << info.si_code << std::endl;
+            return;
+    }
+}
+
+void debugger::single_step_instruction() {
+    ptrace(PTRACE_SINGLESTEP, m_pid, nullptr, nullptr);
+    wait_for_signal();
+}
+
+void debugger::single_step_instruction_with_breakpoint_check() {
+    if(m_breakpoints.count(get_pc())) {
+        step_over_breakpoint();
+    } else {
+        single_step_instruction();
+    }
+}
 
 vector<string> split(const string &s, const char delimiter) {
     vector<string> ret;

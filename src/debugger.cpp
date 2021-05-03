@@ -5,6 +5,7 @@
 #include <sstream>
 #include <iostream>
 #include <iomanip>
+#include <fstream>
 
 #include "linenoise.h"
 #include "debugger.h"
@@ -167,6 +168,35 @@ dwarf::line_table::iterator debugger::get_line_entry_from_pc(uint64_t pc) {
 uint64_t debugger::offset_load_address(uint64_t addr) {
     return addr-m_base_addr;
 }
+
+void debugger::print_source(const std::string &file_name, unsigned line, unsigned n_lines_context) {
+    std::ifstream file{file_name};
+    
+    auto start_line = line <= n_lines_context ? 1 : n_lines_context;
+    auto end_line = line + n_lines_context + (line < n_lines_context ? n_lines_context : 0) + 1;
+
+    char c{};
+    auto current_line = 1u;
+
+    while(current_line != start_line && file.get(c)) {
+        if(c == '\n') {
+            ++current_line;
+        }
+    }
+
+    std::cout << (current_line==line ? "> " : " ");
+
+    while(current_line <= end_line && file.get(c)) {
+        std::cout << c;
+        if(c == '\n') {
+            ++current_line;
+            std::cout << (current_line==line ? "> " : " ");
+        }
+    }
+
+    std::cout << std::endl;
+}
+
 
 vector<string> split(const string &s, const char delimiter) {
     vector<string> ret;

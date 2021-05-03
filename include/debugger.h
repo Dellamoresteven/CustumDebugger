@@ -40,6 +40,7 @@ namespace minidbg {
         dwarf::die get_function_from_pc(uint64_t pc);
         dwarf::line_table::iterator get_line_entry_from_pc(uint64_t pc);
         uint64_t offset_load_address(uint64_t addr);
+        void print_source(const std::string &file_name, unsigned line, unsigned n_lines_context);
 
     private:
         void handle_command(const std::string& line);

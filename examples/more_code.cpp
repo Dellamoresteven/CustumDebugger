@@ -1,10 +1,6 @@
-#include <iostream>
-
 
 int add(int x, int y) {
-    int b = x;
-    int c = y;
-    return b + c;
+    return x+y;
 }
 
 int main() {

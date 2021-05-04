@@ -7,11 +7,13 @@
 #include <iomanip>
 #include <fstream>
 #include <sys/personality.h>
+#include <sys/ioctl.h>
 
 #include "linenoise.h"
 
 #include "debugger.hpp"
 #include "registers.h"
+#include "colors.h"
 
 using std::string;
 using std::vector;
@@ -66,7 +68,6 @@ void debugger::handle_command(const string& line) {
     auto args = split(line, ' ');
     auto command = args[0];
 
-    print_prompt();
 
     if(is_prefix(command, "continue")) {
         continue_execution();
@@ -134,7 +135,7 @@ void debugger::continue_execution() {
 }
 
 void debugger::set_breakpoint_at_address(std::intptr_t addr) {
-    std::cout << "Set breakpoint at address 0x" << std::hex << addr << std::endl;
+    //std::cout << "Set breakpoint at address 0x" << std::hex << addr << std::endl;
     breakpoint bp{m_pid, addr};
     bp.enable();
     m_breakpoints[addr] = bp;
@@ -142,8 +143,9 @@ void debugger::set_breakpoint_at_address(std::intptr_t addr) {
 
 void debugger::dump_registers() {
     for(const auto &rd : g_register_descriptors) {
-        cout << rd.name << " 0x" << std::setfill('0') << std::setw(16) << std::hex << get_register_value(m_pid, rd.r) << endl;
+        cout << reg_color << "$" << rd.name << def << std::setfill(' ') << std::setw(14-rd.name.length()) << ": 0x" << std::setfill('0') << std::setw(16) << std::hex << get_register_value(m_pid, rd.r) << endl;
     }
+    cout << def;
 }
 
 uint64_t debugger::read_memory(uint64_t address) {
@@ -221,7 +223,7 @@ dwarf::line_table::iterator debugger::get_line_entry_from_pc(uint64_t pc) {
             auto &lt = cu.get_line_table();
             auto it = lt.find_address(pc);
             if(it == lt.end()) {
-                throw std::out_of_range{"Cannot find line entry"};
+                throw std::out_of_range{"Cannot find line entry 2"};
             } else {
                 return it;
             }
@@ -237,7 +239,7 @@ uint64_t debugger::offset_load_address(uint64_t addr) {
 void debugger::print_source(const std::string &file_name, unsigned line, unsigned n_lines_context) {
     std::ifstream file{file_name};
 
-    auto start_line = line <= n_lines_context ? 1 : n_lines_context;
+    auto start_line = line <= n_lines_context ? 1 : line-n_lines_context;
     auto end_line = line + n_lines_context + (line < n_lines_context ? n_lines_context : 0) + 1;
 
     char c{};
@@ -249,13 +251,21 @@ void debugger::print_source(const std::string &file_name, unsigned line, unsigne
         }
     }
 
-    std::cout << (current_line==line ? "> " : " ");
+    std::cout << std::dec << current_line << std::setw(5-current_line/10) << std::setfill(' ');
 
     while(current_line <= end_line && file.get(c)) {
-        std::cout << c;
+        if(current_line==line) {
+            std::cout << green << c;
+        } else {
+            std::cout << def << c;
+        }
         if(c == '\n') {
             ++current_line;
-            std::cout << (current_line==line ? "> " : " ");
+            if(current_line == line) {
+                std::cout << green << std::dec << current_line << std::setw(5 - current_line/10) << std::setfill(' ') << "→";
+            } else {
+                std::cout << def << std::dec << current_line << std::setw(5 - current_line/10) << std::setfill(' ') << "";
+            }
         }
     }
 
@@ -272,13 +282,15 @@ void debugger::handle_sigtrap(siginfo_t info) {
     switch(info.si_code) {
         case SI_KERNEL:
         case TRAP_BRKPT:
+
             {
                 set_pc(get_pc()-1);
-                std::cout << "Hit breakpoint at address 0x" << std::hex << get_pc() << std::endl;
-                auto offset_pc = offset_load_address(get_pc());
+                //std::cout << "Hit breakpoint at address 0x" << std::hex << get_pc() << std::endl;
 
-                auto line_entry = get_line_entry_from_pc(offset_pc);
-                print_source(line_entry->file->path, line_entry->line);
+                //auto offset_pc = offset_load_address(get_pc());
+                //auto line_entry = get_line_entry_from_pc(offset_pc);
+                //print_source(line_entry->file->path, line_entry->line);
+                print_prompt();
                 return;
             }
         case TRAP_TRACE:
@@ -493,10 +505,26 @@ void debugger::read_variables() {
 }
 
 void debugger::print_prompt() {
+    struct winsize size;
+    ioctl(STDOUT_FILENO, TIOCGWINSZ, &size);
+    for(int i = 0; i < size.ws_row; i++) {
+        cout << endl;
+    }
+    auto splitter = [&](string label) {
+        cout << line_color;
+        for(int i = 0; i < size.ws_col-label.size()-2-14; i++) {
+            cout << "─";
+        }
+        cout << color_breaker << " " << label << line_color << " ──────────────\n";
+        cout << def;
+    };
+    splitter("registers");
     dump_registers();
+    splitter("source");
+    auto offset_pc = offset_load_address(get_pc());
+    auto line_entry = get_line_entry_from_pc(offset_pc);
+    print_source(line_entry->file->path, line_entry->line, 5);
 }
-
-
 
 bool is_prefix(const string &s, const string &of) {
     if(s.size() > of.size()) return false;

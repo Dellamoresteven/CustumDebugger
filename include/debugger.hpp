@@ -12,8 +12,42 @@
 #include "elf/elf++.hh"
 #include "dwarf/dwarf++.hh"
 
-
 namespace minidbg {
+    enum class symbol_type {
+        notype,
+        object,
+        func,
+        section,
+        file,
+    };
+
+    std::string to_string(symbol_type st) {
+        switch(st) {
+            case symbol_type::notype: return "notype";
+            case symbol_type::object: return "object";
+            case symbol_type::func: return "func";
+            case symbol_type::section: return "section";
+            case symbol_type::file: return "file";
+        }
+    }
+
+    struct symbol {
+        symbol_type type;
+        std::string name;
+        std::uintptr_t addr;
+    };
+
+    symbol_type to_symbol_type(elf::stt sym) {
+        switch (sym) {
+            case elf::stt::notype: return symbol_type::notype;
+            case elf::stt::object: return symbol_type::object;
+            case elf::stt::func: return symbol_type::func;
+            case elf::stt::section: return symbol_type::section;
+            case elf::stt::file: return symbol_type::file;
+            default: return symbol_type::notype;
+        }
+    }
+
     class debugger {
     public:
         debugger (std::string prog_name, pid_t pid)
@@ -54,6 +88,9 @@ namespace minidbg {
 
         uint64_t get_offset_pc();
         uint64_t offset_dwarf_address(uint64_t addr);
+        void set_breakpoint_at_function(const std::string &name);
+        void set_breakpoint_at_source_line(const std::string &file, unsigned line);
+        std::vector<symbol> lookup_symbol(const std::string &name);
 
     private:
         void handle_command(const std::string& line);

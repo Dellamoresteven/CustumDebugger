@@ -1,0 +1,1921 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	416;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	419;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	422;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	425;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	429;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	431;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	433;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	437;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	440;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	443;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	448;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	451;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	454;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	459;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	462;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	465;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	468;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	401;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	404;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	407;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	410;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	414;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	416;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	418;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	422;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	425;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	428;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	433;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	436;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	439;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	444;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	447;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	450;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	453;"	d	file:
+AT_ADDRESS	ext/libelfin/dwarf/attrs.cc	18;"	d	file:
+AT_ANY	ext/libelfin/dwarf/attrs.cc	11;"	d	file:
+AT_ENUM	ext/libelfin/dwarf/attrs.cc	25;"	d	file:
+AT_FLAG	ext/libelfin/dwarf/attrs.cc	32;"	d	file:
+AT_FLAG_	ext/libelfin/dwarf/attrs.cc	39;"	d	file:
+AT_REFERENCE	ext/libelfin/dwarf/attrs.cc	46;"	d	file:
+AT_STRING	ext/libelfin/dwarf/attrs.cc	53;"	d	file:
+AT_UDYNAMIC	ext/libelfin/dwarf/attrs.cc	60;"	d	file:
+Ada83	ext/libelfin/dwarf/data.hh	/^        Ada83          = 0x0003, \/\/ Lower bound 1$/;"	m	class:DW_LANG
+Ada95	ext/libelfin/dwarf/data.hh	/^        Ada95          = 0x000d, \/\/ Lower bound 1$/;"	m	class:DW_LANG
+Addr	ext/libelfin/elf/data.hh	/^        typedef std::uint32_t Addr;$/;"	t	struct:Elf32
+Addr	ext/libelfin/elf/data.hh	/^        typedef std::uint64_t Addr;$/;"	t	struct:Elf64
+BACKSPACE	ext/linenoise/linenoise.c	/^	BACKSPACE =  127    \/* Backspace *\/$/;"	e	enum:KEY_ACTION	file:
+C	ext/libelfin/dwarf/data.hh	/^        C              = 0x0002, \/\/ Lower bound 0$/;"	m	class:DW_LANG
+C89	ext/libelfin/dwarf/data.hh	/^        C89            = 0x0001, \/\/ Lower bound 0$/;"	m	class:DW_LANG
+C99	ext/libelfin/dwarf/data.hh	/^        C99            = 0x000c, \/\/ Lower bound 0$/;"	m	class:DW_LANG
+CHECK	ext/libelfin/dwarf/expr.cc	445;"	d	file:
+CHECK	ext/libelfin/dwarf/expr.cc	78;"	d	file:
+CHECKN	ext/libelfin/dwarf/expr.cc	446;"	d	file:
+CHECKN	ext/libelfin/dwarf/expr.cc	79;"	d	file:
+CLEAN	ext/libelfin/dwarf/Makefile	/^CLEAN :=$/;"	m
+CLEAN	ext/libelfin/elf/Makefile	/^CLEAN :=$/;"	m
+CLEAN	ext/libelfin/examples/Makefile	/^CLEAN :=$/;"	m
+CMAKE_BINARY_DIR	build/Makefile	/^CMAKE_BINARY_DIR = \/projects\/LinuxDebugger\/build$/;"	m
+CMAKE_COMMAND	build/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_SOURCE_DIR	build/Makefile	/^CMAKE_SOURCE_DIR = \/projects\/LinuxDebugger$/;"	m
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	101;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	108;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	115;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	122;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	129;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	137;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	142;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	149;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	152;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	155;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	158;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	161;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	176;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	190;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	19;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	200;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	218;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	227;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	236;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	251;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	264;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	282;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	285;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	288;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	42;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	50;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	56;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	62;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	71;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	80;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	94;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	101;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	108;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	115;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	122;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	129;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	137;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	13;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	142;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	149;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	152;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	155;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	170;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	184;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	198;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	19;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	216;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	225;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	234;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	249;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	267;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	270;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	273;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	42;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	50;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	56;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	62;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	71;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	80;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	94;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	232;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	230;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	103;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	110;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	117;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	124;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	130;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	138;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	144;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	165;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	180;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	191;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	202;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	221;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	229;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	239;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	244;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	24;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	253;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	258;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	267;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	272;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	43;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	51;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	58;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	64;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	73;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	83;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	88;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	96;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	103;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	110;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	117;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	124;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	130;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	138;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	144;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	159;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	15;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	174;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	186;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	188;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	200;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	219;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	227;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	237;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	242;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	24;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	252;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	257;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	43;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	51;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	58;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	64;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	73;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	83;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	88;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	96;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	104;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	111;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	118;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	125;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	131;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	139;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	145;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	166;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	181;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	193;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	203;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	222;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	230;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	240;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	245;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	254;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	259;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	25;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	268;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	273;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	44;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	52;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	59;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	65;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	74;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	84;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	89;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	97;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	104;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	111;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	118;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	125;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	131;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	139;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	145;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	160;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	16;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	175;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	191;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	201;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	220;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	228;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	238;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	243;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	253;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	258;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	25;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	44;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	52;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	59;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	65;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	74;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	84;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	89;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	97;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	105;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	112;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	119;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	126;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	133;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	146;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	167;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	182;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	196;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	207;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	210;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	223;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	231;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	241;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	246;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	255;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	260;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	269;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	274;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	27;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	29;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	46;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	53;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	67;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	76;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	85;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	90;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	98;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	105;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	112;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	119;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	126;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	133;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	146;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	161;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	176;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	194;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	205;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	208;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	221;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	229;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	239;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	244;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	254;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	259;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	27;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	29;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	46;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	53;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	67;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	76;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	85;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	90;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	98;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	173;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	214;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	33;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	167;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	212;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	33;"	d	file:
+CTRL_A	ext/linenoise/linenoise.c	/^	CTRL_A = 1,         \/* Ctrl+a *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_B	ext/linenoise/linenoise.c	/^	CTRL_B = 2,         \/* Ctrl-b *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_C	ext/linenoise/linenoise.c	/^	CTRL_C = 3,         \/* Ctrl-c *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_D	ext/linenoise/linenoise.c	/^	CTRL_D = 4,         \/* Ctrl-d *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_E	ext/linenoise/linenoise.c	/^	CTRL_E = 5,         \/* Ctrl-e *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_F	ext/linenoise/linenoise.c	/^	CTRL_F = 6,         \/* Ctrl-f *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_H	ext/linenoise/linenoise.c	/^	CTRL_H = 8,         \/* Ctrl-h *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_K	ext/linenoise/linenoise.c	/^	CTRL_K = 11,        \/* Ctrl+k *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_L	ext/linenoise/linenoise.c	/^	CTRL_L = 12,        \/* Ctrl+l *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_N	ext/linenoise/linenoise.c	/^	CTRL_N = 14,        \/* Ctrl-n *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_P	ext/linenoise/linenoise.c	/^	CTRL_P = 16,        \/* Ctrl-p *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_T	ext/linenoise/linenoise.c	/^	CTRL_T = 20,        \/* Ctrl-t *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_U	ext/linenoise/linenoise.c	/^	CTRL_U = 21,        \/* Ctrl+u *\/$/;"	e	enum:KEY_ACTION	file:
+CTRL_W	ext/linenoise/linenoise.c	/^	CTRL_W = 23,        \/* Ctrl+w *\/$/;"	e	enum:KEY_ACTION	file:
+CXX_STD	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	534;"	d	file:
+CXX_STD	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	536;"	d	file:
+C_DIALECT	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	550;"	d	file:
+C_DIALECT	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	552;"	d	file:
+C_DIALECT	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	555;"	d	file:
+C_DIALECT	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	557;"	d	file:
+C_DIALECT	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	559;"	d	file:
+C_plus_plus	ext/libelfin/dwarf/data.hh	/^        C_plus_plus    = 0x0004, \/\/ Lower bound 0$/;"	m	class:DW_LANG
+Cobol74	ext/libelfin/dwarf/data.hh	/^        Cobol74        = 0x0005, \/\/ Lower bound 1$/;"	m	class:DW_LANG
+Cobol85	ext/libelfin/dwarf/data.hh	/^        Cobol85        = 0x0006, \/\/ Lower bound 1$/;"	m	class:DW_LANG
+D	ext/libelfin/dwarf/data.hh	/^        D              = 0x0013, \/\/ Lower bound 0$/;"	m	class:DW_LANG
+DEC	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	472;"	d	file:
+DEC	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	457;"	d	file:
+DWARFPP_BEGIN_NAMESPACE	ext/libelfin/dwarf/dwarf++.hh	9;"	d
+DWARFPP_END_NAMESPACE	ext/libelfin/dwarf/dwarf++.hh	10;"	d
+DW_ACCESS	ext/libelfin/dwarf/data.hh	/^enum class DW_ACCESS$/;"	c
+DW_AT	ext/libelfin/dwarf/data.hh	/^enum class DW_AT$/;"	c
+DW_ATE	ext/libelfin/dwarf/data.hh	/^enum class DW_ATE$/;"	c
+DW_CC	ext/libelfin/dwarf/data.hh	/^enum class DW_CC$/;"	c
+DW_CHILDREN	ext/libelfin/dwarf/data.hh	/^enum class DW_CHILDREN : ubyte$/;"	c
+DW_DS	ext/libelfin/dwarf/data.hh	/^enum class DW_DS$/;"	c
+DW_DSC	ext/libelfin/dwarf/data.hh	/^enum class DW_DSC$/;"	c
+DW_END	ext/libelfin/dwarf/data.hh	/^enum class DW_END$/;"	c
+DW_FORM	ext/libelfin/dwarf/data.hh	/^enum class DW_FORM$/;"	c
+DW_ID	ext/libelfin/dwarf/data.hh	/^enum class DW_ID$/;"	c
+DW_INL	ext/libelfin/dwarf/data.hh	/^enum class DW_INL$/;"	c
+DW_LANG	ext/libelfin/dwarf/data.hh	/^enum class DW_LANG$/;"	c
+DW_LNE	ext/libelfin/dwarf/data.hh	/^enum class DW_LNE$/;"	c
+DW_LNS	ext/libelfin/dwarf/data.hh	/^enum class DW_LNS$/;"	c
+DW_OP	ext/libelfin/dwarf/data.hh	/^enum class DW_OP : ubyte$/;"	c
+DW_ORD	ext/libelfin/dwarf/data.hh	/^enum class DW_ORD$/;"	c
+DW_TAG	ext/libelfin/dwarf/data.hh	/^enum class DW_TAG$/;"	c
+DW_VIRTUALITY	ext/libelfin/dwarf/data.hh	/^enum class DW_VIRTUALITY$/;"	c
+DW_VIS	ext/libelfin/dwarf/data.hh	/^enum class DW_VIS$/;"	c
+ELFPP_BEGIN_INTERNAL	ext/libelfin/elf/common.hh	10;"	d
+ELFPP_BEGIN_NAMESPACE	ext/libelfin/elf/common.hh	8;"	d
+ELFPP_END_INTERNAL	ext/libelfin/elf/common.hh	11;"	d
+ELFPP_END_NAMESPACE	ext/libelfin/elf/common.hh	9;"	d
+ENTER	ext/linenoise/linenoise.c	/^	ENTER = 13,         \/* Enter *\/$/;"	e	enum:KEY_ACTION	file:
+EQUALS	build/Makefile	/^EQUALS = =$/;"	m
+ESC	ext/linenoise/linenoise.c	/^	ESC = 27,           \/* Escape *\/$/;"	e	enum:KEY_ACTION	file:
+Ehdr	ext/libelfin/elf/data.hh	/^struct Ehdr$/;"	s
+Elf32	ext/libelfin/elf/data.hh	/^struct Elf32 : public ElfTypes$/;"	s
+Elf64	ext/libelfin/elf/data.hh	/^struct Elf64 : ElfTypes$/;"	s
+ElfTypes	ext/libelfin/elf/data.hh	/^struct ElfTypes$/;"	s
+Fortran77	ext/libelfin/dwarf/data.hh	/^        Fortran77      = 0x0007, \/\/ Lower bound 1$/;"	m	class:DW_LANG
+Fortran90	ext/libelfin/dwarf/data.hh	/^        Fortran90      = 0x0008, \/\/ Lower bound 1$/;"	m	class:DW_LANG
+Fortran95	ext/libelfin/dwarf/data.hh	/^        Fortran95      = 0x000e, \/\/ Lower bound 1$/;"	m	class:DW_LANG
+HDRS	ext/libelfin/dwarf/Makefile	/^HDRS := dwarf++.hh data.hh internal.hh small_vector.hh ..\/elf\/to_hex.hh$/;"	m
+HDRS	ext/libelfin/elf/Makefile	/^HDRS := elf++.hh data.hh common.hh to_hex.hh$/;"	m
+HEX	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	483;"	d	file:
+HEX	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	468;"	d	file:
+Half	ext/libelfin/elf/data.hh	/^        typedef std::uint16_t Half;$/;"	t	struct:ElfTypes
+ID_VOID_MAIN	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	6;"	d	file:
+Java	ext/libelfin/dwarf/data.hh	/^        Java           = 0x000b, \/\/ Lower bound 0$/;"	m	class:DW_LANG
+KEY_ACTION	ext/linenoise/linenoise.c	/^enum KEY_ACTION{$/;"	g	file:
+KEY_NULL	ext/linenoise/linenoise.c	/^	KEY_NULL = 0,	    \/* NULL *\/$/;"	e	enum:KEY_ACTION	file:
+LIBS	ext/libelfin/examples/Makefile	/^LIBS=..\/dwarf\/libdwarf++.a ..\/elf\/libelf++.a$/;"	m
+LINENOISE_DEFAULT_HISTORY_MAX_LEN	ext/linenoise/linenoise.c	120;"	d	file:
+LINENOISE_HISTORY_NEXT	ext/linenoise/linenoise.c	724;"	d	file:
+LINENOISE_HISTORY_PREV	ext/linenoise/linenoise.c	725;"	d	file:
+LINENOISE_MAX_LINE	ext/linenoise/linenoise.c	121;"	d	file:
+MINIDBG_BREAKPOINT_HPP	include/breakpoint.h	2;"	d
+MINIDBG_DEBUGGER_HPP	include/debugger.hpp	2;"	d
+MINIDBG_REGISTERS_HPP	include/registers.h	2;"	d
+Modula2	ext/libelfin/dwarf/data.hh	/^        Modula2        = 0x000a, \/\/ Lower bound 1$/;"	m	class:DW_LANG
+ObjC	ext/libelfin/dwarf/data.hh	/^        ObjC           = 0x0010, \/\/ Lower bound 0$/;"	m	class:DW_LANG
+ObjC_plus_plus	ext/libelfin/dwarf/data.hh	/^        ObjC_plus_plus = 0x0011, \/\/ Lower bound 0$/;"	m	class:DW_LANG
+Off	ext/libelfin/elf/data.hh	/^        typedef std::uint32_t Off;$/;"	t	struct:Elf32
+Off	ext/libelfin/elf/data.hh	/^        typedef std::uint64_t Off;$/;"	t	struct:Elf64
+OrderPick	ext/libelfin/elf/common.hh	/^struct OrderPick<byte_order::lsb, Native, LSB, MSB>$/;"	s
+OrderPick	ext/libelfin/elf/common.hh	/^struct OrderPick<byte_order::msb, Native, LSB, MSB>$/;"	s
+OrderPick	ext/libelfin/elf/common.hh	/^struct OrderPick<byte_order::native, Native, LSB, MSB>$/;"	s
+PKG_CONFIG_PATH	ext/libelfin/examples/Makefile	/^export PKG_CONFIG_PATH=..\/elf:..\/dwarf$/;"	m
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	313;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	316;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	319;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	322;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	325;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	328;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	331;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	334;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	337;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	340;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	343;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	346;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	349;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	352;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	355;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	358;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	361;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	364;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	367;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	370;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	373;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	376;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	379;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	382;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	385;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	389;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	392;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	395;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	398;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	401;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	405;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	298;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	301;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	304;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	307;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	310;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	313;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	316;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	319;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	322;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	325;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	328;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	331;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	334;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	337;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	340;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	343;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	346;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	349;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	352;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	355;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	358;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	361;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	364;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	367;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	370;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	374;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	377;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	380;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	383;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	386;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	390;"	d	file:
+PLI	ext/libelfin/dwarf/data.hh	/^        PLI            = 0x000f, \/\/ Lower bound 1$/;"	m	class:DW_LANG
+PREFIX	ext/libelfin/dwarf/Makefile	/^PREFIX?=\/usr\/local$/;"	m
+PREFIX	ext/libelfin/elf/Makefile	/^PREFIX?=\/usr\/local$/;"	m
+Pascal83	ext/libelfin/dwarf/data.hh	/^        Pascal83       = 0x0009, \/\/ Lower bound 1$/;"	m	class:DW_LANG
+Phdr	ext/libelfin/elf/data.hh	/^struct Phdr<Elf32, Order>$/;"	s
+Phdr	ext/libelfin/elf/data.hh	/^struct Phdr<Elf64, Order>$/;"	s
+Python	ext/libelfin/dwarf/data.hh	/^        Python         = 0x0014, \/\/ Lower bound 0$/;"	m	class:DW_LANG
+RM	build/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+SHELL	build/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SIMULATE_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	163;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	178;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	21;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	157;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	172;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	21;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	170;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	185;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	37;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	164;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	179;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	37;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	171;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	186;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	38;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	165;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	180;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	38;"	d	file:
+SONAME	ext/libelfin/dwarf/Makefile	/^SONAME = 0$/;"	m
+SONAME	ext/libelfin/elf/Makefile	/^SONAME = 0$/;"	m
+SRCS	ext/libelfin/dwarf/Makefile	/^SRCS := dwarf.cc cursor.cc die.cc value.cc abbrev.cc \\$/;"	m
+SRCS	ext/libelfin/elf/Makefile	/^SRCS := elf.cc mmap_loader.cc to_string.cc$/;"	m
+SRELOP	ext/libelfin/dwarf/expr.cc	357;"	d	file:
+SRELOP	ext/libelfin/dwarf/expr.cc	401;"	d	file:
+STRINGIFY	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	309;"	d	file:
+STRINGIFY	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	294;"	d	file:
+STRINGIFY_HELPER	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	308;"	d	file:
+STRINGIFY_HELPER	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	293;"	d	file:
+SUFFIXES	build/Makefile	/^SUFFIXES =$/;"	m
+Shdr	ext/libelfin/elf/data.hh	/^struct Shdr$/;"	s
+Sword	ext/libelfin/elf/data.hh	/^        typedef std::int32_t  Sword;$/;"	t	struct:ElfTypes
+Sxword	ext/libelfin/elf/data.hh	/^        typedef std::int64_t  Sxword;$/;"	t	struct:Elf64
+Sym	ext/libelfin/elf/data.hh	/^struct Sym<Elf32, Order>$/;"	s
+Sym	ext/libelfin/elf/data.hh	/^struct Sym<Elf64, Order>$/;"	s
+T	ext/libelfin/elf/common.hh	/^        typedef LSB T;$/;"	t	struct:OrderPick
+T	ext/libelfin/elf/common.hh	/^        typedef MSB T;$/;"	t	struct:OrderPick
+T	ext/libelfin/elf/common.hh	/^        typedef Native T;$/;"	t	struct:OrderPick
+TAB	ext/linenoise/linenoise.c	/^	TAB = 9,            \/* Tab *\/$/;"	e	enum:KEY_ACTION	file:
+UBINOP	ext/libelfin/dwarf/expr.cc	251;"	d	file:
+UBINOP	ext/libelfin/dwarf/expr.cc	354;"	d	file:
+UPC	ext/libelfin/dwarf/data.hh	/^        UPC            = 0x0012, \/\/ Lower bound 0$/;"	m	class:DW_LANG
+UTF	ext/libelfin/dwarf/data.hh	/^        UTF             = 0x10,$/;"	m	class:DW_ATE
+Word	ext/libelfin/elf/data.hh	/^        typedef std::uint32_t Word;$/;"	t	struct:ElfTypes
+Word32_Xword64	ext/libelfin/elf/data.hh	/^        typedef Word Word32_Xword64;$/;"	t	struct:Elf32
+Word32_Xword64	ext/libelfin/elf/data.hh	/^        typedef Xword Word32_Xword64;$/;"	t	struct:Elf64
+Xword	ext/libelfin/elf/data.hh	/^        typedef std::uint64_t Xword;$/;"	t	struct:Elf64
+_32	ext/libelfin/elf/data.hh	/^        _32 = 1,                \/\/ 32-bit objects$/;"	m	class:elfclass
+_64	ext/libelfin/elf/data.hh	/^        _64 = 2,                \/\/ 64-bit objects$/;"	m	class:elfclass
+_DWARFPP_DW_HH_	ext/libelfin/dwarf/data.hh	6;"	d
+_DWARFPP_HH_	ext/libelfin/dwarf/dwarf++.hh	6;"	d
+_DWARFPP_INTERNAL_HH_	ext/libelfin/dwarf/internal.hh	6;"	d
+_DWARFPP_SMALL_VECTOR_HH_	ext/libelfin/dwarf/small_vector.hh	6;"	d
+_ELFPP_COMMON_HH_	ext/libelfin/elf/common.hh	6;"	d
+_ELFPP_DATA_HH_	ext/libelfin/elf/data.hh	6;"	d
+_ELFPP_HH_	ext/libelfin/elf/elf++.hh	6;"	d
+_ELFPP_TO_HEX_HH_	ext/libelfin/elf/to_hex.hh	6;"	d
+__LINENOISE_H	ext/linenoise/linenoise.h	40;"	d
+_at_udynamic	ext/libelfin/dwarf/attrs.cc	/^static uint64_t _at_udynamic(DW_AT attr, const die &d, expr_context *ctx, int depth = 0)$/;"	f	file:
+abAppend	ext/linenoise/linenoise.c	/^static void abAppend(struct abuf *ab, const char *s, int len) {$/;"	f	file:
+abFree	ext/linenoise/linenoise.c	/^static void abFree(struct abuf *ab) {$/;"	f	file:
+abInit	ext/linenoise/linenoise.c	/^static void abInit(struct abuf *ab) {$/;"	f	file:
+abbrev	ext/libelfin/dwarf/dwarf++.hh	/^        abbrev,$/;"	m	class:section_type
+abbrev	ext/libelfin/dwarf/dwarf++.hh	/^        const abbrev_entry *abbrev;$/;"	m	class:die
+abbrev_code	ext/libelfin/dwarf/internal.hh	/^typedef std::uint64_t abbrev_code;$/;"	t
+abbrev_entry	ext/libelfin/dwarf/internal.hh	/^        abbrev_entry() : code(0) { }$/;"	f	struct:abbrev_entry
+abbrev_entry	ext/libelfin/dwarf/internal.hh	/^struct abbrev_entry$/;"	s
+abbrevs_map	ext/libelfin/dwarf/dwarf.cc	/^        std::unordered_map<abbrev_code, abbrev_entry> abbrevs_map;$/;"	m	struct:unit::impl	file:
+abbrevs_vec	ext/libelfin/dwarf/dwarf.cc	/^        std::vector<abbrev_entry> abbrevs_vec;$/;"	m	struct:unit::impl	file:
+abs	ext/libelfin/dwarf/data.hh	/^        abs                 = 0x19,$/;"	m	class:DW_OP
+abstract_origin	ext/libelfin/dwarf/attrs.cc	/^AT_REFERENCE(abstract_origin);$/;"	v
+abstract_origin	ext/libelfin/dwarf/data.hh	/^        abstract_origin      = 0x31, \/\/ reference$/;"	m	class:DW_AT
+abuf	ext/linenoise/linenoise.c	/^struct abuf {$/;"	s	file:
+accept	ext/libelfin/dwarf/die_str_map.cc	/^        unordered_set<DW_TAG> accept;$/;"	m	struct:die_str_map::impl	file:
+access_declaration	ext/libelfin/dwarf/data.hh	/^        access_declaration       = 0x23,$/;"	m	class:DW_TAG
+accessibility	ext/libelfin/dwarf/data.hh	/^        accessibility        = 0x32, \/\/ constant$/;"	m	class:DW_AT
+action	ext/libelfin/elf/enum-print.py	/^                  action="store_true",$/;"	v
+add	examples/more_code.cpp	/^int add(int x, int y) {$/;"	f
+addr	ext/libelfin/dwarf/data.hh	/^        addr                = 0x03, \/\/ [constant address (size target specific)]$/;"	m	class:DW_OP
+addr	ext/libelfin/dwarf/data.hh	/^        addr         = 0x01,    \/\/ address$/;"	m	class:DW_FORM
+addr	ext/libelfin/elf/data.hh	/^        typename E::Addr           addr; \/\/ Virtual address in memory$/;"	m	struct:Shdr
+addr	include/debugger.hpp	/^        std::uintptr_t addr;$/;"	m	struct:minidbg::symbol
+addr_size	ext/libelfin/dwarf/internal.hh	/^        unsigned addr_size;$/;"	m	struct:section
+addralign	ext/libelfin/elf/data.hh	/^        typename E::Word32_Xword64 addralign; \/\/ Address alignment boundary$/;"	m	struct:Shdr
+address	ext/libelfin/dwarf/data.hh	/^        address         = 0x01,$/;"	m	class:DW_ATE
+address	ext/libelfin/dwarf/dwarf++.hh	/^                address,$/;"	m	class:expr_result::type
+address	ext/libelfin/dwarf/dwarf++.hh	/^                address,$/;"	m	class:value::type
+address	ext/libelfin/dwarf/dwarf++.hh	/^        taddr address;$/;"	m	class:line_table::entry
+address	ext/libelfin/dwarf/internal.hh	/^        taddr address()$/;"	f	struct:cursor
+address_class	ext/libelfin/dwarf/data.hh	/^        address_class        = 0x33, \/\/ constant$/;"	m	class:DW_AT
+advance_line	ext/libelfin/dwarf/data.hh	/^        advance_line = 0x03,$/;"	m	class:DW_LNS
+advance_pc	ext/libelfin/dwarf/data.hh	/^        advance_pc = 0x02,$/;"	m	class:DW_LNS
+align	ext/libelfin/elf/data.hh	/^        Elf32::Word  align;     \/\/ Alignment of segment$/;"	m	struct:Phdr
+align	ext/libelfin/elf/data.hh	/^        Elf64::Xword align;     \/\/ Alignment of segment$/;"	m	struct:Phdr
+alloc	ext/libelfin/elf/data.hh	/^        alloc     = 0x2,        \/\/ Section is allocated in memory image of program$/;"	m	class:shf
+allocated	ext/libelfin/dwarf/attrs.cc	/^AT_UDYNAMIC(allocated);$/;"	v
+allocated	ext/libelfin/dwarf/data.hh	/^        allocated            = 0x4e, \/\/ constant, exprloc, reference$/;"	m	class:DW_AT
+and_	ext/libelfin/dwarf/data.hh	/^        and_                = 0x1a,$/;"	m	class:DW_OP
+aranges	ext/libelfin/dwarf/dwarf++.hh	/^        aranges,$/;"	m	class:section_type
+argument_type	ext/libelfin/dwarf/die_str_map.cc	/^                typedef dwarf::DW_TAG argument_type;$/;"	t	struct:std::hash	file:
+argument_type	ext/libelfin/dwarf/die_str_map.cc	/^        typedef const char *argument_type;$/;"	t	struct:string_hash	file:
+argument_type	ext/libelfin/dwarf/dwarf++.hh	/^                typedef const dwarf::die &argument_type;$/;"	t	struct:std::hash
+argument_type	ext/libelfin/dwarf/dwarf++.hh	/^                typedef const dwarf::unit &argument_type;$/;"	t	struct:std::hash
+array_type	ext/libelfin/dwarf/data.hh	/^        array_type               = 0x01,$/;"	m	class:DW_TAG
+artificial	ext/libelfin/dwarf/attrs.cc	/^AT_FLAG(artificial);$/;"	v
+artificial	ext/libelfin/dwarf/data.hh	/^        artificial           = 0x34, \/\/ flag$/;"	m	class:DW_AT
+as_address	ext/libelfin/dwarf/value.cc	/^value::as_address() const$/;"	f	class:value
+as_block	ext/libelfin/dwarf/value.cc	/^value::as_block(size_t *size_out) const$/;"	f	class:value
+as_cstr	ext/libelfin/dwarf/value.cc	/^value::as_cstr(size_t *size_out) const$/;"	f	class:value
+as_exprloc	ext/libelfin/dwarf/value.cc	/^value::as_exprloc() const$/;"	f	class:value
+as_flag	ext/libelfin/dwarf/value.cc	/^value::as_flag() const$/;"	f	class:value
+as_loclist	ext/libelfin/dwarf/value.cc	/^value::as_loclist() const$/;"	f	class:value
+as_rangelist	ext/libelfin/dwarf/value.cc	/^value::as_rangelist() const$/;"	f	class:value
+as_reference	ext/libelfin/dwarf/value.cc	/^value::as_reference() const$/;"	f	class:value
+as_sconstant	ext/libelfin/dwarf/value.cc	/^value::as_sconstant() const$/;"	f	class:value
+as_sec_offset	ext/libelfin/dwarf/value.cc	/^value::as_sec_offset() const$/;"	f	class:value
+as_string	ext/libelfin/dwarf/value.cc	/^value::as_string() const$/;"	f	class:value
+as_string	ext/libelfin/dwarf/value.cc	/^value::as_string(string &buf) const$/;"	f	class:value
+as_strtab	ext/libelfin/elf/elf.cc	/^section::as_strtab() const$/;"	f	class:section
+as_symtab	ext/libelfin/elf/elf.cc	/^section::as_symtab() const$/;"	f	class:section
+as_uconstant	ext/libelfin/dwarf/value.cc	/^value::as_uconstant() const$/;"	f	class:value
+associated	ext/libelfin/dwarf/attrs.cc	/^AT_UDYNAMIC(associated);$/;"	v
+associated	ext/libelfin/dwarf/data.hh	/^        associated           = 0x4f, \/\/ constant, exprloc, reference$/;"	m	class:DW_AT
+at	ext/libelfin/dwarf/small_vector.hh	/^        const_reference at(size_type n) const$/;"	f	class:small_vector
+at	ext/libelfin/dwarf/small_vector.hh	/^        reference at(size_type n)$/;"	f	class:small_vector
+at_data_member_location	ext/libelfin/dwarf/attrs.cc	/^at_data_member_location(const die &d, expr_context *ctx, taddr base, taddr pc)$/;"	f
+at_friend	ext/libelfin/dwarf/attrs.cc	/^die at_friend(const die &d)$/;"	f
+at_high_pc	ext/libelfin/dwarf/attrs.cc	/^at_high_pc(const die &d)$/;"	f
+at_inline	ext/libelfin/dwarf/attrs.cc	/^DW_INL at_inline(const die &d)$/;"	f
+at_ranges	ext/libelfin/dwarf/attrs.cc	/^at_ranges(const die &d)$/;"	f
+atexit_registered	ext/linenoise/linenoise.c	/^static int atexit_registered = 0; \/* Register atexit just 1 time. *\/$/;"	v	file:
+attr	ext/libelfin/dwarf/die_str_map.cc	/^        DW_AT attr;$/;"	m	struct:die_str_map::impl	file:
+attribute_spec	ext/libelfin/dwarf/abbrev.cc	/^attribute_spec::attribute_spec(DW_AT name, DW_FORM form)$/;"	f	class:attribute_spec
+attribute_spec	ext/libelfin/dwarf/internal.hh	/^struct attribute_spec$/;"	s
+attributes	ext/libelfin/dwarf/die.cc	/^die::attributes() const$/;"	f	class:die
+attributes	ext/libelfin/dwarf/internal.hh	/^        std::vector<attribute_spec> attributes;$/;"	m	struct:abbrev_entry
+attrs	ext/libelfin/dwarf/dwarf++.hh	/^        small_vector<section_offset, 6> attrs;$/;"	m	class:die
+b	ext/linenoise/linenoise.c	/^    char *b;$/;"	m	struct:abuf	file:
+back	ext/libelfin/dwarf/small_vector.hh	/^        const_reference back() const$/;"	f	class:small_vector
+back	ext/libelfin/dwarf/small_vector.hh	/^        reference back()$/;"	f	class:small_vector
+base	ext/libelfin/dwarf/small_vector.hh	/^        T *base, *end, *cap;$/;"	m	class:small_vector
+base	ext/libelfin/elf/mmap_loader.cc	/^        void *base;$/;"	m	class:mmap_loader	file:
+base_addr	ext/libelfin/dwarf/dwarf++.hh	/^        taddr base_addr;$/;"	m	class:rangelist
+base_addr	ext/libelfin/dwarf/dwarf++.hh	/^        taddr base_addr;$/;"	m	class:rangelist::iterator
+base_type	ext/libelfin/dwarf/data.hh	/^        base_type                = 0x24,$/;"	m	class:DW_TAG
+base_types	ext/libelfin/dwarf/data.hh	/^        base_types           = 0x35, \/\/ reference$/;"	m	class:DW_AT
+basic_block	ext/libelfin/dwarf/dwarf++.hh	/^        bool basic_block;$/;"	m	class:line_table::entry
+begin	ext/libelfin/dwarf/die.cc	/^die::begin() const$/;"	f	class:die
+begin	ext/libelfin/dwarf/internal.hh	/^        const char *begin, *end;$/;"	m	struct:section
+begin	ext/libelfin/dwarf/line.cc	/^line_table::begin() const$/;"	f	class:line_table
+begin	ext/libelfin/dwarf/rangelist.cc	/^rangelist::begin() const$/;"	f	class:rangelist
+begin	ext/libelfin/elf/elf.cc	/^symtab::begin() const$/;"	f	class:symtab
+big	ext/libelfin/dwarf/data.hh	/^        big      = 0x01,$/;"	m	class:DW_END
+binary_scale	ext/libelfin/dwarf/data.hh	/^        binary_scale         = 0x5b, \/\/ constant$/;"	m	class:DW_AT
+binding	ext/libelfin/elf/data.hh	/^        stb binding() const$/;"	f	struct:Sym
+bit_offset	ext/libelfin/dwarf/attrs.cc	/^AT_UDYNAMIC(bit_offset);$/;"	v
+bit_offset	ext/libelfin/dwarf/data.hh	/^        bit_offset           = 0x0c, \/\/ constant, exprloc, reference$/;"	m	class:DW_AT
+bit_piece	ext/libelfin/dwarf/data.hh	/^        bit_piece           = 0x9d, \/\/ [ULEB128 size, ULEB128 offset]$/;"	m	class:DW_OP
+bit_size	ext/libelfin/dwarf/attrs.cc	/^AT_UDYNAMIC(bit_size);$/;"	v
+bit_size	ext/libelfin/dwarf/data.hh	/^        bit_size             = 0x0d, \/\/ constant, exprloc, reference$/;"	m	class:DW_AT
+bit_stride	ext/libelfin/dwarf/attrs.cc	/^AT_UDYNAMIC(bit_stride);$/;"	v
+bit_stride	ext/libelfin/dwarf/data.hh	/^        bit_stride           = 0x2e, \/\/ constant, exprloc, reference$/;"	m	class:DW_AT
+block	ext/libelfin/dwarf/data.hh	/^        block        = 0x09,    \/\/ block$/;"	m	class:DW_FORM
+block	ext/libelfin/dwarf/dwarf++.hh	/^                block,$/;"	m	class:value::type
+block1	ext/libelfin/dwarf/data.hh	/^        block1       = 0x0a,    \/\/ block$/;"	m	class:DW_FORM
+block2	ext/libelfin/dwarf/data.hh	/^        block2       = 0x03,    \/\/ block$/;"	m	class:DW_FORM
+block4	ext/libelfin/dwarf/data.hh	/^        block4       = 0x04,    \/\/ block$/;"	m	class:DW_FORM
+boolean	ext/libelfin/dwarf/data.hh	/^        boolean         = 0x02,$/;"	m	class:DW_ATE
+bra	ext/libelfin/dwarf/data.hh	/^        bra                 = 0x28, \/\/ [signed 2-byte constant]$/;"	m	class:DW_OP
+breakpoint	include/breakpoint.h	/^        breakpoint(pid_t pid, std::intptr_t addr)$/;"	f	class:minidbg::breakpoint
+breakpoint	include/breakpoint.h	/^    class breakpoint {$/;"	c	namespace:minidbg
+breg0	ext/libelfin/dwarf/data.hh	/^        breg0               = 0x70, \/\/ [SLEB128 offset]$/;"	m	class:DW_OP
+breg31	ext/libelfin/dwarf/data.hh	/^        breg31              = 0x8f, \/\/ [SLEB128 offset]$/;"	m	class:DW_OP
+bregx	ext/libelfin/dwarf/data.hh	/^        bregx               = 0x92, \/\/ [ULEB128 register, SLEB128 offset]$/;"	m	class:DW_OP
+buf	ext/libelfin/dwarf/small_vector.hh	/^        char buf[sizeof(T[Min])];$/;"	m	class:small_vector
+buf	ext/linenoise/linenoise.c	/^    char *buf;          \/* Edited line buffer. *\/$/;"	m	struct:linenoiseState	file:
+buflen	ext/linenoise/linenoise.c	/^    size_t buflen;      \/* Edited line buffer size. *\/$/;"	m	struct:linenoiseState	file:
+byte_order	ext/libelfin/dwarf/internal.hh	/^enum class byte_order$/;"	c
+byte_order	ext/libelfin/elf/common.hh	/^enum class byte_order$/;"	c
+byte_size	ext/libelfin/dwarf/attrs.cc	/^AT_UDYNAMIC(byte_size);$/;"	v
+byte_size	ext/libelfin/dwarf/data.hh	/^        byte_size            = 0x0b, \/\/ constant, exprloc, reference$/;"	m	class:DW_AT
+byte_stride	ext/libelfin/dwarf/attrs.cc	/^AT_UDYNAMIC(byte_stride);$/;"	v
+byte_stride	ext/libelfin/dwarf/data.hh	/^        byte_stride          = 0x51, \/\/ constant, exprloc, reference$/;"	m	class:DW_AT
+call2	ext/libelfin/dwarf/data.hh	/^        call2               = 0x98, \/\/ [2-byte offset of DIE]$/;"	m	class:DW_OP
+call4	ext/libelfin/dwarf/data.hh	/^        call4               = 0x99, \/\/ [4-byte offset of DIE]$/;"	m	class:DW_OP
+call_column	ext/libelfin/dwarf/data.hh	/^        call_column          = 0x57, \/\/ constant$/;"	m	class:DW_AT
+call_file	ext/libelfin/dwarf/data.hh	/^        call_file            = 0x58, \/\/ constant$/;"	m	class:DW_AT
+call_frame_cfa	ext/libelfin/dwarf/data.hh	/^        call_frame_cfa      = 0x9c,$/;"	m	class:DW_OP
+call_line	ext/libelfin/dwarf/data.hh	/^        call_line            = 0x59, \/\/ constant$/;"	m	class:DW_AT
+call_ref	ext/libelfin/dwarf/data.hh	/^        call_ref            = 0x9a, \/\/ [4- or 8-byte offset of DIE]$/;"	m	class:DW_OP
+calling_convention	ext/libelfin/dwarf/data.hh	/^        calling_convention   = 0x36, \/\/ constant$/;"	m	class:DW_AT
+canon_hdr	ext/libelfin/elf/elf.cc	/^void canon_hdr(Hdr<Elf64, byte_order::native> *out, const void *data,$/;"	f
+cap	ext/libelfin/dwarf/small_vector.hh	/^        T *base, *end, *cap;$/;"	m	class:small_vector
+case_insensitive	ext/libelfin/dwarf/data.hh	/^        case_insensitive = 0x03,$/;"	m	class:DW_ID
+case_sensitive	ext/libelfin/dwarf/data.hh	/^        case_sensitive   = 0x00,$/;"	m	class:DW_ID
+catch_block	ext/libelfin/dwarf/data.hh	/^        catch_block              = 0x25,$/;"	m	class:DW_TAG
+children	ext/libelfin/dwarf/internal.hh	/^        bool children;$/;"	m	struct:abbrev_entry
+class_type	ext/libelfin/dwarf/data.hh	/^        class_type               = 0x02,$/;"	m	class:DW_TAG
+clear	ext/libelfin/dwarf/small_vector.hh	/^        void clear()$/;"	f	class:small_vector
+cls	ext/libelfin/elf/data.hh	/^        static const elfclass cls = elfclass::_32;$/;"	m	struct:Elf32
+cls	ext/libelfin/elf/data.hh	/^        static const elfclass cls = elfclass::_64;$/;"	m	struct:Elf64
+code	ext/libelfin/dwarf/internal.hh	/^        abbrev_code code;$/;"	m	struct:abbrev_entry
+col_major	ext/libelfin/dwarf/data.hh	/^        col_major = 0x01,$/;"	m	class:DW_ORD
+cols	ext/linenoise/linenoise.c	/^    size_t cols;        \/* Number of columns in terminal. *\/$/;"	m	struct:linenoiseState	file:
+column	ext/libelfin/dwarf/dwarf++.hh	/^        unsigned column;$/;"	m	class:line_table::entry
+common_block	ext/libelfin/dwarf/data.hh	/^        common_block             = 0x1a,$/;"	m	class:DW_TAG
+common_inclusion	ext/libelfin/dwarf/data.hh	/^        common_inclusion         = 0x1b,$/;"	m	class:DW_TAG
+common_reference	ext/libelfin/dwarf/attrs.cc	/^AT_REFERENCE(common_reference);$/;"	v
+common_reference	ext/libelfin/dwarf/data.hh	/^        common_reference     = 0x1a, \/\/ reference$/;"	m	class:DW_AT
+comp_dir	ext/libelfin/dwarf/attrs.cc	/^AT_STRING(comp_dir);$/;"	v
+comp_dir	ext/libelfin/dwarf/data.hh	/^        comp_dir             = 0x1b, \/\/ string$/;"	m	class:DW_AT
+compilation_unit	ext/libelfin/dwarf/dwarf++.hh	/^class compilation_unit : public unit$/;"	c
+compilation_unit	ext/libelfin/dwarf/dwarf.cc	/^compilation_unit::compilation_unit(const dwarf &file, section_offset offset)$/;"	f	class:compilation_unit
+compilation_units	ext/libelfin/dwarf/dwarf.cc	/^        std::vector<compilation_unit> compilation_units;$/;"	m	struct:dwarf::impl	file:
+compilation_units	ext/libelfin/dwarf/dwarf.cc	/^dwarf::compilation_units() const$/;"	f	class:dwarf
+compile_unit	ext/libelfin/dwarf/data.hh	/^        compile_unit             = 0x11,$/;"	m	class:DW_TAG
+completeLine	ext/linenoise/linenoise.c	/^static int completeLine(struct linenoiseState *ls) {$/;"	f	file:
+completion	ext/linenoise/example.c	/^void completion(const char *buf, linenoiseCompletions *lc) {$/;"	f
+completionCallback	ext/linenoise/linenoise.c	/^static linenoiseCompletionCallback *completionCallback = NULL;$/;"	v	file:
+complex_float	ext/libelfin/dwarf/data.hh	/^        complex_float   = 0x03,$/;"	m	class:DW_ATE
+condition	ext/libelfin/dwarf/data.hh	/^        condition                = 0x3f,$/;"	m	class:DW_TAG
+const	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	10;"	d	file:
+const1s	ext/libelfin/dwarf/data.hh	/^        const1s             = 0x09, \/\/ [1-byte constant]$/;"	m	class:DW_OP
+const1u	ext/libelfin/dwarf/data.hh	/^        const1u             = 0x08, \/\/ [1-byte constant]$/;"	m	class:DW_OP
+const2s	ext/libelfin/dwarf/data.hh	/^        const2s             = 0x0b, \/\/ [2-byte constant]$/;"	m	class:DW_OP
+const2u	ext/libelfin/dwarf/data.hh	/^        const2u             = 0x0a, \/\/ [2-byte constant]$/;"	m	class:DW_OP
+const4s	ext/libelfin/dwarf/data.hh	/^        const4s             = 0x0d, \/\/ [4-byte constant]$/;"	m	class:DW_OP
+const4u	ext/libelfin/dwarf/data.hh	/^        const4u             = 0x0c, \/\/ [4-byte constant]$/;"	m	class:DW_OP
+const8s	ext/libelfin/dwarf/data.hh	/^        const8s             = 0x0f, \/\/ [8-byte constant]$/;"	m	class:DW_OP
+const8u	ext/libelfin/dwarf/data.hh	/^        const8u             = 0x0e, \/\/ [8-byte constant]$/;"	m	class:DW_OP
+const_add_pc	ext/libelfin/dwarf/data.hh	/^        const_add_pc = 0x08,$/;"	m	class:DW_LNS
+const_expr	ext/libelfin/dwarf/attrs.cc	/^AT_FLAG(const_expr);$/;"	v
+const_expr	ext/libelfin/dwarf/data.hh	/^        const_expr           = 0x6c, \/\/ flag$/;"	m	class:DW_AT
+const_reference	ext/libelfin/dwarf/small_vector.hh	/^        typedef const value_type& const_reference;$/;"	t	class:small_vector
+const_type	ext/libelfin/dwarf/data.hh	/^        const_type               = 0x26,$/;"	m	class:DW_TAG
+const_value	ext/libelfin/dwarf/attrs.cc	/^AT_ANY(const_value);$/;"	v
+const_value	ext/libelfin/dwarf/data.hh	/^        const_value          = 0x1c, \/\/ block, constant, string$/;"	m	class:DW_AT
+constant	ext/libelfin/dwarf/data.hh	/^        constant                 = 0x27,$/;"	m	class:DW_TAG
+constant	ext/libelfin/dwarf/dwarf++.hh	/^                constant,$/;"	m	class:value::type
+consts	ext/libelfin/dwarf/data.hh	/^        consts              = 0x11, \/\/ [SLEB128 constant]$/;"	m	class:DW_OP
+constu	ext/libelfin/dwarf/data.hh	/^        constu              = 0x10, \/\/ [ULEB128 constant]$/;"	m	class:DW_OP
+containing_type	ext/libelfin/dwarf/attrs.cc	/^AT_REFERENCE(containing_type);$/;"	v
+containing_type	ext/libelfin/dwarf/data.hh	/^        containing_type      = 0x1d, \/\/ reference$/;"	m	class:DW_AT
+contains	ext/libelfin/dwarf/dwarf++.hh	/^        bool contains(taddr addr) const$/;"	f	class:rangelist::entry
+contains	ext/libelfin/dwarf/rangelist.cc	/^rangelist::contains(taddr addr) const$/;"	f	class:rangelist
+contains_section_offset	ext/libelfin/dwarf/die.cc	/^die::contains_section_offset(section_offset off) const$/;"	f	class:die
+continue_execution	src/debugger.cpp	/^void debugger::continue_execution() {$/;"	f	class:debugger
+copy	ext/libelfin/dwarf/data.hh	/^        copy = 0x01,$/;"	m	class:DW_LNS
+core	ext/libelfin/elf/data.hh	/^        core   = 4,             \/\/ Core file$/;"	m	class:et
+count	ext/libelfin/dwarf/attrs.cc	/^AT_UDYNAMIC(count);$/;"	v
+count	ext/libelfin/dwarf/data.hh	/^        count                = 0x37, \/\/ constant, exprloc, reference$/;"	m	class:DW_AT
+create_loader	ext/libelfin/dwarf/dwarf++.hh	/^        std::shared_ptr<elf_loader<Elf> > create_loader(const Elf &f)$/;"	f	namespace:elf
+create_mmap_loader	ext/libelfin/elf/mmap_loader.cc	/^create_mmap_loader(int fd)$/;"	f
+cs	include/registers.h	/^        rip, rflags,    cs,$/;"	m	class:minidbg::reg
+cstr	ext/libelfin/dwarf/cursor.cc	/^cursor::cstr(size_t *size_out)$/;"	f	class:cursor
+cu	ext/libelfin/dwarf/dwarf++.hh	/^        const unit *cu;$/;"	m	class:die
+cu	ext/libelfin/dwarf/dwarf++.hh	/^        const unit *cu;$/;"	m	class:expr
+cu	ext/libelfin/dwarf/dwarf++.hh	/^        const unit *cu;$/;"	m	class:loclist
+cu	ext/libelfin/dwarf/dwarf++.hh	/^        const unit *cu;$/;"	m	class:value
+cursor	ext/libelfin/dwarf/internal.hh	/^        cursor()$/;"	f	struct:cursor
+cursor	ext/libelfin/dwarf/internal.hh	/^        cursor(const std::shared_ptr<section> sec, const char *pos)$/;"	f	struct:cursor
+cursor	ext/libelfin/dwarf/internal.hh	/^        cursor(const std::shared_ptr<section> sec, section_offset offset = 0)$/;"	f	struct:cursor
+cursor	ext/libelfin/dwarf/internal.hh	/^struct cursor$/;"	s
+cvec	ext/linenoise/linenoise.h	/^  char **cvec;$/;"	m	struct:linenoiseCompletions
+d	ext/libelfin/dwarf/dwarf++.hh	/^        die d;$/;"	m	class:die::iterator
+data	ext/libelfin/dwarf/dwarf.cc	/^unit::data() const$/;"	f	class:unit
+data	ext/libelfin/elf/elf++.hh	/^        Sym<> data;$/;"	m	class:sym
+data	ext/libelfin/elf/elf.cc	/^        const char *data, *end;$/;"	m	struct:strtab::impl	file:
+data	ext/libelfin/elf/elf.cc	/^        const char *data, *end;$/;"	m	struct:symtab::impl	file:
+data	ext/libelfin/elf/elf.cc	/^        const void *data;$/;"	m	struct:section::impl	file:
+data	ext/libelfin/elf/elf.cc	/^        const void *data;$/;"	m	struct:segment::impl	file:
+data	ext/libelfin/elf/elf.cc	/^section::data() const$/;"	f	class:section
+data	ext/libelfin/elf/elf.cc	/^segment::data() const {$/;"	f	class:segment
+data1	ext/libelfin/dwarf/data.hh	/^        data1        = 0x0b,    \/\/ constant$/;"	m	class:DW_FORM
+data2	ext/libelfin/dwarf/data.hh	/^        data2        = 0x05,    \/\/ constant$/;"	m	class:DW_FORM
+data4	ext/libelfin/dwarf/data.hh	/^        data4        = 0x06,    \/\/ constant$/;"	m	class:DW_FORM
+data8	ext/libelfin/dwarf/data.hh	/^        data8        = 0x07,    \/\/ constant$/;"	m	class:DW_FORM
+data_bit_offset	ext/libelfin/dwarf/data.hh	/^        data_bit_offset      = 0x6b, \/\/ constant$/;"	m	class:DW_AT
+data_location	ext/libelfin/dwarf/data.hh	/^        data_location        = 0x50, \/\/ exprloc$/;"	m	class:DW_AT
+data_member_location	ext/libelfin/dwarf/data.hh	/^        data_member_location = 0x38, \/\/ constant, exprloc, loclistptr$/;"	m	class:DW_AT
+debug_abbrev_offset	ext/libelfin/dwarf/dwarf.cc	/^        const section_offset debug_abbrev_offset;$/;"	m	struct:unit::impl	file:
+debug_info_length	ext/libelfin/dwarf/internal.hh	/^        section_length debug_info_length;$/;"	m	struct:name_unit
+debug_info_offset	ext/libelfin/dwarf/internal.hh	/^        section_offset debug_info_offset;$/;"	m	struct:name_unit
+debugger	include/debugger.hpp	/^        debugger (std::string prog_name, pid_t pid)$/;"	f	class:minidbg::debugger
+debugger	include/debugger.hpp	/^    class debugger {$/;"	c	namespace:minidbg
+decimal_float	ext/libelfin/dwarf/data.hh	/^        decimal_float   = 0x0f,$/;"	m	class:DW_ATE
+decimal_scale	ext/libelfin/dwarf/data.hh	/^        decimal_scale        = 0x5c, \/\/ constant$/;"	m	class:DW_AT
+decimal_sign	ext/libelfin/dwarf/data.hh	/^        decimal_sign         = 0x5e, \/\/ constant$/;"	m	class:DW_AT
+decl_column	ext/libelfin/dwarf/data.hh	/^        decl_column          = 0x39, \/\/ constant$/;"	m	class:DW_AT
+decl_file	ext/libelfin/dwarf/data.hh	/^        decl_file            = 0x3a, \/\/ constant$/;"	m	class:DW_AT
+decl_line	ext/libelfin/dwarf/data.hh	/^        decl_line            = 0x3b, \/\/ constant$/;"	m	class:DW_AT
+declaration	ext/libelfin/dwarf/attrs.cc	/^AT_FLAG(declaration);$/;"	v
+declaration	ext/libelfin/dwarf/data.hh	/^        declaration          = 0x3c, \/\/ flag$/;"	m	class:DW_AT
+declared_inlined	ext/libelfin/dwarf/data.hh	/^        declared_inlined = 0x03,$/;"	m	class:DW_INL
+declared_not_inlined	ext/libelfin/dwarf/data.hh	/^        declared_not_inlined = 0x02,$/;"	m	class:DW_INL
+default	ext/libelfin/elf/enum-print.py	/^                  default="::")$/;"	v
+default_	ext/libelfin/dwarf/data.hh	/^        default_ = 0x00,$/;"	m	class:DW_END
+default_is_stmt	ext/libelfin/dwarf/line.cc	/^        bool default_is_stmt;$/;"	m	struct:line_table::impl	file:
+default_value	ext/libelfin/dwarf/data.hh	/^        default_value        = 0x1e, \/\/ reference$/;"	m	class:DW_AT
+define_file	ext/libelfin/dwarf/data.hh	/^        define_file = 0x03,$/;"	m	class:DW_LNE
+deref	ext/libelfin/dwarf/data.hh	/^        deref               = 0x06,$/;"	m	class:DW_OP
+deref_size	ext/libelfin/dwarf/data.hh	/^        deref_size          = 0x94, \/\/ [1-byte size of data retrieved]$/;"	m	class:DW_OP
+deref_size	ext/libelfin/dwarf/dwarf++.hh	/^        virtual taddr deref_size(taddr address, unsigned size)$/;"	f	class:expr_context
+description	ext/libelfin/dwarf/attrs.cc	/^AT_STRING(description);$/;"	v
+description	ext/libelfin/dwarf/data.hh	/^        description          = 0x5a, \/\/ string$/;"	m	class:DW_AT
+die	ext/libelfin/dwarf/die.cc	/^die::die(const unit *cu)$/;"	f	class:die
+die	ext/libelfin/dwarf/dwarf++.hh	/^        die() : cu(nullptr), abbrev(nullptr) { }$/;"	f	class:die
+die	ext/libelfin/dwarf/dwarf++.hh	/^class die$/;"	c
+die	ext/libelfin/test/test.sh	/^die() {$/;"	f
+die_pc_range	ext/libelfin/dwarf/attrs.cc	/^die_pc_range(const die &d)$/;"	f
+die_str_map	ext/libelfin/dwarf/die_str_map.cc	/^die_str_map::die_str_map(const die &parent, DW_AT attr,$/;"	f	class:die_str_map
+die_str_map	ext/libelfin/dwarf/dwarf++.hh	/^class die_str_map$/;"	c
+digit_count	ext/libelfin/dwarf/data.hh	/^        digit_count          = 0x5f, \/\/ constant$/;"	m	class:DW_AT
+disable	src/breakpoint.cpp	/^void breakpoint::disable() {$/;"	f	class:breakpoint
+disableRawMode	ext/linenoise/linenoise.c	/^static void disableRawMode(int fd) {$/;"	f	file:
+discr	ext/libelfin/dwarf/attrs.cc	/^AT_REFERENCE(discr);$/;"	v
+discr	ext/libelfin/dwarf/data.hh	/^        discr                = 0x15, \/\/ reference$/;"	m	class:DW_AT
+discr_list	ext/libelfin/dwarf/data.hh	/^        discr_list           = 0x3d, \/\/ block$/;"	m	class:DW_AT
+discr_value	ext/libelfin/dwarf/attrs.cc	/^AT_ANY(discr_value);            \/\/ XXX Signed or unsigned$/;"	v
+discr_value	ext/libelfin/dwarf/data.hh	/^        discr_value          = 0x16, \/\/ constant$/;"	m	class:DW_AT
+discriminator	ext/libelfin/dwarf/dwarf++.hh	/^        unsigned discriminator;$/;"	m	class:line_table::entry
+div	ext/libelfin/dwarf/data.hh	/^        div                 = 0x1b,$/;"	m	class:DW_OP
+do_enum_body	ext/libelfin/elf/enum-print.py	/^def do_enum_body(name, toks):$/;"	f
+do_qname	ext/libelfin/elf/enum-print.py	/^def do_qname(toks):$/;"	f
+do_top_level	ext/libelfin/elf/enum-print.py	/^def do_top_level(toks, ns=[]):$/;"	f
+down_case	ext/libelfin/dwarf/data.hh	/^        down_case        = 0x02,$/;"	m	class:DW_ID
+drop	ext/libelfin/dwarf/data.hh	/^        drop                = 0x13,$/;"	m	class:DW_OP
+ds	include/registers.h	/^        fs, gs, ss, ds, es$/;"	m	class:minidbg::reg
+dump_die	ext/libelfin/examples/find-pc.cc	/^dump_die(const dwarf::die &node)$/;"	f
+dump_line_table	ext/libelfin/examples/dump-lines.cc	/^dump_line_table(const dwarf::line_table &lt)$/;"	f
+dump_registers	src/debugger.cpp	/^void debugger::dump_registers() {$/;"	f	class:debugger
+dump_tree	ext/libelfin/examples/dump-tree.cc	/^dump_tree(const dwarf::die &node, int depth = 0)$/;"	f
+dup	ext/libelfin/dwarf/data.hh	/^        dup                 = 0x12,$/;"	m	class:DW_OP
+dwarf	ext/libelfin/dwarf/dwarf++.hh	/^class dwarf$/;"	c
+dwarf	ext/libelfin/dwarf/dwarf.cc	/^dwarf::dwarf(const std::shared_ptr<loader> &l)$/;"	f	class:dwarf
+dwarf32	ext/libelfin/dwarf/internal.hh	/^        dwarf32,$/;"	m	class:format
+dwarf_procedure	ext/libelfin/dwarf/data.hh	/^        dwarf_procedure          = 0x36,$/;"	m	class:DW_TAG
+dwarf_r	include/registers.h	/^        int dwarf_r;$/;"	m	struct:minidbg::reg_descriptor
+dyn	ext/libelfin/elf/data.hh	/^        dyn    = 3,             \/\/ Shared object file$/;"	m	class:et
+dynamic	ext/libelfin/elf/data.hh	/^        dynamic  = 6,           \/\/ Contains dynamic linking tables$/;"	m	class:sht
+dynamic	ext/libelfin/elf/data.hh	/^        dynamic = 2,            \/\/ Dynamic linking tables$/;"	m	class:pt
+dynsym	ext/libelfin/elf/data.hh	/^        dynsym   = 11,          \/\/ Contains a dynamic loader symbol table$/;"	m	class:sht
+edited	ext/libelfin/dwarf/data.hh	/^        edited          = 0x0c,$/;"	m	class:DW_ATE
+ehsize	ext/libelfin/elf/data.hh	/^        typename E::Half ehsize;         \/\/ ELF header size$/;"	m	struct:Ehdr
+ei_abiversion	ext/libelfin/elf/data.hh	/^        unsigned char ei_abiversion;$/;"	m	struct:Ehdr
+ei_class	ext/libelfin/elf/data.hh	/^        elfclass ei_class;$/;"	m	struct:Ehdr
+ei_data	ext/libelfin/elf/data.hh	/^        elfdata ei_data;$/;"	m	struct:Ehdr
+ei_magic	ext/libelfin/elf/data.hh	/^        unsigned char ei_magic[4];$/;"	m	struct:Ehdr
+ei_osabi	ext/libelfin/elf/data.hh	/^        elfosabi ei_osabi;$/;"	m	struct:Ehdr
+ei_pad	ext/libelfin/elf/data.hh	/^        unsigned char ei_pad[7];$/;"	m	struct:Ehdr
+ei_version	ext/libelfin/elf/data.hh	/^        unsigned char ei_version;$/;"	m	struct:Ehdr
+elemental	ext/libelfin/dwarf/attrs.cc	/^AT_FLAG(elemental);$/;"	v
+elemental	ext/libelfin/dwarf/data.hh	/^        elemental            = 0x66, \/\/ flag$/;"	m	class:DW_AT
+elf	ext/libelfin/dwarf/dwarf++.hh	/^namespace elf$/;"	n
+elf	ext/libelfin/elf/elf++.hh	/^class elf$/;"	c
+elf	ext/libelfin/elf/elf.cc	/^elf::elf(const std::shared_ptr<loader> &l)$/;"	f	class:elf
+elf_loader	ext/libelfin/dwarf/dwarf++.hh	/^                elf_loader(const Elf &file) : f(file) { }$/;"	f	class:elf::elf_loader
+elf_loader	ext/libelfin/dwarf/dwarf++.hh	/^        class elf_loader : public loader$/;"	c	namespace:elf
+elfclass	ext/libelfin/elf/data.hh	/^enum class elfclass : unsigned char$/;"	c
+elfdata	ext/libelfin/elf/data.hh	/^enum class elfdata : unsigned char$/;"	c
+elfosabi	ext/libelfin/elf/data.hh	/^enum class elfosabi : unsigned char$/;"	c
+empty	ext/libelfin/dwarf/dwarf++.hh	/^                empty,$/;"	m	class:expr_result::type
+empty	ext/libelfin/dwarf/small_vector.hh	/^        bool empty() const$/;"	f	class:small_vector
+enable	src/breakpoint.cpp	/^void breakpoint::enable() {$/;"	f	class:breakpoint
+enableRawMode	ext/linenoise/linenoise.c	/^static int enableRawMode(int fd) {$/;"	f	file:
+encoding	ext/libelfin/dwarf/data.hh	/^        encoding             = 0x3e, \/\/ constant$/;"	m	class:DW_AT
+end	ext/libelfin/dwarf/die_str_map.cc	/^        die::iterator pos, end;$/;"	m	struct:die_str_map::impl	file:
+end	ext/libelfin/dwarf/dwarf++.hh	/^die::end() const$/;"	f	class:die
+end	ext/libelfin/dwarf/internal.hh	/^        bool end() const$/;"	f	struct:cursor
+end	ext/libelfin/dwarf/internal.hh	/^        const char *begin, *end;$/;"	m	struct:section
+end	ext/libelfin/dwarf/line.cc	/^line_table::end() const$/;"	f	class:line_table
+end	ext/libelfin/dwarf/rangelist.cc	/^rangelist::end() const$/;"	f	class:rangelist
+end	ext/libelfin/dwarf/small_vector.hh	/^        T *base, *end, *cap;$/;"	m	class:small_vector
+end	ext/libelfin/elf/elf.cc	/^        const char *data, *end;$/;"	m	struct:strtab::impl	file:
+end	ext/libelfin/elf/elf.cc	/^        const char *data, *end;$/;"	m	struct:symtab::impl	file:
+end	ext/libelfin/elf/elf.cc	/^symtab::end() const$/;"	f	class:symtab
+end_sequence	ext/libelfin/dwarf/data.hh	/^        end_sequence = 0x01,$/;"	m	class:DW_LNE
+end_sequence	ext/libelfin/dwarf/dwarf++.hh	/^        bool end_sequence;$/;"	m	class:line_table::entry
+endianity	ext/libelfin/dwarf/data.hh	/^        endianity            = 0x65, \/\/ constant$/;"	m	class:DW_AT
+ensure	ext/libelfin/dwarf/internal.hh	/^        ensure(section_offset bytes)$/;"	f	struct:cursor
+entries	ext/libelfin/dwarf/internal.hh	/^        cursor entries;$/;"	m	struct:name_unit
+entry	ext/libelfin/dwarf/dwarf++.hh	/^        line_table::entry entry, regs;$/;"	m	class:line_table::iterator
+entry	ext/libelfin/dwarf/dwarf++.hh	/^        rangelist::entry entry;$/;"	m	class:rangelist::iterator
+entry	ext/libelfin/dwarf/dwarf++.hh	/^class line_table::entry$/;"	c	class:line_table
+entry	ext/libelfin/dwarf/dwarf++.hh	/^class rangelist::entry$/;"	c	class:rangelist
+entry	ext/libelfin/elf/data.hh	/^        typename E::Addr entry;          \/\/ Entry point address$/;"	m	struct:Ehdr
+entry_pc	ext/libelfin/dwarf/attrs.cc	/^AT_ADDRESS(entry_pc);$/;"	v
+entry_pc	ext/libelfin/dwarf/data.hh	/^        entry_pc             = 0x52, \/\/ address$/;"	m	class:DW_AT
+entry_point	ext/libelfin/dwarf/data.hh	/^        entry_point              = 0x03,$/;"	m	class:DW_TAG
+entsize	ext/libelfin/elf/data.hh	/^        typename E::Word32_Xword64 entsize; \/\/ Size of entries, if section has table$/;"	m	struct:Shdr
+enum_class	ext/libelfin/dwarf/attrs.cc	/^AT_FLAG(enum_class);$/;"	v
+enum_class	ext/libelfin/dwarf/data.hh	/^        enum_class           = 0x6d, \/\/ flag$/;"	m	class:DW_AT
+enumeration_type	ext/libelfin/dwarf/data.hh	/^        enumeration_type         = 0x04,$/;"	m	class:DW_TAG
+enumerator	ext/libelfin/dwarf/data.hh	/^        enumerator               = 0x28,$/;"	m	class:DW_TAG
+enums	ext/libelfin/elf/data.hh	/^namespace enums {$/;"	n
+enums	ext/libelfin/elf/enum-print.py	/^enums = {}$/;"	v
+epilogue_begin	ext/libelfin/dwarf/dwarf++.hh	/^        bool epilogue_begin;$/;"	m	class:line_table::entry
+eq	ext/libelfin/dwarf/data.hh	/^        eq                  = 0x29,$/;"	m	class:DW_OP
+et	ext/libelfin/elf/data.hh	/^enum class et : ElfTypes::Half$/;"	c
+evaluate	ext/libelfin/dwarf/expr.cc	/^expr::evaluate(expr_context *ctx) const$/;"	f	class:expr
+evaluate	ext/libelfin/dwarf/expr.cc	/^expr::evaluate(expr_context *ctx, const std::initializer_list<taddr> &arguments) const$/;"	f	class:expr
+evaluate	ext/libelfin/dwarf/expr.cc	/^expr::evaluate(expr_context *ctx, taddr argument) const$/;"	f	class:expr
+evaluate	ext/libelfin/dwarf/loclist.cc	/^loclist::evaluate(expr_context *ctx) const {$/;"	f	class:loclist
+exec	ext/libelfin/elf/data.hh	/^        exec   = 2,             \/\/ Executable file$/;"	m	class:et
+exec	src/debugger.cpp	/^std::string exec(const char* cmd) {$/;"	f
+execinstr	ext/libelfin/elf/data.hh	/^        execinstr = 0x4,        \/\/ Section contains executable instructions$/;"	m	class:shf
+explicit_	ext/libelfin/dwarf/data.hh	/^        explicit_            = 0x63, \/\/ flag$/;"	m	class:DW_AT
+exported	ext/libelfin/dwarf/data.hh	/^        exported  = 0x02,$/;"	m	class:DW_VIS
+expr	ext/libelfin/dwarf/dwarf++.hh	/^class expr$/;"	c
+expr	ext/libelfin/dwarf/expr.cc	/^expr::expr(const unit *cu,$/;"	f	class:expr
+expr_context	ext/libelfin/dwarf/dwarf++.hh	/^class expr_context$/;"	c
+expr_error	ext/libelfin/dwarf/dwarf++.hh	/^        explicit expr_error(const char *what_arg)$/;"	f	class:expr_error
+expr_error	ext/libelfin/dwarf/dwarf++.hh	/^        explicit expr_error(const std::string &what_arg)$/;"	f	class:expr_error
+expr_error	ext/libelfin/dwarf/dwarf++.hh	/^class expr_error : public std::runtime_error$/;"	c
+expr_remainder	ext/libelfin/elf/enum-print.py	/^def expr_remainder(typ, arg):$/;"	f
+expr_result	ext/libelfin/dwarf/dwarf++.hh	/^class expr_result$/;"	c
+exprloc	ext/libelfin/dwarf/data.hh	/^        exprloc      = 0x18,    \/\/ exprloc$/;"	m	class:DW_FORM
+exprloc	ext/libelfin/dwarf/dwarf++.hh	/^                exprloc,$/;"	m	class:value::type
+extension	ext/libelfin/dwarf/attrs.cc	/^AT_REFERENCE(extension);$/;"	v
+extension	ext/libelfin/dwarf/data.hh	/^        extension            = 0x54, \/\/ reference$/;"	m	class:DW_AT
+external	ext/libelfin/dwarf/attrs.cc	/^AT_FLAG(external);$/;"	v
+external	ext/libelfin/dwarf/data.hh	/^        external             = 0x3f, \/\/ flag$/;"	m	class:DW_AT
+f	ext/libelfin/dwarf/dwarf++.hh	/^                Elf f;$/;"	m	class:elf::elf_loader
+f	ext/libelfin/elf/elf++.hh	/^                const elf f;$/;"	m	class:symtab::iterator
+f	ext/libelfin/elf/elf.cc	/^        const elf f;$/;"	m	struct:section::impl	file:
+f	ext/libelfin/elf/elf.cc	/^        const elf f;$/;"	m	struct:segment::impl	file:
+f	ext/libelfin/elf/elf.cc	/^        const elf f;$/;"	m	struct:strtab::impl	file:
+f	ext/libelfin/elf/elf.cc	/^        const elf f;$/;"	m	struct:symtab::impl	file:
+fbreg	ext/libelfin/dwarf/data.hh	/^        fbreg               = 0x91, \/\/ [SLEB128 offset]$/;"	m	class:DW_OP
+features	build/CMakeFiles/feature_tests.c	/^  const char features[] = {"\\n"$/;"	v
+features	build/CMakeFiles/feature_tests.cxx	/^  const char features[] = {"\\n"$/;"	v
+fib	ext/libelfin/test/example.c	/^int fib(int x) $/;"	f
+file	ext/libelfin/dwarf/dwarf++.hh	/^        const line_table::file *file;$/;"	m	class:line_table::entry
+file	ext/libelfin/dwarf/dwarf++.hh	/^class line_table::file$/;"	c	class:line_table
+file	ext/libelfin/dwarf/dwarf.cc	/^        const dwarf file;$/;"	m	struct:unit::impl	file:
+file	ext/libelfin/dwarf/line.cc	/^line_table::file::file(string path, uint64_t mtime, uint64_t length)$/;"	f	class:line_table::file
+file	ext/libelfin/elf/data.hh	/^        file    = 4,            \/\/ Source file associated with the$/;"	m	class:stt
+file	include/debugger.hpp	/^        file,$/;"	m	class:minidbg::symbol_type
+file_index	ext/libelfin/dwarf/dwarf++.hh	/^        unsigned file_index;$/;"	m	class:line_table::entry
+file_names	ext/libelfin/dwarf/line.cc	/^        vector<file> file_names;$/;"	m	struct:line_table::impl	file:
+file_names_complete	ext/libelfin/dwarf/line.cc	/^        bool file_names_complete;$/;"	m	struct:line_table::impl	file:
+file_size	ext/libelfin/elf/elf.cc	/^segment::file_size() const {$/;"	f	class:segment
+file_type	ext/libelfin/dwarf/data.hh	/^        file_type                = 0x29,$/;"	m	class:DW_TAG
+filesz	ext/libelfin/elf/data.hh	/^        Elf32::Word  filesz;    \/\/ Size of segment in file$/;"	m	struct:Phdr
+filesz	ext/libelfin/elf/data.hh	/^        Elf64::Xword filesz;    \/\/ Size of segment in file$/;"	m	struct:Phdr
+find_address	ext/libelfin/dwarf/line.cc	/^line_table::find_address(taddr addr) const$/;"	f	class:line_table
+find_pc	ext/libelfin/examples/find-pc.cc	/^find_pc(const dwarf::die &d, dwarf::taddr pc, vector<dwarf::die> *stack)$/;"	f
+first_argument_type	ext/libelfin/dwarf/die_str_map.cc	/^        typedef const char *first_argument_type;$/;"	t	struct:string_eq	file:
+fixed	ext/libelfin/dwarf/internal.hh	/^        T fixed()$/;"	f	struct:cursor
+fixed_advance_pc	ext/libelfin/dwarf/data.hh	/^        fixed_advance_pc = 0x09,$/;"	m	class:DW_LNS
+flag	ext/libelfin/dwarf/data.hh	/^        flag         = 0x0c,    \/\/ flag$/;"	m	class:DW_FORM
+flag	ext/libelfin/dwarf/dwarf++.hh	/^                flag,$/;"	m	class:value::type
+flag_present	ext/libelfin/dwarf/data.hh	/^        flag_present = 0x19,    \/\/ flag$/;"	m	class:DW_FORM
+flags	ext/libelfin/elf/data.hh	/^        pf           flags;     \/\/ Segment attributes$/;"	m	struct:Phdr
+flags	ext/libelfin/elf/data.hh	/^        typename E::Word flags;          \/\/ Processor-specific flags$/;"	m	struct:Ehdr
+flags	ext/libelfin/elf/data.hh	/^        typename E::template pick<typename E::Word, shf>::t flags; \/\/ Section attributes$/;"	m	struct:Shdr
+float_	ext/libelfin/dwarf/data.hh	/^        float_          = 0x04,$/;"	m	class:DW_ATE
+fmt	ext/libelfin/dwarf/internal.hh	/^        const format fmt;$/;"	m	struct:section
+fmt_value	ext/libelfin/elf/enum-print.py	/^def fmt_value(typ, key):$/;"	f
+force_abbrevs	ext/libelfin/dwarf/dwarf.cc	/^unit::impl::force_abbrevs()$/;"	f	class:unit::impl
+form	ext/libelfin/dwarf/dwarf++.hh	/^        DW_FORM form;$/;"	m	class:value
+form	ext/libelfin/dwarf/internal.hh	/^        DW_FORM form;$/;"	m	struct:attribute_spec
+form_tls_address	ext/libelfin/dwarf/data.hh	/^        form_tls_address    = 0x9b,$/;"	m	class:DW_OP
+form_tls_address	ext/libelfin/dwarf/dwarf++.hh	/^        virtual taddr form_tls_address(taddr address)$/;"	f	class:expr_context
+formal_parameter	ext/libelfin/dwarf/data.hh	/^        formal_parameter         = 0x05,$/;"	m	class:DW_TAG
+format	ext/libelfin/dwarf/internal.hh	/^enum class format$/;"	c
+format_error	ext/libelfin/dwarf/dwarf++.hh	/^        explicit format_error(const char *what_arg)$/;"	f	class:format_error
+format_error	ext/libelfin/dwarf/dwarf++.hh	/^        explicit format_error(const std::string &what_arg)$/;"	f	class:format_error
+format_error	ext/libelfin/dwarf/dwarf++.hh	/^class format_error : public std::runtime_error$/;"	c
+format_error	ext/libelfin/elf/elf++.hh	/^        explicit format_error(const char *what_arg)$/;"	f	class:format_error
+format_error	ext/libelfin/elf/elf++.hh	/^        explicit format_error(const std::string &what_arg)$/;"	f	class:format_error
+format_error	ext/libelfin/elf/elf++.hh	/^class format_error : public std::runtime_error$/;"	c
+frame	ext/libelfin/dwarf/dwarf++.hh	/^        frame,$/;"	m	class:section_type
+frame_base	ext/libelfin/dwarf/data.hh	/^        frame_base           = 0x40, \/\/ exprloc, loclistptr$/;"	m	class:DW_AT
+freeCompletions	ext/linenoise/linenoise.c	/^static void freeCompletions(linenoiseCompletions *lc) {$/;"	f	file:
+freeHintsCallback	ext/linenoise/linenoise.c	/^static linenoiseFreeHintsCallback *freeHintsCallback = NULL;$/;"	v	file:
+freeHistory	ext/linenoise/linenoise.c	/^static void freeHistory(void) {$/;"	f	file:
+friend_	ext/libelfin/dwarf/data.hh	/^        friend_                  = 0x2a,$/;"	m	class:DW_TAG
+friend_	ext/libelfin/dwarf/data.hh	/^        friend_              = 0x41, \/\/ reference$/;"	m	class:DW_AT
+from	ext/libelfin/elf/data.hh	/^        void from(const E2 &o)$/;"	f	struct:Ehdr
+from	ext/libelfin/elf/data.hh	/^        void from(const E2 &o)$/;"	f	struct:Phdr
+from	ext/libelfin/elf/data.hh	/^        void from(const E2 &o)$/;"	f	struct:Shdr
+from	ext/libelfin/elf/data.hh	/^        void from(const E2 &o)$/;"	f	struct:Sym
+from_type_names	ext/libelfin/dwarf/die_str_map.cc	/^die_str_map::from_type_names(const die &parent)$/;"	f	class:die_str_map
+front	ext/libelfin/dwarf/small_vector.hh	/^        const_reference front() const$/;"	f	class:small_vector
+front	ext/libelfin/dwarf/small_vector.hh	/^        reference front()$/;"	f	class:small_vector
+fs	include/registers.h	/^        fs, gs, ss, ds, es$/;"	m	class:minidbg::reg
+fs_base	include/registers.h	/^        orig_rax, fs_base,$/;"	m	class:minidbg::reg
+func	ext/libelfin/elf/data.hh	/^        func    = 2,            \/\/ Function entry point$/;"	m	class:stt
+func	include/debugger.hpp	/^        func,$/;"	m	class:minidbg::symbol_type
+ge	ext/libelfin/dwarf/data.hh	/^        ge                  = 0x2a,$/;"	m	class:DW_OP
+get	ext/libelfin/elf/elf.cc	/^strtab::get(Elf64::Off offset) const$/;"	f	class:strtab
+get	ext/libelfin/elf/elf.cc	/^strtab::get(Elf64::Off offset, size_t *len_out) const$/;"	f	class:strtab
+getColumns	ext/linenoise/linenoise.c	/^static int getColumns(int ifd, int ofd) {$/;"	f	file:
+getCursorPosition	ext/linenoise/linenoise.c	/^static int getCursorPosition(int ifd, int ofd) {$/;"	f	file:
+get_abbrev	ext/libelfin/dwarf/dwarf.cc	/^unit::get_abbrev(abbrev_code acode) const$/;"	f	class:unit
+get_data	ext/libelfin/elf/elf++.hh	/^        const Sym<> &get_data() const$/;"	f	class:sym
+get_description	ext/libelfin/dwarf/line.cc	/^line_table::entry::get_description() const$/;"	f	class:line_table::entry
+get_dwarf	ext/libelfin/dwarf/dwarf.cc	/^unit::get_dwarf() const$/;"	f	class:unit
+get_file	ext/libelfin/dwarf/line.cc	/^line_table::get_file(unsigned index) const$/;"	f	class:line_table
+get_form	ext/libelfin/dwarf/dwarf++.hh	/^        DW_FORM get_form() const$/;"	f	class:value
+get_function_from_pc	src/debugger.cpp	/^dwarf::die debugger::get_function_from_pc(uint64_t pc) {$/;"	f	class:debugger
+get_hdr	ext/libelfin/elf/elf.cc	/^elf::get_hdr() const$/;"	f	class:elf
+get_hdr	ext/libelfin/elf/elf.cc	/^section::get_hdr() const$/;"	f	class:section
+get_hdr	ext/libelfin/elf/elf.cc	/^segment::get_hdr() const {$/;"	f	class:segment
+get_line_entry_from_pc	src/debugger.cpp	/^dwarf::line_table::iterator debugger::get_line_entry_from_pc(uint64_t pc) {$/;"	f	class:debugger
+get_line_table	ext/libelfin/dwarf/dwarf.cc	/^compilation_unit::get_line_table() const$/;"	f	class:compilation_unit
+get_loader	ext/libelfin/elf/elf.cc	/^elf::get_loader() const$/;"	f	class:elf
+get_name	ext/libelfin/elf/elf.cc	/^section::get_name() const$/;"	f	class:section
+get_name	ext/libelfin/elf/elf.cc	/^section::get_name(size_t *len_out) const$/;"	f	class:section
+get_name	ext/libelfin/elf/elf.cc	/^sym::get_name() const$/;"	f	class:sym
+get_name	ext/libelfin/elf/elf.cc	/^sym::get_name(size_t *len_out) const$/;"	f	class:sym
+get_offset_pc	src/debugger.cpp	/^uint64_t debugger::get_offset_pc() {$/;"	f	class:debugger
+get_pc	src/debugger.cpp	/^uint64_t debugger::get_pc() {$/;"	f	class:debugger
+get_register_from_name	include/registers.h	/^    reg get_register_from_name(const std::string& name) {$/;"	f	namespace:minidbg
+get_register_name	include/registers.h	/^    std::string get_register_name(reg r) {$/;"	f	namespace:minidbg
+get_register_value	include/registers.h	/^    uint64_t get_register_value(pid_t pid, reg r) {$/;"	f	namespace:minidbg
+get_register_value_from_dwarf_register	include/registers.h	/^    uint64_t get_register_value_from_dwarf_register(pid_t pid, unsigned regnum) {$/;"	f	namespace:minidbg
+get_section	ext/libelfin/dwarf/dwarf.cc	/^dwarf::get_section(section_type type) const$/;"	f	class:dwarf
+get_section	ext/libelfin/elf/elf.cc	/^elf::get_section(const std::string &name) const$/;"	f	class:elf
+get_section	ext/libelfin/elf/elf.cc	/^elf::get_section(unsigned index) const$/;"	f	class:elf
+get_section_offset	ext/libelfin/dwarf/die.cc	/^die::get_section_offset() const$/;"	f	class:die
+get_section_offset	ext/libelfin/dwarf/dwarf.cc	/^unit::get_section_offset() const$/;"	f	class:unit
+get_section_offset	ext/libelfin/dwarf/internal.hh	/^        section_offset get_section_offset() const$/;"	f	struct:cursor
+get_section_offset	ext/libelfin/dwarf/value.cc	/^value::get_section_offset() const$/;"	f	class:value
+get_segment	ext/libelfin/elf/elf.cc	/^elf::get_segment(unsigned index) const$/;"	f	class:elf
+get_signal_info	src/debugger.cpp	/^siginfo_t debugger::get_signal_info() {$/;"	f	class:debugger
+get_type	ext/libelfin/dwarf/dwarf++.hh	/^        type get_type() const$/;"	f	class:value
+get_type_signature	ext/libelfin/dwarf/dwarf.cc	/^type_unit::get_type_signature() const$/;"	f	class:type_unit
+get_type_unit	ext/libelfin/dwarf/dwarf.cc	/^dwarf::get_type_unit(uint64_t type_signature) const$/;"	f	class:dwarf
+get_unit	ext/libelfin/dwarf/die.cc	/^die::get_unit() const$/;"	f	class:die
+get_unit_offset	ext/libelfin/dwarf/dwarf++.hh	/^        section_offset get_unit_offset() const$/;"	f	class:die
+get_unit_offset	ext/libelfin/dwarf/dwarf++.hh	/^        section_offset get_unit_offset() const$/;"	f	class:value
+global	ext/libelfin/elf/data.hh	/^        global = 1,             \/\/ Global symbol$/;"	m	class:stb
+gs	include/registers.h	/^        fs, gs, ss, ds, es$/;"	m	class:minidbg::reg
+gs_base	include/registers.h	/^        gs_base,$/;"	m	class:minidbg::reg
+gt	ext/libelfin/dwarf/data.hh	/^        gt                  = 0x2b,$/;"	m	class:DW_OP
+handle_command	src/debugger.cpp	/^void debugger::handle_command(const string& line) {$/;"	f	class:debugger
+handle_sigtrap	src/debugger.cpp	/^void debugger::handle_sigtrap(siginfo_t info) {$/;"	f	class:debugger
+has	ext/libelfin/dwarf/die.cc	/^die::has(DW_AT attr) const$/;"	f	class:die
+hash	ext/libelfin/dwarf/die_str_map.cc	/^        struct hash<dwarf::DW_TAG>$/;"	s	namespace:std	file:
+hash	ext/libelfin/dwarf/dwarf++.hh	/^        struct hash<dwarf::die>$/;"	s	namespace:std
+hash	ext/libelfin/dwarf/dwarf++.hh	/^        struct hash<dwarf::unit>$/;"	s	namespace:std
+hash	ext/libelfin/elf/data.hh	/^        hash     = 5,           \/\/ Contains a symbol hash table$/;"	m	class:sht
+have_abbrevs	ext/libelfin/dwarf/dwarf.cc	/^        bool have_abbrevs;$/;"	m	struct:unit::impl	file:
+have_type_units	ext/libelfin/dwarf/dwarf.cc	/^        bool have_type_units;$/;"	m	struct:dwarf::impl	file:
+hdr	ext/libelfin/elf/elf.cc	/^        Ehdr<> hdr;$/;"	m	struct:elf::impl	file:
+hdr	ext/libelfin/elf/elf.cc	/^        Phdr<> hdr;$/;"	m	struct:segment::impl	file:
+hdr	ext/libelfin/elf/elf.cc	/^        Shdr<> hdr;$/;"	m	struct:section::impl	file:
+help	ext/libelfin/elf/enum-print.py	/^                  help="omit type")$/;"	v
+help	ext/libelfin/elf/enum-print.py	/^                  help="strip leading and trailing underscores")$/;"	v
+hi_user	ext/libelfin/dwarf/data.hh	/^        hi_user                  = 0xffff,$/;"	m	class:DW_TAG
+hi_user	ext/libelfin/dwarf/data.hh	/^        hi_user              = 0x3fff,$/;"	m	class:DW_AT
+hi_user	ext/libelfin/dwarf/data.hh	/^        hi_user             = 0xff,$/;"	m	class:DW_OP
+hi_user	ext/libelfin/dwarf/data.hh	/^        hi_user         = 0xff,$/;"	m	class:DW_ATE
+hi_user	ext/libelfin/dwarf/data.hh	/^        hi_user        = 0xffff,$/;"	m	class:DW_LANG
+hi_user	ext/libelfin/dwarf/data.hh	/^        hi_user  = 0xff,$/;"	m	class:DW_END
+hi_user	ext/libelfin/dwarf/data.hh	/^        hi_user = 0xff,$/;"	m	class:DW_CC
+hi_user	ext/libelfin/dwarf/data.hh	/^        hi_user = 0xff,$/;"	m	class:DW_LNE
+high	ext/libelfin/dwarf/dwarf++.hh	/^        taddr low, high;$/;"	m	class:rangelist::entry
+high_pc	ext/libelfin/dwarf/data.hh	/^        high_pc              = 0x12, \/\/ address, constant$/;"	m	class:DW_AT
+hints	ext/linenoise/example.c	/^char *hints(const char *buf, int *color, int *bold) {$/;"	f
+hintsCallback	ext/linenoise/linenoise.c	/^static linenoiseHintsCallback *hintsCallback = NULL;$/;"	v	file:
+hios	ext/libelfin/elf/data.hh	/^        hios     = 0x6FFFFFFF,$/;"	m	class:sht
+hios	ext/libelfin/elf/data.hh	/^        hios    = 0x6FFFFFFF,$/;"	m	class:pt
+hios	ext/libelfin/elf/data.hh	/^        hios    = 12,$/;"	m	class:stt
+hios	ext/libelfin/elf/data.hh	/^        hios   = 0xfeff,$/;"	m	class:et
+hios	ext/libelfin/elf/data.hh	/^        hios   = 12,$/;"	m	class:stb
+hiproc	ext/libelfin/elf/data.hh	/^        hiproc   = 0x7FFFFFFF,$/;"	m	class:sht
+hiproc	ext/libelfin/elf/data.hh	/^        hiproc  = 0x7FFFFFFF,$/;"	m	class:pt
+hiproc	ext/libelfin/elf/data.hh	/^        hiproc  = 15,$/;"	m	class:stt
+hiproc	ext/libelfin/elf/data.hh	/^        hiproc = 0xffff,$/;"	m	class:et
+hiproc	ext/libelfin/elf/data.hh	/^        hiproc = 15,$/;"	m	class:stb
+history	ext/linenoise/linenoise.c	/^static char **history = NULL;$/;"	v	file:
+history_index	ext/linenoise/linenoise.c	/^    int history_index;  \/* The history index we are currently editing. *\/$/;"	m	struct:linenoiseState	file:
+history_len	ext/linenoise/linenoise.c	/^static int history_len = 0;$/;"	v	file:
+history_max_len	ext/linenoise/linenoise.c	/^static int history_max_len = LINENOISE_DEFAULT_HISTORY_MAX_LEN;$/;"	v	file:
+hpux	ext/libelfin/elf/data.hh	/^        hpux = 1,$/;"	m	class:elfosabi
+identifier_case	ext/libelfin/dwarf/data.hh	/^        identifier_case      = 0x42, \/\/ constant$/;"	m	class:DW_AT
+ifd	ext/linenoise/linenoise.c	/^    int ifd;            \/* Terminal stdin file descriptor. *\/$/;"	m	struct:linenoiseState	file:
+imaginary_float	ext/libelfin/dwarf/data.hh	/^        imaginary_float = 0x09,$/;"	m	class:DW_ATE
+impl	ext/libelfin/dwarf/die_str_map.cc	/^        impl(const die &parent, DW_AT attr,$/;"	f	struct:die_str_map::impl
+impl	ext/libelfin/dwarf/die_str_map.cc	/^struct die_str_map::impl$/;"	s	class:die_str_map	file:
+impl	ext/libelfin/dwarf/dwarf.cc	/^        impl(const dwarf &file, section_offset offset,$/;"	f	struct:unit::impl
+impl	ext/libelfin/dwarf/dwarf.cc	/^        impl(const std::shared_ptr<loader> &l)$/;"	f	struct:dwarf::impl
+impl	ext/libelfin/dwarf/dwarf.cc	/^struct dwarf::impl$/;"	s	class:dwarf	file:
+impl	ext/libelfin/dwarf/dwarf.cc	/^struct unit::impl$/;"	s	class:unit	file:
+impl	ext/libelfin/dwarf/line.cc	/^        impl() : last_file_name_end(0), file_names_complete(false) {};$/;"	f	struct:line_table::impl
+impl	ext/libelfin/dwarf/line.cc	/^struct line_table::impl$/;"	s	class:line_table	file:
+impl	ext/libelfin/elf/elf.cc	/^        impl(const elf &f)$/;"	f	struct:section::impl
+impl	ext/libelfin/elf/elf.cc	/^        impl(const elf &f)$/;"	f	struct:segment::impl
+impl	ext/libelfin/elf/elf.cc	/^        impl(const elf &f, const char *data, const char *end)$/;"	f	struct:strtab::impl
+impl	ext/libelfin/elf/elf.cc	/^        impl(const elf &f, const char *data, const char *end, strtab strs)$/;"	f	struct:symtab::impl
+impl	ext/libelfin/elf/elf.cc	/^        impl(const shared_ptr<loader> &l)$/;"	f	struct:elf::impl
+impl	ext/libelfin/elf/elf.cc	/^struct elf::impl$/;"	s	class:elf	file:
+impl	ext/libelfin/elf/elf.cc	/^struct section::impl$/;"	s	class:section	file:
+impl	ext/libelfin/elf/elf.cc	/^struct segment::impl {$/;"	s	class:segment	file:
+impl	ext/libelfin/elf/elf.cc	/^struct strtab::impl$/;"	s	class:strtab	file:
+impl	ext/libelfin/elf/elf.cc	/^struct symtab::impl$/;"	s	class:symtab	file:
+implicit	ext/libelfin/dwarf/dwarf++.hh	/^                implicit,$/;"	m	class:expr_result::type
+implicit	ext/libelfin/dwarf/dwarf++.hh	/^        const char *implicit;$/;"	m	class:expr_result
+implicit_len	ext/libelfin/dwarf/dwarf++.hh	/^        size_t implicit_len;$/;"	m	class:expr_result
+implicit_value	ext/libelfin/dwarf/data.hh	/^        implicit_value      = 0x9e, \/\/ [ULEB128 size, block of that size]$/;"	m	class:DW_OP
+import	ext/libelfin/dwarf/attrs.cc	/^AT_REFERENCE(import);$/;"	v
+import	ext/libelfin/dwarf/data.hh	/^        import               = 0x18, \/\/ reference$/;"	m	class:DW_AT
+imported_declaration	ext/libelfin/dwarf/data.hh	/^        imported_declaration     = 0x08,$/;"	m	class:DW_TAG
+imported_module	ext/libelfin/dwarf/data.hh	/^        imported_module          = 0x3a,$/;"	m	class:DW_TAG
+imported_unit	ext/libelfin/dwarf/data.hh	/^        imported_unit            = 0x3d,$/;"	m	class:DW_TAG
+include_directories	ext/libelfin/dwarf/line.cc	/^        vector<string> include_directories;$/;"	m	struct:line_table::impl	file:
+indirect	ext/libelfin/dwarf/data.hh	/^        indirect     = 0x16,    \/\/ (Section 7.5.3)$/;"	m	class:DW_FORM
+info	ext/libelfin/dwarf/dwarf++.hh	/^        info,$/;"	m	class:section_type
+info	ext/libelfin/elf/data.hh	/^        typename E::Word           info; \/\/ Miscellaneous information$/;"	m	struct:Shdr
+info	ext/libelfin/elf/data.hh	/^        unsigned char info;  \/\/ Type and binding attributes$/;"	m	struct:Sym
+info_arch	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_arch	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_compiler	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_compiler	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_cray	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v
+info_cray	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v
+info_language_dialect_default	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^const char* info_language_dialect_default =$/;"	v
+info_language_dialect_default	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^const char* info_language_dialect_default = "INFO" ":" "dialect_default["$/;"	v
+info_platform	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_platform	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_simulate	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v
+info_simulate	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v
+info_simulate_version	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_simulate_version[] = {$/;"	v
+info_simulate_version	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_simulate_version[] = {$/;"	v
+info_version	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v
+info_version	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v
+info_version_internal	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_version_internal[] = {$/;"	v
+info_version_internal	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version_internal[] = {$/;"	v
+inheritance	ext/libelfin/dwarf/data.hh	/^        inheritance              = 0x1c,$/;"	m	class:DW_TAG
+inline_	ext/libelfin/dwarf/data.hh	/^        inline_              = 0x20, \/\/ constant$/;"	m	class:DW_AT
+inlined	ext/libelfin/dwarf/data.hh	/^        inlined = 0x01,$/;"	m	class:DW_INL
+inlined_subroutine	ext/libelfin/dwarf/data.hh	/^        inlined_subroutine       = 0x1d,$/;"	m	class:DW_TAG
+interface_type	ext/libelfin/dwarf/data.hh	/^        interface_type           = 0x38,$/;"	m	class:DW_TAG
+interp	ext/libelfin/elf/data.hh	/^        interp  = 3,            \/\/ Program interpreter path name$/;"	m	class:pt
+invalid	ext/libelfin/dwarf/die_str_map.cc	/^        die invalid;$/;"	m	struct:die_str_map::impl	file:
+invalid	ext/libelfin/dwarf/dwarf++.hh	/^                invalid,$/;"	m	class:value::type
+invalid_section	ext/libelfin/elf/elf.cc	/^        section invalid_section;$/;"	m	struct:elf::impl	file:
+invalid_segment	ext/libelfin/elf/elf.cc	/^        segment invalid_segment;$/;"	m	struct:elf::impl	file:
+isUnsupportedTerm	ext/linenoise/linenoise.c	/^static int isUnsupportedTerm(void) {$/;"	f	file:
+is_optional	ext/libelfin/dwarf/attrs.cc	/^AT_FLAG(is_optional);$/;"	v
+is_optional	ext/libelfin/dwarf/data.hh	/^        is_optional          = 0x21, \/\/ flag$/;"	m	class:DW_AT
+is_prefix	src/debugger.cpp	/^bool is_prefix(const string &s, const string &of) {$/;"	f
+is_stmt	ext/libelfin/dwarf/dwarf++.hh	/^        bool is_stmt;$/;"	m	class:line_table::entry
+is_suffix	src/debugger.cpp	/^bool is_suffix(const string &s, const std::string &of) {$/;"	f
+isa	ext/libelfin/dwarf/dwarf++.hh	/^        unsigned isa;$/;"	m	class:line_table::entry
+iterator	ext/libelfin/dwarf/die.cc	/^die::iterator::iterator(const unit *cu, section_offset off)$/;"	f	class:die::iterator
+iterator	ext/libelfin/dwarf/dwarf++.hh	/^        iterator() : sec(nullptr), base_addr(0), pos(0) { }$/;"	f	class:rangelist::iterator
+iterator	ext/libelfin/dwarf/dwarf++.hh	/^class die::iterator$/;"	c	class:die
+iterator	ext/libelfin/dwarf/dwarf++.hh	/^class line_table::iterator$/;"	c	class:line_table
+iterator	ext/libelfin/dwarf/dwarf++.hh	/^class rangelist::iterator$/;"	c	class:rangelist
+iterator	ext/libelfin/dwarf/line.cc	/^line_table::iterator::iterator(const line_table *table, section_offset pos)$/;"	f	class:line_table::iterator
+iterator	ext/libelfin/dwarf/rangelist.cc	/^rangelist::iterator::iterator(const std::shared_ptr<section> &sec, taddr base_addr)$/;"	f	class:rangelist::iterator
+iterator	ext/libelfin/elf/elf++.hh	/^        class iterator$/;"	c	class:symtab
+iterator	ext/libelfin/elf/elf.cc	/^symtab::iterator::iterator(const symtab &tab, const char *pos)$/;"	f	class:symtab::iterator
+l	ext/libelfin/dwarf/dwarf.cc	/^        std::shared_ptr<loader> l;$/;"	m	struct:dwarf::impl	file:
+l	ext/libelfin/elf/elf.cc	/^        const shared_ptr<loader> l;$/;"	m	struct:elf::impl	file:
+label	ext/libelfin/dwarf/data.hh	/^        label                    = 0x0a,$/;"	m	class:DW_TAG
+label	ext/libelfin/dwarf/data.hh	/^        label = 0x00,$/;"	m	class:DW_DSC
+language	ext/libelfin/dwarf/data.hh	/^        language             = 0x13, \/\/ constant$/;"	m	class:DW_AT
+last_file_name_end	ext/libelfin/dwarf/line.cc	/^        section_offset last_file_name_end;$/;"	m	struct:line_table::impl	file:
+le	ext/libelfin/dwarf/data.hh	/^        le                  = 0x2c,$/;"	m	class:DW_OP
+leading_overpunch	ext/libelfin/dwarf/data.hh	/^        leading_overpunch  = 0x02,$/;"	m	class:DW_DS
+leading_separate	ext/libelfin/dwarf/data.hh	/^        leading_separate   = 0x04,$/;"	m	class:DW_DS
+len	ext/libelfin/dwarf/dwarf++.hh	/^        section_length len;$/;"	m	class:expr
+len	ext/linenoise/linenoise.c	/^    int len;$/;"	m	struct:abuf	file:
+len	ext/linenoise/linenoise.c	/^    size_t len;         \/* Current edited line length. *\/$/;"	m	struct:linenoiseState	file:
+len	ext/linenoise/linenoise.h	/^  size_t len;$/;"	m	struct:linenoiseCompletions
+length	ext/libelfin/dwarf/dwarf++.hh	/^        uint64_t length;$/;"	m	class:line_table::file
+lexical_block	ext/libelfin/dwarf/data.hh	/^        lexical_block            = 0x0b,$/;"	m	class:DW_TAG
+lim	ext/libelfin/elf/mmap_loader.cc	/^        size_t lim;$/;"	m	class:mmap_loader	file:
+line	ext/libelfin/dwarf/dwarf++.hh	/^                line,$/;"	m	class:value::type
+line	ext/libelfin/dwarf/dwarf++.hh	/^        line,$/;"	m	class:section_type
+line	ext/libelfin/dwarf/dwarf++.hh	/^        unsigned line;$/;"	m	class:line_table::entry
+line_base	ext/libelfin/dwarf/line.cc	/^        sbyte line_base;$/;"	m	struct:line_table::impl	file:
+line_range	ext/libelfin/dwarf/line.cc	/^        ubyte line_range;$/;"	m	struct:line_table::impl	file:
+line_table	ext/libelfin/dwarf/dwarf++.hh	/^class line_table$/;"	c
+line_table	ext/libelfin/dwarf/line.cc	/^line_table::line_table(const shared_ptr<section> &sec, section_offset offset,$/;"	f	class:line_table
+linenoise	ext/linenoise/linenoise.c	/^char *linenoise(const char *prompt) {$/;"	f
+linenoiseAddCompletion	ext/linenoise/linenoise.c	/^void linenoiseAddCompletion(linenoiseCompletions *lc, const char *str) {$/;"	f
+linenoiseAtExit	ext/linenoise/linenoise.c	/^static void linenoiseAtExit(void) {$/;"	f	file:
+linenoiseBeep	ext/linenoise/linenoise.c	/^static void linenoiseBeep(void) {$/;"	f	file:
+linenoiseClearScreen	ext/linenoise/linenoise.c	/^void linenoiseClearScreen(void) {$/;"	f
+linenoiseCompletionCallback	ext/linenoise/linenoise.h	/^typedef void(linenoiseCompletionCallback)(const char *, linenoiseCompletions *);$/;"	t
+linenoiseCompletions	ext/linenoise/linenoise.h	/^typedef struct linenoiseCompletions {$/;"	s
+linenoiseCompletions	ext/linenoise/linenoise.h	/^} linenoiseCompletions;$/;"	t	typeref:struct:linenoiseCompletions
+linenoiseEdit	ext/linenoise/linenoise.c	/^static int linenoiseEdit(int stdin_fd, int stdout_fd, char *buf, size_t buflen, const char *prompt)$/;"	f	file:
+linenoiseEditBackspace	ext/linenoise/linenoise.c	/^void linenoiseEditBackspace(struct linenoiseState *l) {$/;"	f
+linenoiseEditDelete	ext/linenoise/linenoise.c	/^void linenoiseEditDelete(struct linenoiseState *l) {$/;"	f
+linenoiseEditDeletePrevWord	ext/linenoise/linenoise.c	/^void linenoiseEditDeletePrevWord(struct linenoiseState *l) {$/;"	f
+linenoiseEditHistoryNext	ext/linenoise/linenoise.c	/^void linenoiseEditHistoryNext(struct linenoiseState *l, int dir) {$/;"	f
+linenoiseEditInsert	ext/linenoise/linenoise.c	/^int linenoiseEditInsert(struct linenoiseState *l, char c) {$/;"	f
+linenoiseEditMoveEnd	ext/linenoise/linenoise.c	/^void linenoiseEditMoveEnd(struct linenoiseState *l) {$/;"	f
+linenoiseEditMoveHome	ext/linenoise/linenoise.c	/^void linenoiseEditMoveHome(struct linenoiseState *l) {$/;"	f
+linenoiseEditMoveLeft	ext/linenoise/linenoise.c	/^void linenoiseEditMoveLeft(struct linenoiseState *l) {$/;"	f
+linenoiseEditMoveRight	ext/linenoise/linenoise.c	/^void linenoiseEditMoveRight(struct linenoiseState *l) {$/;"	f
+linenoiseFree	ext/linenoise/linenoise.c	/^void linenoiseFree(void *ptr) {$/;"	f
+linenoiseFreeHintsCallback	ext/linenoise/linenoise.h	/^typedef void(linenoiseFreeHintsCallback)(void *);$/;"	t
+linenoiseHintsCallback	ext/linenoise/linenoise.h	/^typedef char*(linenoiseHintsCallback)(const char *, int *color, int *bold);$/;"	t
+linenoiseHistoryAdd	ext/linenoise/linenoise.c	/^int linenoiseHistoryAdd(const char *line) {$/;"	f
+linenoiseHistoryLoad	ext/linenoise/linenoise.c	/^int linenoiseHistoryLoad(const char *filename) {$/;"	f
+linenoiseHistorySave	ext/linenoise/linenoise.c	/^int linenoiseHistorySave(const char *filename) {$/;"	f
+linenoiseHistorySetMaxLen	ext/linenoise/linenoise.c	/^int linenoiseHistorySetMaxLen(int len) {$/;"	f
+linenoiseMaskModeDisable	ext/linenoise/linenoise.c	/^void linenoiseMaskModeDisable(void) {$/;"	f
+linenoiseMaskModeEnable	ext/linenoise/linenoise.c	/^void linenoiseMaskModeEnable(void) {$/;"	f
+linenoiseNoTTY	ext/linenoise/linenoise.c	/^static char *linenoiseNoTTY(void) {$/;"	f	file:
+linenoisePrintKeyCodes	ext/linenoise/linenoise.c	/^void linenoisePrintKeyCodes(void) {$/;"	f
+linenoiseRaw	ext/linenoise/linenoise.c	/^static int linenoiseRaw(char *buf, size_t buflen, const char *prompt) {$/;"	f	file:
+linenoiseSetCompletionCallback	ext/linenoise/linenoise.c	/^void linenoiseSetCompletionCallback(linenoiseCompletionCallback *fn) {$/;"	f
+linenoiseSetFreeHintsCallback	ext/linenoise/linenoise.c	/^void linenoiseSetFreeHintsCallback(linenoiseFreeHintsCallback *fn) {$/;"	f
+linenoiseSetHintsCallback	ext/linenoise/linenoise.c	/^void linenoiseSetHintsCallback(linenoiseHintsCallback *fn) {$/;"	f
+linenoiseSetMultiLine	ext/linenoise/linenoise.c	/^void linenoiseSetMultiLine(int ml) {$/;"	f
+linenoiseState	ext/linenoise/linenoise.c	/^struct linenoiseState {$/;"	s	file:
+link	ext/libelfin/elf/data.hh	/^        shn                        link; \/\/ Link to other section$/;"	m	struct:Shdr
+linkage_name	ext/libelfin/dwarf/attrs.cc	/^AT_STRING(linkage_name);$/;"	v
+linkage_name	ext/libelfin/dwarf/data.hh	/^        linkage_name         = 0x6e, \/\/ string$/;"	m	class:DW_AT
+lit0	ext/libelfin/dwarf/data.hh	/^        lit0                = 0x30,$/;"	m	class:DW_OP
+lit31	ext/libelfin/dwarf/data.hh	/^        lit31               = 0x4f,$/;"	m	class:DW_OP
+literal	ext/libelfin/dwarf/dwarf++.hh	/^                literal,$/;"	m	class:expr_result::type
+little	ext/libelfin/dwarf/data.hh	/^        little   = 0x02,$/;"	m	class:DW_END
+lndebug	ext/linenoise/linenoise.c	196;"	d	file:
+lo_user	ext/libelfin/dwarf/data.hh	/^        lo_user                  = 0x4080,$/;"	m	class:DW_TAG
+lo_user	ext/libelfin/dwarf/data.hh	/^        lo_user              = 0x2000,$/;"	m	class:DW_AT
+lo_user	ext/libelfin/dwarf/data.hh	/^        lo_user             = 0xe0,$/;"	m	class:DW_OP
+lo_user	ext/libelfin/dwarf/data.hh	/^        lo_user         = 0x80,$/;"	m	class:DW_ATE
+lo_user	ext/libelfin/dwarf/data.hh	/^        lo_user        = 0x8000,$/;"	m	class:DW_LANG
+lo_user	ext/libelfin/dwarf/data.hh	/^        lo_user  = 0x40,$/;"	m	class:DW_END
+lo_user	ext/libelfin/dwarf/data.hh	/^        lo_user = 0x40,$/;"	m	class:DW_CC
+lo_user	ext/libelfin/dwarf/data.hh	/^        lo_user = 0x80,$/;"	m	class:DW_LNE
+load	ext/libelfin/dwarf/dwarf++.hh	/^                const void *load(section_type section, size_t *size_out)$/;"	f	class:elf::elf_loader
+load	ext/libelfin/elf/data.hh	/^        load    = 1,            \/\/ Loadable segment$/;"	m	class:pt
+load	ext/libelfin/elf/mmap_loader.cc	/^        const void *load(off_t offset, size_t size)$/;"	f	class:mmap_loader
+loader	ext/libelfin/dwarf/dwarf++.hh	/^class loader$/;"	c
+loader	ext/libelfin/elf/elf++.hh	/^class loader$/;"	c
+loc	ext/libelfin/dwarf/dwarf++.hh	/^        loc,$/;"	m	class:section_type
+local	ext/libelfin/dwarf/data.hh	/^        local     = 0x01,$/;"	m	class:DW_VIS
+local	ext/libelfin/elf/data.hh	/^        local  = 0,             \/\/ Not visible outside the object file$/;"	m	class:stb
+location	ext/libelfin/dwarf/data.hh	/^        location             = 0x02, \/\/ exprloc, loclistptr$/;"	m	class:DW_AT
+location_type	ext/libelfin/dwarf/dwarf++.hh	/^        type location_type;$/;"	m	class:expr_result
+loclist	ext/libelfin/dwarf/dwarf++.hh	/^                loclist,$/;"	m	class:value::type
+loclist	ext/libelfin/dwarf/dwarf++.hh	/^class loclist$/;"	c
+loclist	ext/libelfin/dwarf/loclist.cc	/^loclist::loclist(const unit *cu,$/;"	f	class:loclist
+lookup_symbol	src/debugger.cpp	/^std::vector<symbol> debugger::lookup_symbol(const std::string &name) {$/;"	f	class:debugger
+loos	ext/libelfin/elf/data.hh	/^        loos     = 0x60000000,  \/\/ Environment-specific use$/;"	m	class:sht
+loos	ext/libelfin/elf/data.hh	/^        loos    = 0x60000000,   \/\/ Environment-specific use$/;"	m	class:pt
+loos	ext/libelfin/elf/data.hh	/^        loos    = 10,           \/\/ Environment-specific use$/;"	m	class:stt
+loos	ext/libelfin/elf/data.hh	/^        loos   = 0xfe00,        \/\/ Environment-specific use$/;"	m	class:et
+loos	ext/libelfin/elf/data.hh	/^        loos   = 10,            \/\/ Environment-specific use$/;"	m	class:stb
+loproc	ext/libelfin/elf/data.hh	/^        loproc   = 0x70000000,  \/\/ Processor-specific use$/;"	m	class:sht
+loproc	ext/libelfin/elf/data.hh	/^        loproc  = 0x70000000,   \/\/ Processor-specific use$/;"	m	class:pt
+loproc	ext/libelfin/elf/data.hh	/^        loproc  = 13,           \/\/ Processor-specific use$/;"	m	class:stt
+loproc	ext/libelfin/elf/data.hh	/^        loproc = 0xff00,        \/\/ Processor-specific use$/;"	m	class:et
+loproc	ext/libelfin/elf/data.hh	/^        loproc = 13,            \/\/ Processor-specific use$/;"	m	class:stb
+low	ext/libelfin/dwarf/dwarf++.hh	/^        taddr low, high;$/;"	m	class:rangelist::entry
+low_pc	ext/libelfin/dwarf/attrs.cc	/^AT_ADDRESS(low_pc);$/;"	v
+low_pc	ext/libelfin/dwarf/data.hh	/^        low_pc               = 0x11, \/\/ address$/;"	m	class:DW_AT
+lower_bound	ext/libelfin/dwarf/attrs.cc	/^AT_UDYNAMIC(lower_bound);       \/\/ XXX Language-based default?$/;"	v
+lower_bound	ext/libelfin/dwarf/data.hh	/^        lower_bound          = 0x22, \/\/ constant, exprloc, reference$/;"	m	class:DW_AT
+lsb	ext/libelfin/dwarf/internal.hh	/^        lsb,$/;"	m	class:byte_order
+lsb	ext/libelfin/elf/common.hh	/^        lsb,$/;"	m	class:byte_order
+lsb	ext/libelfin/elf/data.hh	/^        lsb = 1,$/;"	m	class:elfdata
+lt	ext/libelfin/dwarf/data.hh	/^        lt                  = 0x2d,$/;"	m	class:DW_OP
+lt	ext/libelfin/dwarf/dwarf.cc	/^        line_table lt;$/;"	m	struct:unit::impl	file:
+m	ext/libelfin/dwarf/dwarf++.hh	/^        std::shared_ptr<impl> m;$/;"	m	class:die_str_map
+m	ext/libelfin/dwarf/dwarf++.hh	/^        std::shared_ptr<impl> m;$/;"	m	class:dwarf
+m	ext/libelfin/dwarf/dwarf++.hh	/^        std::shared_ptr<impl> m;$/;"	m	class:line_table
+m	ext/libelfin/dwarf/dwarf++.hh	/^        std::shared_ptr<impl> m;$/;"	m	class:unit
+m	ext/libelfin/elf/elf++.hh	/^        std::shared_ptr<impl> m;$/;"	m	class:elf
+m	ext/libelfin/elf/elf++.hh	/^        std::shared_ptr<impl> m;$/;"	m	class:section
+m	ext/libelfin/elf/elf++.hh	/^        std::shared_ptr<impl> m;$/;"	m	class:strtab
+m	ext/libelfin/elf/elf++.hh	/^        std::shared_ptr<impl> m;$/;"	m	class:symtab
+m	ext/libelfin/elf/elf++.hh	/^       std::shared_ptr<impl> m;$/;"	m	class:segment
+m_addr	include/breakpoint.h	/^        std::intptr_t m_addr;$/;"	m	class:minidbg::breakpoint
+m_base_addr	include/debugger.hpp	/^        intptr_t m_base_addr;$/;"	m	class:minidbg::debugger
+m_breakpoints	include/debugger.hpp	/^        std::unordered_map<std::intptr_t, breakpoint> m_breakpoints;$/;"	m	class:minidbg::debugger
+m_dwarf	include/debugger.hpp	/^        dwarf::dwarf m_dwarf;$/;"	m	class:minidbg::debugger
+m_elf	include/debugger.hpp	/^        elf::elf m_elf;$/;"	m	class:minidbg::debugger
+m_enabled	include/breakpoint.h	/^        bool m_enabled;$/;"	m	class:minidbg::breakpoint
+m_pid	include/breakpoint.h	/^        pid_t m_pid;$/;"	m	class:minidbg::breakpoint
+m_pid	include/debugger.hpp	/^        pid_t m_pid;$/;"	m	class:minidbg::debugger
+m_prog_name	include/debugger.hpp	/^        std::string m_prog_name;$/;"	m	class:minidbg::debugger
+m_saved_data	include/breakpoint.h	/^        uint8_t m_saved_data;$/;"	m	class:minidbg::breakpoint
+mac	ext/libelfin/dwarf/dwarf++.hh	/^                mac,$/;"	m	class:value::type
+machine	ext/libelfin/elf/data.hh	/^        typename E::Half machine;        \/\/ Machine type$/;"	m	struct:Ehdr
+macinfo	ext/libelfin/dwarf/dwarf++.hh	/^        macinfo,$/;"	m	class:section_type
+macro_info	ext/libelfin/dwarf/data.hh	/^        macro_info           = 0x43, \/\/ macptr$/;"	m	class:DW_AT
+main	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^int main(argc, argv) int argc; char *argv[];$/;"	f
+main	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f
+main	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	build/CMakeFiles/feature_tests.c	/^int main(int argc, char** argv) { (void)argv; return features[argc]; }$/;"	f
+main	build/CMakeFiles/feature_tests.cxx	/^int main(int argc, char** argv) { (void)argv; return features[argc]; }$/;"	f
+main	examples/hello.cpp	/^int main () {$/;"	f
+main	examples/more_code.cpp	/^int main() {$/;"	f
+main	ext/libelfin/examples/dump-lines.cc	/^main(int argc, char **argv)$/;"	f
+main	ext/libelfin/examples/dump-sections.cc	/^int main(int argc, char **argv)$/;"	f
+main	ext/libelfin/examples/dump-segments.cc	/^int main(int argc, char **argv)$/;"	f
+main	ext/libelfin/examples/dump-syms.cc	/^int main(int argc, char **argv)$/;"	f
+main	ext/libelfin/examples/dump-tree.cc	/^main(int argc, char **argv)$/;"	f
+main	ext/libelfin/examples/find-pc.cc	/^main(int argc, char **argv)$/;"	f
+main	ext/libelfin/test/example.c	/^int main(int argc, char **argv) $/;"	f
+main	ext/linenoise/example.c	/^int main(int argc, char **argv) {$/;"	f
+main	src/debugger.cpp	/^int main(int argc, char* argv[]) {$/;"	f
+main_subprogram	ext/libelfin/dwarf/attrs.cc	/^AT_FLAG(main_subprogram);$/;"	v
+main_subprogram	ext/libelfin/dwarf/data.hh	/^        main_subprogram      = 0x6a, \/\/ flag$/;"	m	class:DW_AT
+make_to_string	ext/libelfin/elf/enum-print.py	/^def make_to_string(typ, arg):$/;"	f
+make_to_string_mask	ext/libelfin/elf/enum-print.py	/^def make_to_string_mask(typ, arg):$/;"	f
+maskmode	ext/linenoise/linenoise.c	/^static int maskmode = 0; \/* Show "***" instead of input. For passwords. *\/$/;"	v	file:
+maskos	ext/libelfin/elf/data.hh	/^        maskos    = 0x0F000000, \/\/ Environment-specific use$/;"	m	class:shf
+maskos	ext/libelfin/elf/data.hh	/^        maskos   = 0x00FF0000,  \/\/ Environment-specific use$/;"	m	class:pf
+maskproc	ext/libelfin/elf/data.hh	/^        maskproc  = 0xF0000000, \/\/ Processor-specific use$/;"	m	class:shf
+maskproc	ext/libelfin/elf/data.hh	/^        maskproc = 0xFF000000,  \/\/ Processor-specific use$/;"	m	class:pf
+maximum_operations_per_instruction	ext/libelfin/dwarf/line.cc	/^        ubyte maximum_operations_per_instruction;$/;"	m	struct:line_table::impl	file:
+maxrows	ext/linenoise/linenoise.c	/^    size_t maxrows;     \/* Maximum num of rows used so far (multiline mode) *\/$/;"	m	struct:linenoiseState	file:
+mem_size	ext/libelfin/elf/elf.cc	/^segment::mem_size() const {$/;"	f	class:segment
+member	ext/libelfin/dwarf/data.hh	/^        member                   = 0x0d,$/;"	m	class:DW_TAG
+memsz	ext/libelfin/elf/data.hh	/^        Elf32::Word  memsz;     \/\/ Size of segment in memory$/;"	m	struct:Phdr
+memsz	ext/libelfin/elf/data.hh	/^        Elf64::Xword memsz;     \/\/ Size of segment in memory$/;"	m	struct:Phdr
+minidbg	include/breakpoint.h	/^namespace minidbg {$/;"	n
+minidbg	include/debugger.hpp	/^namespace minidbg {$/;"	n
+minidbg	include/registers.h	/^namespace minidbg {$/;"	n
+minimum_instruction_length	ext/libelfin/dwarf/line.cc	/^        ubyte minimum_instruction_length;$/;"	m	struct:line_table::impl	file:
+minus	ext/libelfin/dwarf/data.hh	/^        minus               = 0x1c,$/;"	m	class:DW_OP
+mlmode	ext/linenoise/linenoise.c	/^static int mlmode = 0;  \/* Multi line mode. Default is single line. *\/$/;"	v	file:
+mmap_loader	ext/libelfin/elf/mmap_loader.cc	/^        mmap_loader(int fd)$/;"	f	class:mmap_loader
+mmap_loader	ext/libelfin/elf/mmap_loader.cc	/^class mmap_loader : public loader$/;"	c	file:
+mod	ext/libelfin/dwarf/data.hh	/^        mod                 = 0x1d,$/;"	m	class:DW_OP
+module	ext/libelfin/dwarf/data.hh	/^        module                   = 0x1e,$/;"	m	class:DW_TAG
+msb	ext/libelfin/elf/data.hh	/^        msb = 2,$/;"	m	class:elfdata
+mtime	ext/libelfin/dwarf/dwarf++.hh	/^        uint64_t mtime;$/;"	m	class:line_table::file
+mul	ext/libelfin/dwarf/data.hh	/^        mul                 = 0x1e,$/;"	m	class:DW_OP
+mutable_	ext/libelfin/dwarf/data.hh	/^        mutable_             = 0x61, \/\/ flag$/;"	m	class:DW_AT
+n_registers	include/registers.h	/^    constexpr std::size_t n_registers = 27;$/;"	m	namespace:minidbg
+name	ext/libelfin/dwarf/attrs.cc	/^AT_STRING(name);$/;"	v
+name	ext/libelfin/dwarf/data.hh	/^        name                 = 0x03, \/\/ string$/;"	m	class:DW_AT
+name	ext/libelfin/dwarf/elf.cc	/^        const char *name;$/;"	m	struct:__anon1	file:
+name	ext/libelfin/dwarf/internal.hh	/^        DW_AT name;$/;"	m	struct:attribute_spec
+name	ext/libelfin/dwarf/internal.hh	/^        std::string name;$/;"	m	struct:name_entry
+name	ext/libelfin/elf/data.hh	/^        Elf32::Word   name;  \/\/ Symbol name (strtab offset)$/;"	m	struct:Sym
+name	ext/libelfin/elf/data.hh	/^        Elf64::Word   name;  \/\/ Symbol name (strtab offset)$/;"	m	struct:Sym
+name	ext/libelfin/elf/data.hh	/^        typename E::Word           name; \/\/ Section name$/;"	m	struct:Shdr
+name	ext/libelfin/elf/elf.cc	/^        const char *name;$/;"	m	struct:section::impl	file:
+name	include/debugger.hpp	/^        std::string name;$/;"	m	struct:minidbg::symbol
+name	include/registers.h	/^        std::string name;$/;"	m	struct:minidbg::reg_descriptor
+name_entry	ext/libelfin/dwarf/internal.hh	/^struct name_entry$/;"	s
+name_len	ext/libelfin/elf/elf.cc	/^        size_t name_len;$/;"	m	struct:section::impl	file:
+name_unit	ext/libelfin/dwarf/internal.hh	/^struct name_unit$/;"	s
+namelist	ext/libelfin/dwarf/data.hh	/^        namelist                 = 0x2b,$/;"	m	class:DW_TAG
+namelist_item	ext/libelfin/dwarf/attrs.cc	/^AT_REFERENCE(namelist_item);$/;"	v
+namelist_item	ext/libelfin/dwarf/data.hh	/^        namelist_item            = 0x2c,$/;"	m	class:DW_TAG
+namelist_item	ext/libelfin/dwarf/data.hh	/^        namelist_item        = 0x44, \/\/ reference$/;"	m	class:DW_AT
+namespace_	ext/libelfin/dwarf/data.hh	/^        namespace_               = 0x39,$/;"	m	class:DW_TAG
+native	ext/libelfin/elf/common.hh	/^        native,$/;"	m	class:byte_order
+native_order	ext/libelfin/dwarf/internal.hh	/^native_order()$/;"	f
+ne	ext/libelfin/dwarf/data.hh	/^        ne                  = 0x2e,$/;"	m	class:DW_OP
+neg	ext/libelfin/dwarf/data.hh	/^        neg                 = 0x1f,$/;"	m	class:DW_OP
+negate_stmt	ext/libelfin/dwarf/data.hh	/^        negate_stmt = 0x06,$/;"	m	class:DW_LNS
+next	ext/libelfin/dwarf/dwarf++.hh	/^        section_offset next;$/;"	m	class:die
+no	ext/libelfin/dwarf/data.hh	/^        no  = 0x00,$/;"	m	class:DW_CHILDREN
+nobits	ext/libelfin/elf/data.hh	/^        nobits   = 8,           \/\/ Contains uninitialized space;$/;"	m	class:sht
+nocall	ext/libelfin/dwarf/data.hh	/^        nocall = 0x03,$/;"	m	class:DW_CC
+none	ext/libelfin/dwarf/data.hh	/^        none         = 0x00,$/;"	m	class:DW_VIRTUALITY
+none	ext/libelfin/elf/data.hh	/^        none   = 0,             \/\/ No file type$/;"	m	class:et
+nop	ext/libelfin/dwarf/data.hh	/^        nop                 = 0x96,$/;"	m	class:DW_OP
+normal	ext/libelfin/dwarf/data.hh	/^        normal = 0x01,$/;"	m	class:DW_CC
+not_	ext/libelfin/dwarf/data.hh	/^        not_                = 0x20,$/;"	m	class:DW_OP
+not_inlined	ext/libelfin/dwarf/data.hh	/^        not_inlined = 0x00,$/;"	m	class:DW_INL
+note	ext/libelfin/elf/data.hh	/^        note     = 7,           \/\/ Contains note information$/;"	m	class:sht
+note	ext/libelfin/elf/data.hh	/^        note    = 4,            \/\/ Note sections$/;"	m	class:pt
+notype	ext/libelfin/elf/data.hh	/^        notype  = 0,            \/\/ No type (e.g., absolute symbol)$/;"	m	class:stt
+notype	include/debugger.hpp	/^        notype,$/;"	m	class:minidbg::symbol_type
+null	ext/libelfin/elf/data.hh	/^        null     = 0,           \/\/ Marks an unseen section header$/;"	m	class:sht
+null	ext/libelfin/elf/data.hh	/^        null    = 0,            \/\/ Unused entry$/;"	m	class:pt
+numeric_string	ext/libelfin/dwarf/data.hh	/^        numeric_string  = 0x0b,$/;"	m	class:DW_ATE
+o	ext/libelfin/dwarf/dwarf++.hh	/^        compilation_unit& operator=(compilation_unit &&o) = default;$/;"	m	class:compilation_unit
+o	ext/libelfin/dwarf/dwarf++.hh	/^        compilation_unit& operator=(const compilation_unit &o) = default;$/;"	m	class:compilation_unit
+o	ext/libelfin/dwarf/dwarf++.hh	/^        compilation_unit(compilation_unit &&o) = default;$/;"	m	class:compilation_unit
+o	ext/libelfin/dwarf/dwarf++.hh	/^        compilation_unit(const compilation_unit &o) = default;$/;"	m	class:compilation_unit
+o	ext/libelfin/dwarf/dwarf++.hh	/^        die& operator=(const die &o) = default;$/;"	m	class:die
+o	ext/libelfin/dwarf/dwarf++.hh	/^        die& operator=(die &&o) = default;$/;"	m	class:die
+o	ext/libelfin/dwarf/dwarf++.hh	/^        die(const die &o) = default;$/;"	m	class:die
+o	ext/libelfin/dwarf/dwarf++.hh	/^        die(die &&o) = default;$/;"	m	class:die
+o	ext/libelfin/dwarf/dwarf++.hh	/^        die_str_map& operator=(const die_str_map &o) = default;$/;"	m	class:die_str_map
+o	ext/libelfin/dwarf/dwarf++.hh	/^        die_str_map& operator=(die_str_map &&o) = default;$/;"	m	class:die_str_map
+o	ext/libelfin/dwarf/dwarf++.hh	/^        die_str_map(const die_str_map &o) = default;$/;"	m	class:die_str_map
+o	ext/libelfin/dwarf/dwarf++.hh	/^        die_str_map(die_str_map &&o) = default;$/;"	m	class:die_str_map
+o	ext/libelfin/dwarf/dwarf++.hh	/^        dwarf& operator=(const dwarf &o) = default;$/;"	m	class:dwarf
+o	ext/libelfin/dwarf/dwarf++.hh	/^        dwarf& operator=(dwarf &&o) = default;$/;"	m	class:dwarf
+o	ext/libelfin/dwarf/dwarf++.hh	/^        iterator &operator=(const iterator &o) = default;$/;"	m	class:line_table::iterator
+o	ext/libelfin/dwarf/dwarf++.hh	/^        iterator &operator=(iterator &&o) = default;$/;"	m	class:line_table::iterator
+o	ext/libelfin/dwarf/dwarf++.hh	/^        iterator& operator=(const iterator &o) = default;$/;"	m	class:die::iterator
+o	ext/libelfin/dwarf/dwarf++.hh	/^        iterator& operator=(const iterator &o) = default;$/;"	m	class:rangelist::iterator
+o	ext/libelfin/dwarf/dwarf++.hh	/^        iterator& operator=(iterator &&o) = default;$/;"	m	class:die::iterator
+o	ext/libelfin/dwarf/dwarf++.hh	/^        iterator& operator=(iterator &&o) = default;$/;"	m	class:rangelist::iterator
+o	ext/libelfin/dwarf/dwarf++.hh	/^        iterator(const iterator &o) = default;$/;"	m	class:die::iterator
+o	ext/libelfin/dwarf/dwarf++.hh	/^        iterator(const iterator &o) = default;$/;"	m	class:line_table::iterator
+o	ext/libelfin/dwarf/dwarf++.hh	/^        iterator(const iterator &o) = default;$/;"	m	class:rangelist::iterator
+o	ext/libelfin/dwarf/dwarf++.hh	/^        iterator(iterator &&o) = default;$/;"	m	class:die::iterator
+o	ext/libelfin/dwarf/dwarf++.hh	/^        iterator(iterator &&o) = default;$/;"	m	class:line_table::iterator
+o	ext/libelfin/dwarf/dwarf++.hh	/^        iterator(iterator &&o) = default;$/;"	m	class:rangelist::iterator
+o	ext/libelfin/dwarf/dwarf++.hh	/^        line_table &operator=(const line_table &o) = default;$/;"	m	class:line_table
+o	ext/libelfin/dwarf/dwarf++.hh	/^        line_table &operator=(line_table &&o) = default;$/;"	m	class:line_table
+o	ext/libelfin/dwarf/dwarf++.hh	/^        line_table(const line_table &o) = default;$/;"	m	class:line_table
+o	ext/libelfin/dwarf/dwarf++.hh	/^        line_table(line_table &&o) = default;$/;"	m	class:line_table
+o	ext/libelfin/dwarf/dwarf++.hh	/^        rangelist& operator=(const rangelist &o) = default;$/;"	m	class:rangelist
+o	ext/libelfin/dwarf/dwarf++.hh	/^        rangelist& operator=(rangelist &&o) = default;$/;"	m	class:rangelist
+o	ext/libelfin/dwarf/dwarf++.hh	/^        rangelist(const rangelist &o) = default;$/;"	m	class:rangelist
+o	ext/libelfin/dwarf/dwarf++.hh	/^        rangelist(rangelist &&o) = default;$/;"	m	class:rangelist
+o	ext/libelfin/dwarf/dwarf++.hh	/^        type_unit &operator=(const type_unit &o) = default;$/;"	m	class:type_unit
+o	ext/libelfin/dwarf/dwarf++.hh	/^        type_unit &operator=(type_unit &&o) = default;$/;"	m	class:type_unit
+o	ext/libelfin/dwarf/dwarf++.hh	/^        type_unit(const type_unit &o) = default;$/;"	m	class:type_unit
+o	ext/libelfin/dwarf/dwarf++.hh	/^        type_unit(type_unit &&o) = default;$/;"	m	class:type_unit
+o	ext/libelfin/dwarf/dwarf++.hh	/^        value& operator=(const value &o) = default;$/;"	m	class:value
+o	ext/libelfin/dwarf/dwarf++.hh	/^        value& operator=(value &&o) = default;$/;"	m	class:value
+o	ext/libelfin/dwarf/dwarf++.hh	/^        value(const value &o) = default;$/;"	m	class:value
+o	ext/libelfin/dwarf/dwarf++.hh	/^        value(value &&o) = default;$/;"	m	class:value
+o	ext/libelfin/dwarf/internal.hh	/^        section(const section &o) = default;$/;"	m	struct:section
+o	ext/libelfin/elf/elf++.hh	/^        elf& operator=(const elf &o) = default;$/;"	m	class:elf
+o	ext/libelfin/elf/elf++.hh	/^        elf(const elf &o) = default;$/;"	m	class:elf
+o	ext/libelfin/elf/elf++.hh	/^        elf(elf &&o) = default;$/;"	m	class:elf
+o	ext/libelfin/elf/elf++.hh	/^        section(const section &o) = default;$/;"	m	class:section
+o	ext/libelfin/elf/elf++.hh	/^        section(section &&o) = default;$/;"	m	class:section
+o	ext/libelfin/elf/elf++.hh	/^       segment(const segment &o) = default;$/;"	m	class:segment
+o	ext/libelfin/elf/elf++.hh	/^       segment(segment &&o) = default;$/;"	m	class:segment
+object	ext/libelfin/elf/data.hh	/^        object  = 1,            \/\/ Data object$/;"	m	class:stt
+object	include/debugger.hpp	/^        object,$/;"	m	class:minidbg::symbol_type
+object_pointer	ext/libelfin/dwarf/attrs.cc	/^AT_REFERENCE(object_pointer);$/;"	v
+object_pointer	ext/libelfin/dwarf/data.hh	/^        object_pointer       = 0x64, \/\/ reference$/;"	m	class:DW_AT
+ofd	ext/linenoise/linenoise.c	/^    int ofd;            \/* Terminal stdout file descriptor. *\/$/;"	m	struct:linenoiseState	file:
+offset	ext/libelfin/dwarf/cursor.cc	/^cursor::offset()$/;"	f	class:cursor
+offset	ext/libelfin/dwarf/dwarf++.hh	/^        section_offset offset;$/;"	m	class:die
+offset	ext/libelfin/dwarf/dwarf++.hh	/^        section_offset offset;$/;"	m	class:expr
+offset	ext/libelfin/dwarf/dwarf++.hh	/^        section_offset offset;$/;"	m	class:loclist
+offset	ext/libelfin/dwarf/dwarf++.hh	/^        section_offset offset;$/;"	m	class:value
+offset	ext/libelfin/dwarf/dwarf.cc	/^        const section_offset offset;$/;"	m	struct:unit::impl	file:
+offset	ext/libelfin/dwarf/internal.hh	/^        section_offset offset;$/;"	m	struct:name_entry
+offset	ext/libelfin/elf/data.hh	/^        Elf32::Off   offset;    \/\/ Offset in file$/;"	m	struct:Phdr
+offset	ext/libelfin/elf/data.hh	/^        Elf64::Off   offset;    \/\/ Offset in file$/;"	m	struct:Phdr
+offset	ext/libelfin/elf/data.hh	/^        typename E::Off            offset; \/\/ Offset in file$/;"	m	struct:Shdr
+offset_dwarf_address	src/debugger.cpp	/^uint64_t debugger::offset_dwarf_address(uint64_t addr) {$/;"	f	class:debugger
+offset_load_address	src/debugger.cpp	/^uint64_t debugger::offset_load_address(uint64_t addr) {$/;"	f	class:debugger
+oldpos	ext/linenoise/linenoise.c	/^    size_t oldpos;      \/* Previous refresh cursor position. *\/$/;"	m	struct:linenoiseState	file:
+op_index	ext/libelfin/dwarf/dwarf++.hh	/^        unsigned op_index;$/;"	m	class:line_table::entry
+opcode_base	ext/libelfin/dwarf/line.cc	/^        ubyte opcode_base;$/;"	m	struct:line_table::impl	file:
+opcode_lengths	ext/libelfin/dwarf/line.cc	/^static const int opcode_lengths[] = {$/;"	v	file:
+operator !=	ext/libelfin/dwarf/die.cc	/^die::operator!=(const die &o) const$/;"	f	class:die
+operator !=	ext/libelfin/dwarf/dwarf++.hh	/^        bool operator!=(const dwarf &o) const$/;"	f	class:dwarf
+operator !=	ext/libelfin/dwarf/dwarf++.hh	/^        bool operator!=(const iterator &o) const$/;"	f	class:die::iterator
+operator !=	ext/libelfin/dwarf/dwarf++.hh	/^        bool operator!=(const iterator &o) const$/;"	f	class:line_table::iterator
+operator !=	ext/libelfin/dwarf/dwarf++.hh	/^        bool operator!=(const iterator &o) const$/;"	f	class:rangelist::iterator
+operator !=	ext/libelfin/dwarf/dwarf++.hh	/^        bool operator!=(const unit &o) const$/;"	f	class:unit
+operator !=	ext/libelfin/elf/elf++.hh	/^                bool operator!=(iterator &o) const$/;"	f	class:symtab::iterator
+operator &	ext/libelfin/elf/data.hh	/^static inline constexpr pf operator&(pf a, pf b)$/;"	f
+operator &	ext/libelfin/elf/data.hh	/^static inline constexpr shf operator&(shf a, shf b)$/;"	f
+operator &=	ext/libelfin/elf/data.hh	/^static inline pf& operator&=(pf &a, pf b)$/;"	f
+operator &=	ext/libelfin/elf/data.hh	/^static inline shf& operator&=(shf &a, shf b)$/;"	f
+operator ()	ext/libelfin/dwarf/die.cc	/^std::hash<dwarf::die>::operator()(const dwarf::die &a) const$/;"	f	class:std::hash
+operator ()	ext/libelfin/dwarf/die_str_map.cc	/^                result_type operator()(argument_type a) const$/;"	f	struct:std::hash
+operator ()	ext/libelfin/dwarf/die_str_map.cc	/^        bool operator()(const char *x, const char *y) const$/;"	f	struct:string_eq
+operator ()	ext/libelfin/dwarf/die_str_map.cc	/^        result_type operator()(const char *s) const$/;"	f	struct:string_hash
+operator ()	ext/libelfin/dwarf/dwarf++.hh	/^                result_type operator()(argument_type a) const$/;"	f	struct:std::hash
+operator *	ext/libelfin/dwarf/dwarf++.hh	/^        const die &operator*() const$/;"	f	class:die::iterator
+operator *	ext/libelfin/dwarf/dwarf++.hh	/^        const line_table::entry &operator*() const$/;"	f	class:line_table::iterator
+operator *	ext/libelfin/dwarf/dwarf++.hh	/^        const rangelist::entry &operator*() const$/;"	f	class:rangelist::iterator
+operator *	ext/libelfin/elf/elf++.hh	/^                sym operator*() const$/;"	f	class:symtab::iterator
+operator +	ext/libelfin/dwarf/internal.hh	/^        cursor operator+(section_offset offset) const$/;"	f	struct:cursor
+operator ++	ext/libelfin/dwarf/die.cc	/^die::iterator::operator++()$/;"	f	class:die::iterator
+operator ++	ext/libelfin/dwarf/dwarf++.hh	/^        iterator operator++(int)$/;"	f	class:line_table::iterator
+operator ++	ext/libelfin/dwarf/line.cc	/^line_table::iterator::operator++()$/;"	f	class:line_table::iterator
+operator ++	ext/libelfin/dwarf/rangelist.cc	/^rangelist::iterator::operator++()$/;"	f	class:rangelist::iterator
+operator ++	ext/libelfin/elf/elf++.hh	/^                iterator operator++(int)$/;"	f	class:symtab::iterator
+operator ++	ext/libelfin/elf/elf++.hh	/^                iterator& operator++()$/;"	f	class:symtab::iterator
+operator +=	ext/libelfin/dwarf/internal.hh	/^        cursor &operator+=(section_offset offset)$/;"	f	struct:cursor
+operator +=	ext/libelfin/elf/elf++.hh	/^                iterator& operator+=(std::ptrdiff_t x)$/;"	f	class:symtab::iterator
+operator -=	ext/libelfin/elf/elf++.hh	/^                iterator& operator-=(std::ptrdiff_t x)$/;"	f	class:symtab::iterator
+operator ->	ext/libelfin/dwarf/dwarf++.hh	/^        const die *operator->() const$/;"	f	class:die::iterator
+operator ->	ext/libelfin/dwarf/dwarf++.hh	/^        const line_table::entry *operator->() const$/;"	f	class:line_table::iterator
+operator ->	ext/libelfin/dwarf/dwarf++.hh	/^        const rangelist::entry *operator->() const$/;"	f	class:rangelist::iterator
+operator <	ext/libelfin/dwarf/internal.hh	/^        bool operator<(const cursor &o) const$/;"	f	struct:cursor
+operator =	ext/libelfin/dwarf/small_vector.hh	/^        small_vector &operator=(const small_vector<T, Min> &o)$/;"	f	class:small_vector
+operator ==	ext/libelfin/dwarf/die.cc	/^die::operator==(const die &o) const$/;"	f	class:die
+operator ==	ext/libelfin/dwarf/dwarf++.hh	/^        bool operator==(const dwarf &o) const$/;"	f	class:dwarf
+operator ==	ext/libelfin/dwarf/dwarf++.hh	/^        bool operator==(const iterator &o) const$/;"	f	class:line_table::iterator
+operator ==	ext/libelfin/dwarf/dwarf++.hh	/^        bool operator==(const iterator &o) const$/;"	f	class:rangelist::iterator
+operator ==	ext/libelfin/dwarf/dwarf++.hh	/^        bool operator==(const unit &o) const$/;"	f	class:unit
+operator ==	ext/libelfin/elf/elf++.hh	/^                bool operator==(iterator &o) const$/;"	f	class:symtab::iterator
+operator []	ext/libelfin/dwarf/die.cc	/^die::operator[](DW_AT attr) const$/;"	f	class:die
+operator []	ext/libelfin/dwarf/die_str_map.cc	/^die_str_map::operator[](const char *val) const$/;"	f	class:die_str_map
+operator []	ext/libelfin/dwarf/dwarf++.hh	/^        const die &operator[](const std::string &val) const$/;"	f	class:die_str_map
+operator []	ext/libelfin/dwarf/small_vector.hh	/^        const_reference operator[](size_type n) const$/;"	f	class:small_vector
+operator []	ext/libelfin/dwarf/small_vector.hh	/^        reference operator[](size_type n)$/;"	f	class:small_vector
+operator ^	ext/libelfin/elf/data.hh	/^static inline constexpr pf operator^(pf a, pf b)$/;"	f
+operator ^	ext/libelfin/elf/data.hh	/^static inline constexpr shf operator^(shf a, shf b)$/;"	f
+operator ^=	ext/libelfin/elf/data.hh	/^static inline pf& operator^=(pf &a, pf b)$/;"	f
+operator ^=	ext/libelfin/elf/data.hh	/^static inline shf& operator^=(shf &a, shf b)$/;"	f
+operator |	ext/libelfin/elf/data.hh	/^static inline constexpr pf operator|(pf a, pf b)$/;"	f
+operator |	ext/libelfin/elf/data.hh	/^static inline constexpr shf operator|(shf a, shf b)$/;"	f
+operator |=	ext/libelfin/elf/data.hh	/^static inline pf& operator|=(pf &a, pf b)$/;"	f
+operator |=	ext/libelfin/elf/data.hh	/^static inline shf& operator|=(shf &a, shf b)$/;"	f
+operator ~	ext/libelfin/elf/data.hh	/^static inline constexpr pf operator~(pf a)$/;"	f
+operator ~	ext/libelfin/elf/data.hh	/^static inline constexpr shf operator~(shf a)$/;"	f
+or_	ext/libelfin/dwarf/data.hh	/^        or_                 = 0x21,$/;"	m	class:DW_OP
+ord	ext/libelfin/dwarf/internal.hh	/^        const byte_order ord;$/;"	m	struct:section
+order	ext/libelfin/elf/data.hh	/^        static const byte_order order = Order;$/;"	m	struct:Ehdr
+order	ext/libelfin/elf/data.hh	/^        static const byte_order order = Order;$/;"	m	struct:Phdr
+order	ext/libelfin/elf/data.hh	/^        static const byte_order order = Order;$/;"	m	struct:Shdr
+order	ext/libelfin/elf/data.hh	/^        static const byte_order order = Order;$/;"	m	struct:Sym
+ordering	ext/libelfin/dwarf/data.hh	/^        ordering             = 0x09, \/\/ constant$/;"	m	class:DW_AT
+orig_rax	include/registers.h	/^        orig_rax, fs_base,$/;"	m	class:minidbg::reg
+orig_termios	ext/linenoise/linenoise.c	/^static struct termios orig_termios; \/* In order to restore at exit.*\/$/;"	v	typeref:struct:termios	file:
+other	ext/libelfin/elf/data.hh	/^        unsigned char other; \/\/ Reserved$/;"	m	struct:Sym
+over	ext/libelfin/dwarf/data.hh	/^        over                = 0x14,$/;"	m	class:DW_OP
+packed_decimal	ext/libelfin/dwarf/data.hh	/^        packed_decimal  = 0x0a,$/;"	m	class:DW_ATE
+packed_type	ext/libelfin/dwarf/data.hh	/^        packed_type              = 0x2d,$/;"	m	class:DW_TAG
+paddr	ext/libelfin/elf/data.hh	/^        Elf32::Addr  paddr;     \/\/ Reserved$/;"	m	struct:Phdr
+paddr	ext/libelfin/elf/data.hh	/^        Elf64::Addr  paddr;     \/\/ Reserved$/;"	m	struct:Phdr
+parser	ext/libelfin/elf/enum-print.py	/^parser = OptionParser()$/;"	v
+partial_unit	ext/libelfin/dwarf/data.hh	/^        partial_unit             = 0x3c,$/;"	m	class:DW_TAG
+path	ext/libelfin/dwarf/dwarf++.hh	/^        std::string path;$/;"	m	class:line_table::file
+pc	ext/libelfin/dwarf/dwarf++.hh	/^        virtual taddr pc()$/;"	f	class:expr_context
+pf	ext/libelfin/elf/data.hh	/^enum class pf : ElfTypes::Word$/;"	c
+phdr	ext/libelfin/elf/data.hh	/^        phdr    = 6,            \/\/ Program header table$/;"	m	class:pt
+phentsize	ext/libelfin/elf/data.hh	/^        typename E::Half phentsize;      \/\/ Size of program header entry$/;"	m	struct:Ehdr
+phnum	ext/libelfin/elf/data.hh	/^        typename E::Half phnum;          \/\/ Number of program header entries$/;"	m	struct:Ehdr
+phoff	ext/libelfin/elf/data.hh	/^        typename E::Off  phoff;          \/\/ Program header offset$/;"	m	struct:Ehdr
+pick	ext/libelfin/dwarf/data.hh	/^        pick                = 0x15, \/\/ [1-byte stack index]$/;"	m	class:DW_OP
+pick	ext/libelfin/elf/data.hh	/^        struct pick$/;"	s	struct:Elf32
+pick	ext/libelfin/elf/data.hh	/^        struct pick$/;"	s	struct:Elf64
+picture_string	ext/libelfin/dwarf/attrs.cc	/^AT_STRING(picture_string);$/;"	v
+picture_string	ext/libelfin/dwarf/data.hh	/^        picture_string       = 0x60, \/\/ string$/;"	m	class:DW_AT
+piece	ext/libelfin/dwarf/data.hh	/^        piece               = 0x93, \/\/ [ULEB128 size of piece addressed]$/;"	m	class:DW_OP
+plen	ext/linenoise/linenoise.c	/^    size_t plen;        \/* Prompt length. *\/$/;"	m	struct:linenoiseState	file:
+plus	ext/libelfin/dwarf/data.hh	/^        plus                = 0x22,$/;"	m	class:DW_OP
+plus_uconst	ext/libelfin/dwarf/data.hh	/^        plus_uconst         = 0x23, \/\/ [ULEB128 addend]$/;"	m	class:DW_OP
+pointer_type	ext/libelfin/dwarf/data.hh	/^        pointer_type             = 0x0f,$/;"	m	class:DW_TAG
+pop_back	ext/libelfin/dwarf/small_vector.hh	/^        void pop_back()$/;"	f	class:small_vector
+pos	ext/libelfin/dwarf/die_str_map.cc	/^        die::iterator pos, end;$/;"	m	struct:die_str_map::impl	file:
+pos	ext/libelfin/dwarf/dwarf++.hh	/^        section_offset pos;$/;"	m	class:line_table::iterator
+pos	ext/libelfin/dwarf/dwarf++.hh	/^        section_offset pos;$/;"	m	class:rangelist::iterator
+pos	ext/libelfin/dwarf/internal.hh	/^        const char *pos;$/;"	m	struct:cursor
+pos	ext/libelfin/elf/elf++.hh	/^                const char *pos;$/;"	m	class:symtab::iterator
+pos	ext/linenoise/linenoise.c	/^    size_t pos;         \/* Current cursor position. *\/$/;"	m	struct:linenoiseState	file:
+print_source	src/debugger.cpp	/^void debugger::print_source(const std::string &file_name, unsigned line, unsigned n_lines_context) {$/;"	f	class:debugger
+priority	ext/libelfin/dwarf/attrs.cc	/^AT_REFERENCE(priority);         \/\/ XXX Computed might be useful$/;"	v
+priority	ext/libelfin/dwarf/data.hh	/^        priority             = 0x45, \/\/ reference$/;"	m	class:DW_AT
+private_	ext/libelfin/dwarf/data.hh	/^        private_   = 0x03,$/;"	m	class:DW_ACCESS
+producer	ext/libelfin/dwarf/attrs.cc	/^AT_STRING(producer);$/;"	v
+producer	ext/libelfin/dwarf/data.hh	/^        producer             = 0x25, \/\/ string$/;"	m	class:DW_AT
+progbits	ext/libelfin/elf/data.hh	/^        progbits = 1,           \/\/ Contains information defined by the program$/;"	m	class:sht
+program	ext/libelfin/dwarf/data.hh	/^        program = 0x02,$/;"	m	class:DW_CC
+program_offset	ext/libelfin/dwarf/line.cc	/^        section_offset program_offset;$/;"	m	struct:line_table::impl	file:
+prologue_end	ext/libelfin/dwarf/dwarf++.hh	/^        bool prologue_end;$/;"	m	class:line_table::entry
+prompt	ext/linenoise/linenoise.c	/^    const char *prompt; \/* Prompt to display. *\/$/;"	m	struct:linenoiseState	file:
+protected_	ext/libelfin/dwarf/data.hh	/^        protected_ = 0x02,$/;"	m	class:DW_ACCESS
+prototyped	ext/libelfin/dwarf/attrs.cc	/^AT_FLAG(prototyped);$/;"	v
+prototyped	ext/libelfin/dwarf/data.hh	/^        prototyped           = 0x27, \/\/ flag$/;"	m	class:DW_AT
+pt	ext/libelfin/elf/data.hh	/^enum class pt : ElfTypes::Word$/;"	c
+ptr_to_member_type	ext/libelfin/dwarf/data.hh	/^        ptr_to_member_type       = 0x1f,$/;"	m	class:DW_TAG
+public_	ext/libelfin/dwarf/data.hh	/^        public_    = 0x01,$/;"	m	class:DW_ACCESS
+pubnames	ext/libelfin/dwarf/dwarf++.hh	/^        pubnames,$/;"	m	class:section_type
+pubtypes	ext/libelfin/dwarf/dwarf++.hh	/^        pubtypes,$/;"	m	class:section_type
+pure	ext/libelfin/dwarf/attrs.cc	/^AT_FLAG(pure);$/;"	v
+pure	ext/libelfin/dwarf/data.hh	/^        pure                 = 0x67, \/\/ flag$/;"	m	class:DW_AT
+pure_virtual	ext/libelfin/dwarf/data.hh	/^        pure_virtual = 0x02,$/;"	m	class:DW_VIRTUALITY
+push_back	ext/libelfin/dwarf/small_vector.hh	/^        void push_back(T&& x)$/;"	f	class:small_vector
+push_back	ext/libelfin/dwarf/small_vector.hh	/^        void push_back(const T& x)$/;"	f	class:small_vector
+push_object_address	ext/libelfin/dwarf/data.hh	/^        push_object_address = 0x97,$/;"	m	class:DW_OP
+qnxnto	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v
+qnxnto	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v
+qualified	ext/libelfin/dwarf/data.hh	/^        qualified = 0x03,$/;"	m	class:DW_VIS
+r	ext/libelfin/elf/data.hh	/^        r        = 0x4,         \/\/ Read permission$/;"	m	class:pf
+r	include/registers.h	/^        reg r;$/;"	m	struct:minidbg::reg_descriptor
+r10	include/registers.h	/^        r8,  r9,  r10, r11,$/;"	m	class:minidbg::reg
+r11	include/registers.h	/^        r8,  r9,  r10, r11,$/;"	m	class:minidbg::reg
+r12	include/registers.h	/^        r12, r13, r14, r15,$/;"	m	class:minidbg::reg
+r13	include/registers.h	/^        r12, r13, r14, r15,$/;"	m	class:minidbg::reg
+r14	include/registers.h	/^        r12, r13, r14, r15,$/;"	m	class:minidbg::reg
+r15	include/registers.h	/^        r12, r13, r14, r15,$/;"	m	class:minidbg::reg
+r8	include/registers.h	/^        r8,  r9,  r10, r11,$/;"	m	class:minidbg::reg
+r9	include/registers.h	/^        r8,  r9,  r10, r11,$/;"	m	class:minidbg::reg
+range	ext/libelfin/dwarf/data.hh	/^        range = 0x01,$/;"	m	class:DW_DSC
+rangelist	ext/libelfin/dwarf/dwarf++.hh	/^                rangelist,$/;"	m	class:value::type
+rangelist	ext/libelfin/dwarf/dwarf++.hh	/^class rangelist$/;"	c
+rangelist	ext/libelfin/dwarf/rangelist.cc	/^rangelist::rangelist(const initializer_list<pair<taddr, taddr> > &ranges)$/;"	f	class:rangelist
+rangelist	ext/libelfin/dwarf/rangelist.cc	/^rangelist::rangelist(const std::shared_ptr<section> &sec, section_offset off,$/;"	f	class:rangelist
+ranges	ext/libelfin/dwarf/data.hh	/^        ranges               = 0x55, \/\/ rangelistptr$/;"	m	class:DW_AT
+ranges	ext/libelfin/dwarf/dwarf++.hh	/^        ranges,$/;"	m	class:section_type
+rawmode	ext/linenoise/linenoise.c	/^static int rawmode = 0; \/* For atexit() function to check if restore is needed*\/$/;"	v	file:
+rax	include/registers.h	/^        rax, rbx, rcx, rdx,$/;"	m	class:minidbg::reg
+rbp	include/registers.h	/^        rdi, rsi, rbp, rsp,$/;"	m	class:minidbg::reg
+rbx	include/registers.h	/^        rax, rbx, rcx, rdx,$/;"	m	class:minidbg::reg
+rcx	include/registers.h	/^        rax, rbx, rcx, rdx,$/;"	m	class:minidbg::reg
+rdi	include/registers.h	/^        rdi, rsi, rbp, rsp,$/;"	m	class:minidbg::reg
+rdx	include/registers.h	/^        rax, rbx, rcx, rdx,$/;"	m	class:minidbg::reg
+read	ext/libelfin/dwarf/abbrev.cc	/^abbrev_entry::read(cursor *cur)$/;"	f	class:abbrev_entry
+read	ext/libelfin/dwarf/die.cc	/^die::read(section_offset off)$/;"	f	class:die
+read	ext/libelfin/dwarf/internal.hh	/^        void read(cursor *cur)$/;"	f	struct:name_entry
+read	ext/libelfin/dwarf/internal.hh	/^        void read(cursor *cur)$/;"	f	struct:name_unit
+read_file_entry	ext/libelfin/dwarf/line.cc	/^line_table::impl::read_file_entry(cursor *cur, bool in_header)$/;"	f	class:line_table::impl
+read_memory	src/debugger.cpp	/^uint64_t debugger::read_memory(uint64_t address) {$/;"	f	class:debugger
+read_toks	ext/libelfin/elf/enum-print.py	/^def read_toks():$/;"	f
+recursive	ext/libelfin/dwarf/attrs.cc	/^AT_FLAG(recursive);$/;"	v
+recursive	ext/libelfin/dwarf/data.hh	/^        recursive            = 0x68, \/\/ flag$/;"	m	class:DW_AT
+ref1	ext/libelfin/dwarf/data.hh	/^        ref1         = 0x11,    \/\/ reference$/;"	m	class:DW_FORM
+ref2	ext/libelfin/dwarf/data.hh	/^        ref2         = 0x12,    \/\/ reference$/;"	m	class:DW_FORM
+ref4	ext/libelfin/dwarf/data.hh	/^        ref4         = 0x13,    \/\/ reference$/;"	m	class:DW_FORM
+ref8	ext/libelfin/dwarf/data.hh	/^        ref8         = 0x14,    \/\/ reference$/;"	m	class:DW_FORM
+ref_addr	ext/libelfin/dwarf/data.hh	/^        ref_addr     = 0x10,    \/\/ reference$/;"	m	class:DW_FORM
+ref_sig8	ext/libelfin/dwarf/data.hh	/^        ref_sig8     = 0x20,    \/\/ reference$/;"	m	class:DW_FORM
+ref_udata	ext/libelfin/dwarf/data.hh	/^        ref_udata    = 0x15,    \/\/ reference$/;"	m	class:DW_FORM
+reference	ext/libelfin/dwarf/dwarf++.hh	/^                reference,$/;"	m	class:value::type
+reference	ext/libelfin/dwarf/small_vector.hh	/^        typedef value_type& reference;$/;"	t	class:small_vector
+reference_type	ext/libelfin/dwarf/data.hh	/^        reference_type           = 0x10,$/;"	m	class:DW_TAG
+refreshLine	ext/linenoise/linenoise.c	/^static void refreshLine(struct linenoiseState *l) {$/;"	f	file:
+refreshMultiLine	ext/linenoise/linenoise.c	/^static void refreshMultiLine(struct linenoiseState *l) {$/;"	f	file:
+refreshShowHints	ext/linenoise/linenoise.c	/^void refreshShowHints(struct abuf *ab, struct linenoiseState *l, int plen) {$/;"	f
+refreshSingleLine	ext/linenoise/linenoise.c	/^static void refreshSingleLine(struct linenoiseState *l) {$/;"	f	file:
+reg	ext/libelfin/dwarf/dwarf++.hh	/^                reg,$/;"	m	class:expr_result::type
+reg	ext/libelfin/dwarf/dwarf++.hh	/^        virtual taddr reg(unsigned regnum)$/;"	f	class:expr_context
+reg	include/registers.h	/^    enum class reg {$/;"	c	namespace:minidbg
+reg0	ext/libelfin/dwarf/data.hh	/^        reg0                = 0x50,$/;"	m	class:DW_OP
+reg31	ext/libelfin/dwarf/data.hh	/^        reg31               = 0x6f,$/;"	m	class:DW_OP
+reg_descriptor	include/registers.h	/^    struct reg_descriptor {$/;"	s	namespace:minidbg
+regs	ext/libelfin/dwarf/dwarf++.hh	/^        line_table::entry entry, regs;$/;"	m	class:line_table::iterator
+regx	ext/libelfin/dwarf/data.hh	/^        regx                = 0x90, \/\/ [ULEB128 register]$/;"	m	class:DW_OP
+rel	ext/libelfin/elf/data.hh	/^        rel      = 9,           \/\/ Contains "Rel" type relocation entries$/;"	m	class:sht
+rel	ext/libelfin/elf/data.hh	/^        rel    = 1,             \/\/ Relocatable object file$/;"	m	class:et
+rela	ext/libelfin/elf/data.hh	/^        rela     = 4,           \/\/ Contains "Rela" type relocation entries$/;"	m	class:sht
+remove_breakpoint	src/debugger.cpp	/^void debugger::remove_breakpoint(std::intptr_t addr) {$/;"	f	class:debugger
+reserve	ext/libelfin/dwarf/small_vector.hh	/^        void reserve(size_type n)$/;"	f	class:small_vector
+reset	ext/libelfin/dwarf/line.cc	/^line_table::entry::reset(bool is_stmt)$/;"	f	class:line_table::entry
+resolve	ext/libelfin/dwarf/die.cc	/^die::resolve(DW_AT attr) const$/;"	f	class:die
+resolve_indirect	ext/libelfin/dwarf/value.cc	/^value::resolve_indirect(DW_AT name)$/;"	f	class:value
+resolve_order	ext/libelfin/elf/common.hh	/^resolve_order(byte_order o)$/;"	f
+resolve_type	ext/libelfin/dwarf/abbrev.cc	/^resolve_type(DW_AT name, DW_FORM form)$/;"	f	file:
+restrict_type	ext/libelfin/dwarf/data.hh	/^        restrict_type            = 0x37,$/;"	m	class:DW_TAG
+result_type	ext/libelfin/dwarf/die_str_map.cc	/^                typedef size_t result_type;$/;"	t	struct:std::hash	file:
+result_type	ext/libelfin/dwarf/die_str_map.cc	/^        typedef bool result_type;$/;"	t	struct:string_eq	file:
+result_type	ext/libelfin/dwarf/die_str_map.cc	/^        typedef size_t result_type;$/;"	t	struct:string_hash	file:
+result_type	ext/libelfin/dwarf/dwarf++.hh	/^                typedef size_t result_type;$/;"	t	struct:std::hash
+return_addr	ext/libelfin/dwarf/data.hh	/^        return_addr          = 0x2a, \/\/ exprloc, loclistptr$/;"	m	class:DW_AT
+revat	ext/libelfin/dwarf/small_vector.hh	/^        const_reference revat(size_type n) const$/;"	f	class:small_vector
+revat	ext/libelfin/dwarf/small_vector.hh	/^        reference revat(size_type n)$/;"	f	class:small_vector
+rflags	include/registers.h	/^        rip, rflags,    cs,$/;"	m	class:minidbg::reg
+rip	include/registers.h	/^        rip, rflags,    cs,$/;"	m	class:minidbg::reg
+root	ext/libelfin/dwarf/dwarf.cc	/^        die root, type;$/;"	m	struct:unit::impl	file:
+root	ext/libelfin/dwarf/dwarf.cc	/^unit::root() const$/;"	f	class:unit
+root_offset	ext/libelfin/dwarf/dwarf.cc	/^        const section_offset root_offset;$/;"	m	struct:unit::impl	file:
+rot	ext/libelfin/dwarf/data.hh	/^        rot                 = 0x17,$/;"	m	class:DW_OP
+row_major	ext/libelfin/dwarf/data.hh	/^        row_major = 0x00,$/;"	m	class:DW_ORD
+rsi	include/registers.h	/^        rdi, rsi, rbp, rsp,$/;"	m	class:minidbg::reg
+rsp	include/registers.h	/^        rdi, rsi, rbp, rsp,$/;"	m	class:minidbg::reg
+run	src/debugger.cpp	/^void debugger::run() {$/;"	f	class:debugger
+rvalue_reference_type	ext/libelfin/dwarf/data.hh	/^        rvalue_reference_type    = 0x42,$/;"	m	class:DW_TAG
+sbyte	ext/libelfin/dwarf/data.hh	/^typedef std::int8_t sbyte;$/;"	t
+sconstant	ext/libelfin/dwarf/dwarf++.hh	/^                sconstant,$/;"	m	class:value::type
+sdata	ext/libelfin/dwarf/data.hh	/^        sdata        = 0x0d,    \/\/ constant$/;"	m	class:DW_FORM
+sec	ext/libelfin/dwarf/dwarf++.hh	/^        std::shared_ptr<section> sec;$/;"	m	class:rangelist
+sec	ext/libelfin/dwarf/dwarf++.hh	/^        std::shared_ptr<section> sec;$/;"	m	class:rangelist::iterator
+sec	ext/libelfin/dwarf/internal.hh	/^        std::shared_ptr<section> sec;$/;"	m	struct:cursor
+sec	ext/libelfin/dwarf/line.cc	/^        shared_ptr<section> sec;$/;"	m	struct:line_table::impl	file:
+sec_abbrev	ext/libelfin/dwarf/dwarf.cc	/^        std::shared_ptr<section> sec_abbrev;$/;"	m	struct:dwarf::impl	file:
+sec_info	ext/libelfin/dwarf/dwarf.cc	/^        std::shared_ptr<section> sec_info;$/;"	m	struct:dwarf::impl	file:
+sec_offset	ext/libelfin/dwarf/data.hh	/^        sec_offset   = 0x17,    \/\/ lineptr, loclistptr, macptr, rangelistptr$/;"	m	class:DW_FORM
+second_argument_type	ext/libelfin/dwarf/die_str_map.cc	/^        typedef const char *second_argument_type;$/;"	t	struct:string_eq	file:
+section	ext/libelfin/dwarf/internal.hh	/^        section(section_type type, const void *begin,$/;"	f	struct:section
+section	ext/libelfin/dwarf/internal.hh	/^struct section$/;"	s
+section	ext/libelfin/elf/data.hh	/^        section = 3,            \/\/ Symbol is associated with a section$/;"	m	class:stt
+section	ext/libelfin/elf/elf++.hh	/^        section() { }$/;"	f	class:section
+section	ext/libelfin/elf/elf++.hh	/^class section$/;"	c
+section	ext/libelfin/elf/elf.cc	/^section::section(const elf &f, const void *hdr)$/;"	f	class:section
+section	include/debugger.hpp	/^        section,$/;"	m	class:minidbg::symbol_type
+section_length	ext/libelfin/dwarf/data.hh	/^typedef std::uint64_t section_length;$/;"	t
+section_name_to_type	ext/libelfin/dwarf/elf.cc	/^elf::section_name_to_type(const char *name, section_type *out)$/;"	f	class:elf
+section_offset	ext/libelfin/dwarf/data.hh	/^typedef std::uint64_t section_offset;$/;"	t
+section_type	ext/libelfin/dwarf/dwarf++.hh	/^enum class section_type$/;"	c
+section_type_mismatch	ext/libelfin/elf/elf++.hh	/^        explicit section_type_mismatch(const char *what_arg)$/;"	f	class:section_type_mismatch
+section_type_mismatch	ext/libelfin/elf/elf++.hh	/^        explicit section_type_mismatch(const std::string &what_arg)$/;"	f	class:section_type_mismatch
+section_type_mismatch	ext/libelfin/elf/elf++.hh	/^class section_type_mismatch : public std::logic_error$/;"	c
+section_type_to_name	ext/libelfin/dwarf/elf.cc	/^elf::section_type_to_name(section_type type)$/;"	f	class:elf
+sections	ext/libelfin/dwarf/dwarf.cc	/^        std::map<section_type, std::shared_ptr<section> > sections;$/;"	m	struct:dwarf::impl	file:
+sections	ext/libelfin/dwarf/elf.cc	/^} sections[] = {$/;"	v	typeref:struct:__anon1	file:
+sections	ext/libelfin/elf/elf.cc	/^        vector<section> sections;$/;"	m	struct:elf::impl	file:
+sections	ext/libelfin/elf/elf.cc	/^elf::sections() const$/;"	f	class:elf
+segment	ext/libelfin/dwarf/data.hh	/^        segment              = 0x46, \/\/ exprloc, loclistptr$/;"	m	class:DW_AT
+segment	ext/libelfin/elf/elf++.hh	/^       segment() { }$/;"	f	class:segment
+segment	ext/libelfin/elf/elf++.hh	/^class segment$/;"	c
+segment	ext/libelfin/elf/elf.cc	/^segment::segment(const elf &f, const void *hdr)$/;"	f	class:segment
+segments	ext/libelfin/elf/elf.cc	/^        vector<segment> segments;$/;"	m	struct:elf::impl	file:
+segments	ext/libelfin/elf/elf.cc	/^elf::segments() const$/;"	f	class:elf
+set_address	ext/libelfin/dwarf/data.hh	/^        set_address = 0x02,$/;"	m	class:DW_LNE
+set_basic_block	ext/libelfin/dwarf/data.hh	/^        set_basic_block = 0x07,$/;"	m	class:DW_LNS
+set_binding	ext/libelfin/elf/data.hh	/^        void set_binding(stb v)$/;"	f	struct:Sym
+set_breakpoint_at_address	src/debugger.cpp	/^void debugger::set_breakpoint_at_address(std::intptr_t addr) {$/;"	f	class:debugger
+set_breakpoint_at_function	src/debugger.cpp	/^void debugger::set_breakpoint_at_function(const std::string &name) {$/;"	f	class:debugger
+set_breakpoint_at_source_line	src/debugger.cpp	/^void debugger::set_breakpoint_at_source_line(const std::string &file, unsigned line) {$/;"	f	class:debugger
+set_column	ext/libelfin/dwarf/data.hh	/^        set_column = 0x05,$/;"	m	class:DW_LNS
+set_discriminator	ext/libelfin/dwarf/data.hh	/^        set_discriminator = 0x04,$/;"	m	class:DW_LNE
+set_epilogue_begin	ext/libelfin/dwarf/data.hh	/^        set_epilogue_begin = 0x0b,$/;"	m	class:DW_LNS
+set_file	ext/libelfin/dwarf/data.hh	/^        set_file = 0x04,$/;"	m	class:DW_LNS
+set_isa	ext/libelfin/dwarf/data.hh	/^        set_isa = 0x0c,$/;"	m	class:DW_LNS
+set_pc	src/debugger.cpp	/^void debugger::set_pc(uint64_t pc) {$/;"	f	class:debugger
+set_program_base_address	src/debugger.cpp	/^void debugger::set_program_base_address(pid_t pid) {$/;"	f	class:debugger
+set_prologue_end	ext/libelfin/dwarf/data.hh	/^        set_prologue_end = 0x0a,$/;"	m	class:DW_LNS
+set_register_value	include/registers.h	/^    void set_register_value(pid_t pid, reg r, uint64_t value) {$/;"	f	namespace:minidbg
+set_type	ext/libelfin/dwarf/data.hh	/^        set_type                 = 0x20,$/;"	m	class:DW_TAG
+set_type	ext/libelfin/elf/data.hh	/^        void set_type(stt v)$/;"	f	struct:Sym
+shared_type	ext/libelfin/dwarf/data.hh	/^        shared_type              = 0x40,$/;"	m	class:DW_TAG
+shentsize	ext/libelfin/elf/data.hh	/^        typename E::Half shentsize;      \/\/ Size of section header entry$/;"	m	struct:Ehdr
+shf	ext/libelfin/elf/data.hh	/^enum class shf : Elf64::Xword$/;"	c
+shl	ext/libelfin/dwarf/data.hh	/^        shl                 = 0x24,$/;"	m	class:DW_OP
+shlib	ext/libelfin/elf/data.hh	/^        shlib    = 10,          \/\/ Reserved$/;"	m	class:sht
+shlib	ext/libelfin/elf/data.hh	/^        shlib   = 5,            \/\/ Reserved$/;"	m	class:pt
+shn	ext/libelfin/elf/data.hh	/^        typedef typename internal::OrderPick<Order, elf::shn, typename E::Word, typename E::Word>::T shn;$/;"	t	struct:Shdr
+shnum	ext/libelfin/elf/data.hh	/^        typename E::Half shnum;          \/\/ Number of section header entries$/;"	m	struct:Ehdr
+shnxd	ext/libelfin/elf/data.hh	/^        shn           shnxd; \/\/ Section table index$/;"	m	struct:Sym
+shoff	ext/libelfin/elf/data.hh	/^        typename E::Off  shoff;          \/\/ Section header offset$/;"	m	struct:Ehdr
+shr	ext/libelfin/dwarf/data.hh	/^        shr                 = 0x25,$/;"	m	class:DW_OP
+shra	ext/libelfin/dwarf/data.hh	/^        shra                = 0x26,$/;"	m	class:DW_OP
+shstrndx	ext/libelfin/elf/data.hh	/^        typename E::Half shstrndx;       \/\/ Section name string table index$/;"	m	struct:Ehdr
+sht	ext/libelfin/elf/data.hh	/^enum class sht : ElfTypes::Word$/;"	c
+sibling	ext/libelfin/dwarf/attrs.cc	/^AT_REFERENCE(sibling);$/;"	v
+sibling	ext/libelfin/dwarf/data.hh	/^        sibling              = 0x01, \/\/ reference$/;"	m	class:DW_AT
+signature	ext/libelfin/dwarf/attrs.cc	/^AT_REFERENCE(signature);        \/\/ XXX Computed might be useful$/;"	v
+signature	ext/libelfin/dwarf/data.hh	/^        signature            = 0x69, \/\/ reference$/;"	m	class:DW_AT
+signed_	ext/libelfin/dwarf/data.hh	/^        signed_         = 0x05,$/;"	m	class:DW_ATE
+signed_char	ext/libelfin/dwarf/data.hh	/^        signed_char     = 0x06,$/;"	m	class:DW_ATE
+signed_fixed	ext/libelfin/dwarf/data.hh	/^        signed_fixed    = 0x0d,$/;"	m	class:DW_ATE
+single_step_instruction	src/debugger.cpp	/^void debugger::single_step_instruction() {$/;"	f	class:debugger
+single_step_instruction_with_breakpoint_check	src/debugger.cpp	/^void debugger::single_step_instruction_with_breakpoint_check() {$/;"	f	class:debugger
+size	ext/libelfin/dwarf/internal.hh	/^        size_t size() const$/;"	f	struct:section
+size	ext/libelfin/dwarf/small_vector.hh	/^        size_type size() const$/;"	f	class:small_vector
+size	ext/libelfin/elf/data.hh	/^        Elf32::Word   size;  \/\/ Size of object$/;"	m	struct:Sym
+size	ext/libelfin/elf/data.hh	/^        Elf64::Xword  size;  \/\/ Size of object$/;"	m	struct:Sym
+size	ext/libelfin/elf/data.hh	/^        typename E::Word32_Xword64 size; \/\/ Size of section$/;"	m	struct:Shdr
+size	ext/libelfin/elf/elf.cc	/^section::size() const$/;"	f	class:section
+size_type	ext/libelfin/dwarf/small_vector.hh	/^        typedef size_t size_type;$/;"	t	class:small_vector
+skip	ext/libelfin/dwarf/data.hh	/^        skip                = 0x2f, \/\/ [signed 2-byte constant]$/;"	m	class:DW_OP
+skip_form	ext/libelfin/dwarf/cursor.cc	/^cursor::skip_form(DW_FORM form)$/;"	f	class:cursor
+skip_initial_length	ext/libelfin/dwarf/cursor.cc	/^cursor::skip_initial_length()$/;"	f	class:cursor
+sleb128	ext/libelfin/dwarf/cursor.cc	/^cursor::sleb128()$/;"	f	class:cursor
+slice	ext/libelfin/dwarf/internal.hh	/^        std::shared_ptr<section> slice(section_offset start, section_length len,$/;"	f	struct:section
+small	ext/libelfin/dwarf/attrs.cc	/^AT_REFERENCE(small);$/;"	v
+small	ext/libelfin/dwarf/data.hh	/^        small                = 0x5d, \/\/ reference$/;"	m	class:DW_AT
+small_vector	ext/libelfin/dwarf/small_vector.hh	/^        small_vector()$/;"	f	class:small_vector
+small_vector	ext/libelfin/dwarf/small_vector.hh	/^        small_vector(const small_vector<T, Min> &o)$/;"	f	class:small_vector
+small_vector	ext/libelfin/dwarf/small_vector.hh	/^        small_vector(small_vector<T, Min> &&o)$/;"	f	class:small_vector
+small_vector	ext/libelfin/dwarf/small_vector.hh	/^class small_vector$/;"	c
+specification	ext/libelfin/dwarf/attrs.cc	/^AT_REFERENCE(specification);$/;"	v
+specification	ext/libelfin/dwarf/data.hh	/^        specification        = 0x47, \/\/ reference$/;"	m	class:DW_AT
+split	src/debugger.cpp	/^vector<string> split(const string &s, const char delimiter) {$/;"	f
+ss	include/registers.h	/^        fs, gs, ss, ds, es$/;"	m	class:minidbg::reg
+stack_value	ext/libelfin/dwarf/data.hh	/^        stack_value         = 0x9f,$/;"	m	class:DW_OP
+standalone	ext/libelfin/elf/data.hh	/^        standalone = 255,$/;"	m	class:elfosabi
+standard_opcode_lengths	ext/libelfin/dwarf/line.cc	/^        vector<ubyte> standard_opcode_lengths;$/;"	m	struct:line_table::impl	file:
+start_scope	ext/libelfin/dwarf/data.hh	/^        start_scope          = 0x2c, \/\/ constant, rangelistptr$/;"	m	class:DW_AT
+static_link	ext/libelfin/dwarf/data.hh	/^        static_link          = 0x48, \/\/ exprloc, loclistptr$/;"	m	class:DW_AT
+stb	ext/libelfin/elf/data.hh	/^enum class stb : unsigned char$/;"	c
+std	ext/libelfin/dwarf/die_str_map.cc	/^namespace std {$/;"	n	file:
+std	ext/libelfin/dwarf/dwarf++.hh	/^namespace std$/;"	n
+step	ext/libelfin/dwarf/line.cc	/^line_table::iterator::step(cursor *cur)$/;"	f	class:line_table::iterator
+step_in	src/debugger.cpp	/^void debugger::step_in() {$/;"	f	class:debugger
+step_out	src/debugger.cpp	/^void debugger::step_out() {$/;"	f	class:debugger
+step_over	src/debugger.cpp	/^void debugger::step_over() {$/;"	f	class:debugger
+step_over_breakpoint	src/debugger.cpp	/^void debugger::step_over_breakpoint() {$/;"	f	class:debugger
+stmt_list	ext/libelfin/dwarf/data.hh	/^        stmt_list            = 0x10, \/\/ lineptr$/;"	m	class:DW_AT
+str	ext/libelfin/dwarf/dwarf++.hh	/^        str,$/;"	m	class:section_type
+str_map	ext/libelfin/dwarf/die_str_map.cc	/^        unordered_map<const char*, die, string_hash, string_eq> str_map;$/;"	m	struct:die_str_map::impl	file:
+stride	ext/libelfin/elf/elf++.hh	/^                size_t stride;$/;"	m	class:symtab::iterator
+string	ext/libelfin/dwarf/cursor.cc	/^cursor::string(std::string &out)$/;"	f	class:cursor
+string	ext/libelfin/dwarf/data.hh	/^        string       = 0x08,    \/\/ string$/;"	m	class:DW_FORM
+string_eq	ext/libelfin/dwarf/die_str_map.cc	/^struct string_eq $/;"	s	file:
+string_hash	ext/libelfin/dwarf/die_str_map.cc	/^struct string_hash$/;"	s	file:
+string_length	ext/libelfin/dwarf/data.hh	/^        string_length        = 0x19, \/\/ exprloc, loclistptr$/;"	m	class:DW_AT
+string_type	ext/libelfin/dwarf/data.hh	/^        string_type              = 0x12,$/;"	m	class:DW_TAG
+strp	ext/libelfin/dwarf/data.hh	/^        strp         = 0x0e,    \/\/ string$/;"	m	class:DW_FORM
+strs	ext/libelfin/elf/elf++.hh	/^                const strtab strs;$/;"	m	class:symtab::iterator
+strs	ext/libelfin/elf/elf++.hh	/^        const strtab strs;$/;"	m	class:sym
+strs	ext/libelfin/elf/elf.cc	/^        const strtab strs;$/;"	m	struct:symtab::impl	file:
+strtab	ext/libelfin/elf/data.hh	/^        strtab   = 3,           \/\/ Contains a string table$/;"	m	class:sht
+strtab	ext/libelfin/elf/elf++.hh	/^class strtab$/;"	c
+strtab	ext/libelfin/elf/elf.cc	/^strtab::strtab(elf f, const void *data, size_t size)$/;"	f	class:strtab
+structure_type	ext/libelfin/dwarf/data.hh	/^        structure_type           = 0x13,$/;"	m	class:DW_TAG
+stt	ext/libelfin/elf/data.hh	/^enum class stt : unsigned char$/;"	c
+subprogram	ext/libelfin/dwarf/data.hh	/^        subprogram               = 0x2e,$/;"	m	class:DW_TAG
+subrange_type	ext/libelfin/dwarf/data.hh	/^        subrange_type            = 0x21,$/;"	m	class:DW_TAG
+subroutine_type	ext/libelfin/dwarf/data.hh	/^        subroutine_type          = 0x15,$/;"	m	class:DW_TAG
+subsec	ext/libelfin/dwarf/dwarf.cc	/^        const std::shared_ptr<section> subsec;$/;"	m	struct:unit::impl	file:
+subsection	ext/libelfin/dwarf/cursor.cc	/^cursor::subsection()$/;"	f	class:cursor
+swap	ext/libelfin/dwarf/data.hh	/^        swap                = 0x16,$/;"	m	class:DW_OP
+swizzle	ext/libelfin/elf/common.hh	/^swizzle(T v, byte_order from, byte_order to)$/;"	f
+sym	ext/libelfin/elf/elf++.hh	/^class sym$/;"	c
+sym	ext/libelfin/elf/elf.cc	/^sym::sym(elf f, const void *data, strtab strs)$/;"	f	class:sym
+symbol	include/debugger.hpp	/^    struct symbol {$/;"	s	namespace:minidbg
+symbol_type	include/debugger.hpp	/^    enum class symbol_type {$/;"	c	namespace:minidbg
+symtab	ext/libelfin/elf/data.hh	/^        symtab   = 2,           \/\/ Contains a linker symbol table$/;"	m	class:sht
+symtab	ext/libelfin/elf/elf++.hh	/^class symtab$/;"	c
+symtab	ext/libelfin/elf/elf.cc	/^symtab::symtab(elf f, const void *data, size_t size, strtab strs)$/;"	f	class:symtab
+synthetic	ext/libelfin/dwarf/dwarf++.hh	/^        std::vector<taddr> synthetic;$/;"	m	class:rangelist
+sysv	ext/libelfin/elf/data.hh	/^        sysv = 0,$/;"	m	class:elfosabi
+t	ext/libelfin/elf/data.hh	/^                typedef t32 t;$/;"	t	struct:Elf32::pick
+t	ext/libelfin/elf/data.hh	/^                typedef t64 t;$/;"	t	struct:Elf64::pick
+table	ext/libelfin/dwarf/dwarf++.hh	/^        const line_table *table;$/;"	m	class:line_table::iterator
+taddr	ext/libelfin/dwarf/data.hh	/^typedef std::uint64_t taddr;$/;"	t
+tag	ext/libelfin/dwarf/dwarf++.hh	/^        DW_TAG tag;$/;"	m	class:die
+tag	ext/libelfin/dwarf/internal.hh	/^        DW_TAG tag;$/;"	m	struct:abbrev_entry
+template_alias	ext/libelfin/dwarf/data.hh	/^        template_alias           = 0x43,$/;"	m	class:DW_TAG
+template_type_parameter	ext/libelfin/dwarf/data.hh	/^        template_type_parameter  = 0x2f,$/;"	m	class:DW_TAG
+template_value_parameter	ext/libelfin/dwarf/data.hh	/^        template_value_parameter = 0x30,$/;"	m	class:DW_TAG
+threads_scaled	ext/libelfin/dwarf/attrs.cc	/^AT_FLAG(threads_scaled);$/;"	v
+threads_scaled	ext/libelfin/dwarf/data.hh	/^        threads_scaled       = 0x62, \/\/ flag$/;"	m	class:DW_AT
+thrown_type	ext/libelfin/dwarf/data.hh	/^        thrown_type              = 0x31,$/;"	m	class:DW_TAG
+to_hex	ext/libelfin/elf/to_hex.hh	/^to_hex(T v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(DW_ACCESS v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(DW_AT v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(DW_ATE v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(DW_CC v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(DW_CHILDREN v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(DW_DS v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(DW_DSC v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(DW_END v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(DW_FORM v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(DW_ID v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(DW_INL v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(DW_LANG v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(DW_LNE v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(DW_LNS v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(DW_OP v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(DW_ORD v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(DW_TAG v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(DW_VIRTUALITY v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(DW_VIS v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(expr_result::type v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(section_type v)$/;"	f
+to_string	ext/libelfin/dwarf/to_string.cc	/^to_string(value::type v)$/;"	f
+to_string	ext/libelfin/dwarf/value.cc	/^to_string(const value &v)$/;"	f
+to_string	ext/libelfin/elf/elf.cc	/^enums::to_string(shn v)$/;"	f	class:enums
+to_string	ext/libelfin/elf/to_string.cc	/^to_string(elfclass v)$/;"	f
+to_string	ext/libelfin/elf/to_string.cc	/^to_string(elfdata v)$/;"	f
+to_string	ext/libelfin/elf/to_string.cc	/^to_string(elfosabi v)$/;"	f
+to_string	ext/libelfin/elf/to_string.cc	/^to_string(et v)$/;"	f
+to_string	ext/libelfin/elf/to_string.cc	/^to_string(pf v)$/;"	f
+to_string	ext/libelfin/elf/to_string.cc	/^to_string(pt v)$/;"	f
+to_string	ext/libelfin/elf/to_string.cc	/^to_string(shf v)$/;"	f
+to_string	ext/libelfin/elf/to_string.cc	/^to_string(sht v)$/;"	f
+to_string	ext/libelfin/elf/to_string.cc	/^to_string(stb v)$/;"	f
+to_string	ext/libelfin/elf/to_string.cc	/^to_string(stt v)$/;"	f
+to_string	include/debugger.hpp	/^    std::string to_string(symbol_type st) {$/;"	f	namespace:minidbg
+to_symbol_type	include/debugger.hpp	/^    symbol_type to_symbol_type(elf::stt sym) {$/;"	f	namespace:minidbg
+trailing_overpunch	ext/libelfin/dwarf/data.hh	/^        trailing_overpunch = 0x03,$/;"	m	class:DW_DS
+trailing_separate	ext/libelfin/dwarf/data.hh	/^        trailing_separate  = 0x05,$/;"	m	class:DW_DS
+trampoline	ext/libelfin/dwarf/data.hh	/^        trampoline           = 0x56, \/\/ address, flag, reference, string$/;"	m	class:DW_AT
+try_block	ext/libelfin/dwarf/data.hh	/^        try_block                = 0x32,$/;"	m	class:DW_TAG
+typ	ext/libelfin/dwarf/dwarf++.hh	/^        type typ;$/;"	m	class:value
+type	ext/libelfin/dwarf/attrs.cc	/^AT_REFERENCE(type);$/;"	v
+type	ext/libelfin/dwarf/data.hh	/^        type                 = 0x49, \/\/ reference$/;"	m	class:DW_AT
+type	ext/libelfin/dwarf/dwarf++.hh	/^        enum class type {$/;"	c	class:expr_result
+type	ext/libelfin/dwarf/dwarf++.hh	/^        enum class type$/;"	c	class:value
+type	ext/libelfin/dwarf/dwarf.cc	/^        die root, type;$/;"	m	struct:unit::impl	file:
+type	ext/libelfin/dwarf/dwarf.cc	/^type_unit::type() const$/;"	f	class:type_unit
+type	ext/libelfin/dwarf/elf.cc	/^        section_type type;$/;"	m	struct:__anon1	file:
+type	ext/libelfin/dwarf/internal.hh	/^        section_type type;$/;"	m	struct:section
+type	ext/libelfin/dwarf/internal.hh	/^        value::type type;$/;"	m	struct:attribute_spec
+type	ext/libelfin/elf/data.hh	/^        et               type;           \/\/ Object file type$/;"	m	struct:Ehdr
+type	ext/libelfin/elf/data.hh	/^        pt           type;      \/\/ Type of segment$/;"	m	struct:Phdr
+type	ext/libelfin/elf/data.hh	/^        sht                        type; \/\/ Section type$/;"	m	struct:Shdr
+type	ext/libelfin/elf/data.hh	/^        stt type() const$/;"	f	struct:Sym
+type	include/debugger.hpp	/^        symbol_type type;$/;"	m	struct:minidbg::symbol
+type_offset	ext/libelfin/dwarf/dwarf.cc	/^        const section_offset type_offset;$/;"	m	struct:unit::impl	file:
+type_signature	ext/libelfin/dwarf/dwarf.cc	/^        const uint64_t type_signature;$/;"	m	struct:unit::impl	file:
+type_unit	ext/libelfin/dwarf/data.hh	/^        type_unit                = 0x41,$/;"	m	class:DW_TAG
+type_unit	ext/libelfin/dwarf/dwarf++.hh	/^class type_unit : public unit$/;"	c
+type_unit	ext/libelfin/dwarf/dwarf.cc	/^type_unit::type_unit(const dwarf &file, section_offset offset)$/;"	f	class:type_unit
+type_units	ext/libelfin/dwarf/dwarf.cc	/^        std::unordered_map<uint64_t, type_unit> type_units;$/;"	m	struct:dwarf::impl	file:
+typedef_	ext/libelfin/dwarf/data.hh	/^        typedef_                 = 0x16,$/;"	m	class:DW_TAG
+types	ext/libelfin/dwarf/dwarf++.hh	/^        types,$/;"	m	class:section_type
+types	ext/libelfin/elf/data.hh	/^        typedef E types;$/;"	t	struct:Ehdr
+types	ext/libelfin/elf/data.hh	/^        typedef E types;$/;"	t	struct:Shdr
+types	ext/libelfin/elf/data.hh	/^        typedef Elf32 types;$/;"	t	struct:Phdr
+types	ext/libelfin/elf/data.hh	/^        typedef Elf32 types;$/;"	t	struct:Sym
+types	ext/libelfin/elf/data.hh	/^        typedef Elf64 types;$/;"	t	struct:Phdr
+types	ext/libelfin/elf/data.hh	/^        typedef Elf64 types;$/;"	t	struct:Sym
+ubyte	ext/libelfin/dwarf/data.hh	/^typedef std::uint8_t ubyte;$/;"	t
+uconstant	ext/libelfin/dwarf/dwarf++.hh	/^                uconstant,$/;"	m	class:value::type
+udata	ext/libelfin/dwarf/data.hh	/^        udata        = 0x0f,    \/\/ constant$/;"	m	class:DW_FORM
+uhalf	ext/libelfin/dwarf/data.hh	/^typedef std::uint16_t uhalf;$/;"	t
+uleb128	ext/libelfin/dwarf/internal.hh	/^        std::uint64_t uleb128()$/;"	f	struct:cursor
+underflow	ext/libelfin/dwarf/cursor.cc	/^cursor::underflow()$/;"	f	class:cursor
+union_type	ext/libelfin/dwarf/data.hh	/^        union_type               = 0x17,$/;"	m	class:DW_TAG
+unit	ext/libelfin/dwarf/dwarf++.hh	/^class unit$/;"	c
+unknown	ext/libelfin/dwarf/internal.hh	/^        unknown,$/;"	m	class:format
+unsigned_	ext/libelfin/dwarf/data.hh	/^        unsigned_          = 0x01,$/;"	m	class:DW_DS
+unsigned_	ext/libelfin/dwarf/data.hh	/^        unsigned_       = 0x07,$/;"	m	class:DW_ATE
+unsigned_char	ext/libelfin/dwarf/data.hh	/^        unsigned_char   = 0x08,$/;"	m	class:DW_ATE
+unsigned_fixed	ext/libelfin/dwarf/data.hh	/^        unsigned_fixed  = 0x0e,$/;"	m	class:DW_ATE
+unspecified_parameters	ext/libelfin/dwarf/data.hh	/^        unspecified_parameters   = 0x18,$/;"	m	class:DW_TAG
+unspecified_type	ext/libelfin/dwarf/data.hh	/^        unspecified_type         = 0x3b,$/;"	m	class:DW_TAG
+unsupported_term	ext/linenoise/linenoise.c	/^static char *unsupported_term[] = {"dumb","cons25","emacs",NULL};$/;"	v	file:
+up_case	ext/libelfin/dwarf/data.hh	/^        up_case          = 0x01,$/;"	m	class:DW_ID
+upper_bound	ext/libelfin/dwarf/attrs.cc	/^AT_UDYNAMIC(upper_bound);$/;"	v
+upper_bound	ext/libelfin/dwarf/data.hh	/^        upper_bound          = 0x2f, \/\/ constant, exprloc, reference$/;"	m	class:DW_AT
+usage	ext/libelfin/examples/find-pc.cc	/^usage(const char *cmd) $/;"	f
+use_UTF8	ext/libelfin/dwarf/attrs.cc	/^AT_FLAG(use_UTF8);$/;"	v
+use_UTF8	ext/libelfin/dwarf/data.hh	/^        use_UTF8             = 0x53, \/\/ flag$/;"	m	class:DW_AT
+use_location	ext/libelfin/dwarf/data.hh	/^        use_location         = 0x4a, \/\/ exprloc, loclistptr$/;"	m	class:DW_AT
+uword	ext/libelfin/dwarf/data.hh	/^typedef std::uint32_t uword;$/;"	t
+vaddr	ext/libelfin/elf/data.hh	/^        Elf32::Addr  vaddr;     \/\/ Virtual address in memory$/;"	m	struct:Phdr
+vaddr	ext/libelfin/elf/data.hh	/^        Elf64::Addr  vaddr;     \/\/ Virtual address in memory$/;"	m	struct:Phdr
+valid	ext/libelfin/dwarf/dwarf++.hh	/^        bool valid() const$/;"	f	class:die
+valid	ext/libelfin/dwarf/dwarf++.hh	/^        bool valid() const$/;"	f	class:dwarf
+valid	ext/libelfin/dwarf/dwarf++.hh	/^        bool valid() const$/;"	f	class:line_table
+valid	ext/libelfin/dwarf/dwarf++.hh	/^        bool valid() const$/;"	f	class:unit
+valid	ext/libelfin/dwarf/dwarf++.hh	/^        bool valid() const$/;"	f	class:value
+valid	ext/libelfin/dwarf/internal.hh	/^        bool valid() const$/;"	f	struct:cursor
+valid	ext/libelfin/elf/elf++.hh	/^        bool valid() const$/;"	f	class:elf
+valid	ext/libelfin/elf/elf++.hh	/^        bool valid() const$/;"	f	class:section
+valid	ext/libelfin/elf/elf++.hh	/^        bool valid() const$/;"	f	class:strtab
+valid	ext/libelfin/elf/elf++.hh	/^        bool valid() const$/;"	f	class:symtab
+valid	ext/libelfin/elf/elf++.hh	/^       bool valid() const$/;"	f	class:segment
+value	ext/libelfin/dwarf/dwarf++.hh	/^        taddr value;$/;"	m	class:expr_result
+value	ext/libelfin/dwarf/dwarf++.hh	/^        value() : cu(nullptr), typ(type::invalid) { }$/;"	f	class:value
+value	ext/libelfin/dwarf/dwarf++.hh	/^class value$/;"	c
+value	ext/libelfin/dwarf/value.cc	/^value::value(const unit *cu,$/;"	f	class:value
+value	ext/libelfin/elf/data.hh	/^        Elf32::Addr   value; \/\/ Symbol value (address)$/;"	m	struct:Sym
+value	ext/libelfin/elf/data.hh	/^        Elf64::Addr   value; \/\/ Symbol value (address)$/;"	m	struct:Sym
+value_type	ext/libelfin/dwarf/dwarf++.hh	/^        typedef entry value_type;$/;"	t	class:line_table
+value_type	ext/libelfin/dwarf/dwarf++.hh	/^        typedef entry value_type;$/;"	t	class:rangelist
+value_type	ext/libelfin/dwarf/small_vector.hh	/^        typedef T value_type;$/;"	t	class:small_vector
+value_type_mismatch	ext/libelfin/dwarf/dwarf++.hh	/^        explicit value_type_mismatch(const char *what_arg)$/;"	f	class:value_type_mismatch
+value_type_mismatch	ext/libelfin/dwarf/dwarf++.hh	/^        explicit value_type_mismatch(const std::string &what_arg)$/;"	f	class:value_type_mismatch
+value_type_mismatch	ext/libelfin/dwarf/dwarf++.hh	/^class value_type_mismatch : public std::logic_error$/;"	c
+variable	ext/libelfin/dwarf/data.hh	/^        variable                 = 0x34,$/;"	m	class:DW_TAG
+variable_parameter	ext/libelfin/dwarf/attrs.cc	/^AT_FLAG(variable_parameter);$/;"	v
+variable_parameter	ext/libelfin/dwarf/data.hh	/^        variable_parameter   = 0x4b, \/\/ flag$/;"	m	class:DW_AT
+variant	ext/libelfin/dwarf/data.hh	/^        variant                  = 0x19,$/;"	m	class:DW_TAG
+variant_part	ext/libelfin/dwarf/data.hh	/^        variant_part             = 0x33,$/;"	m	class:DW_TAG
+version	ext/libelfin/dwarf/internal.hh	/^        uhalf version;$/;"	m	struct:name_unit
+version	ext/libelfin/elf/data.hh	/^        typename E::Word version;        \/\/ Object file version$/;"	m	struct:Ehdr
+virtual_	ext/libelfin/dwarf/data.hh	/^        virtual_     = 0x01,$/;"	m	class:DW_VIRTUALITY
+virtuality	ext/libelfin/dwarf/data.hh	/^        virtuality           = 0x4c, \/\/ constant$/;"	m	class:DW_AT
+visibility	ext/libelfin/dwarf/data.hh	/^        visibility           = 0x17, \/\/ constant$/;"	m	class:DW_AT
+volatile	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	11;"	d	file:
+volatile_type	ext/libelfin/dwarf/data.hh	/^        volatile_type            = 0x35,$/;"	m	class:DW_TAG
+vtable_elem_location	ext/libelfin/dwarf/data.hh	/^        vtable_elem_location = 0x4d, \/\/ exprloc, loclistptr$/;"	m	class:DW_AT
+w	ext/libelfin/elf/data.hh	/^        w        = 0x2,         \/\/ Write permission$/;"	m	class:pf
+wait_for_signal	src/debugger.cpp	/^void debugger::wait_for_signal() {$/;"	f	class:debugger
+weak	ext/libelfin/elf/data.hh	/^        weak   = 2,             \/\/ Global scope, but with lower$/;"	m	class:stb
+with_stmt	ext/libelfin/dwarf/data.hh	/^        with_stmt                = 0x22,$/;"	m	class:DW_TAG
+write	ext/libelfin/elf/data.hh	/^        write     = 0x1,        \/\/ Section contains writable data$/;"	m	class:shf
+write_memory	src/debugger.cpp	/^void debugger::write_memory(uint64_t address, uint64_t value) {$/;"	f	class:debugger
+x	ext/libelfin/elf/data.hh	/^        x        = 0x1,         \/\/ Execute permission$/;"	m	class:pf
+xderef	ext/libelfin/dwarf/data.hh	/^        xderef              = 0x18,$/;"	m	class:DW_OP
+xderef_size	ext/libelfin/dwarf/data.hh	/^        xderef_size         = 0x95, \/\/ [1-byte size of data retrieved]$/;"	m	class:DW_OP
+xderef_size	ext/libelfin/dwarf/dwarf++.hh	/^        virtual taddr xderef_size(taddr address, taddr asid, unsigned size)$/;"	f	class:expr_context
+xor_	ext/libelfin/dwarf/data.hh	/^        xor_                = 0x27,$/;"	m	class:DW_OP
+yes	ext/libelfin/dwarf/data.hh	/^        yes = 0x01,$/;"	m	class:DW_CHILDREN
+~dwarf	ext/libelfin/dwarf/dwarf.cc	/^dwarf::~dwarf()$/;"	f	class:dwarf
+~expr_context	ext/libelfin/dwarf/dwarf++.hh	/^        virtual ~expr_context() { }$/;"	f	class:expr_context
+~loader	ext/libelfin/dwarf/dwarf++.hh	/^        virtual ~loader() { }$/;"	f	class:loader
+~loader	ext/libelfin/elf/elf++.hh	/^        virtual ~loader() { }$/;"	f	class:loader
+~mmap_loader	ext/libelfin/elf/mmap_loader.cc	/^        ~mmap_loader()$/;"	f	class:mmap_loader
+~small_vector	ext/libelfin/dwarf/small_vector.hh	/^        ~small_vector()$/;"	f	class:small_vector
+~unit	ext/libelfin/dwarf/dwarf.cc	/^unit::~unit()$/;"	f	class:unit

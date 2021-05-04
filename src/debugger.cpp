@@ -6,9 +6,11 @@
 #include <iostream>
 #include <iomanip>
 #include <fstream>
+#include <sys/personality.h>
 
 #include "linenoise.h"
-#include "debugger.h"
+
+#include "debugger.hpp"
 #include "registers.h"
 
 using std::string;
@@ -20,6 +22,7 @@ using namespace minidbg;
 
 vector<string> split(const string &s, const char delimiter);
 bool is_prefix(const string &s, const string &of);
+bool is_suffix(const string &s, const std::string &of);
 std::string exec(const char* cmd);
 
 void debugger::run() {
@@ -42,8 +45,15 @@ void debugger::handle_command(const string& line) {
     if(is_prefix(command, "continue")) {
         continue_execution();
     } else if(is_prefix(command, "breakpoint")) {
-        string addr {args[1], 2};
-        set_breakpoint_at_address(std::stol(addr,0,16));
+        if(args[1][0] == '0' && args[1][1] == 'x') {
+            string addr {args[1], 2};
+            set_breakpoint_at_address(std::stol(addr,0,16));
+        } else if(args[1].find(':') != std::string::npos) {
+            auto file_and_line = split(args[1], ':');
+            set_breakpoint_at_source_line(file_and_line[0], std::stoi(file_and_line[1]));
+        } else {
+            set_breakpoint_at_function(args[1]);
+        }
     } else if(is_prefix(command, "register")) {
         if (is_prefix(args[1], "dump")) {
             dump_registers();
@@ -329,6 +339,34 @@ void debugger::step_over() {
     }
 }
 
+void debugger::set_breakpoint_at_function(const std::string &name) {
+    for(const auto &cu : m_dwarf.compilation_units()) {
+        for(const auto &die : cu.root()) {
+            if(die.has(dwarf::DW_AT::name) && at_name(die) == name) {
+                auto low_pc = at_low_pc(die);
+                auto entry = get_line_entry_from_pc(low_pc);
+                ++entry;
+                set_breakpoint_at_address(offset_dwarf_address(entry->address));
+            }
+        }
+    }
+}
+
+void debugger::set_breakpoint_at_source_line(const std::string &file, unsigned line) {
+    for(const auto &cu : m_dwarf.compilation_units()) {
+        if(is_suffix(file, at_name(cu.root()))) {
+            const auto &lt = cu.get_line_table();
+            for(const auto &entry : lt) {
+                if(entry.is_stmt && entry.line == line) {
+                    set_breakpoint_at_address(offset_dwarf_address(entry.address));
+                    return;
+                }
+            }
+        }
+    }
+}
+
+
 vector<string> split(const string &s, const char delimiter) {
     vector<string> ret;
     std::stringstream ss{s};
@@ -339,10 +377,32 @@ vector<string> split(const string &s, const char delimiter) {
     return ret;
 }
 
+std::vector<symbol> debugger::lookup_symbol(const std::string &name) {
+    std::vector<symbol> syms;
+    for(auto &sec : m_elf.sections()) {
+        if(sec.get_hdr().type != elf::sht::symtab && sec.get_hdr().type != elf::sht::dynsym)
+            continue;
+        for(auto sym : sec.as_symtab()) {
+            if(sym.get_name() == name) {
+                auto &d = sym.get_data();
+                syms.push_back(symbol{to_symbol_type(d.type()), sym.get_name(), d.value});
+            }
+        }
+    }
+    return syms;
+}
+
+
 
 bool is_prefix(const string &s, const string &of) {
     if(s.size() > of.size()) return false;
     return std::equal(s.begin(), s.end(), of.begin());
+}
+
+bool is_suffix(const string &s, const std::string &of) {
+    if(s.size() > of.size()) return false;
+    auto diff = of.size()-s.size();
+    return std::equal(s.begin(), s.end(), of.begin() + diff);
 }
 
 std::string exec(const char* cmd) {
@@ -358,3 +418,24 @@ std::string exec(const char* cmd) {
     return result;
 }
 
+int main(int argc, char* argv[]) {
+    if(argc < 2) {
+        cerr << "Program name not specified";
+    }
+    auto program = argv[1];
+    auto pid = fork();
+    if(pid == 0) {
+        // child
+        personality(ADDR_NO_RANDOMIZE);
+        if (ptrace(PTRACE_TRACEME, 0, 0, 0) < 0) {
+            std::cerr << "Error in ptrace\n";
+            exit(1);
+        }
+        execl(program, program, nullptr);
+    } else if(pid >= 1) {
+        // parent
+        debugger dbg{program, pid};
+        dbg.run();
+    }
+    return 0;
+}

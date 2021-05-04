@@ -91,13 +91,17 @@ namespace minidbg {
         void set_breakpoint_at_function(const std::string &name);
         void set_breakpoint_at_source_line(const std::string &file, unsigned line);
         std::vector<symbol> lookup_symbol(const std::string &name);
+        void print_backtrace();
+        void read_variables();
+
+        void print_prompt();
 
     private:
         void handle_command(const std::string& line);
         void continue_execution();
 
         std::string m_prog_name;
-        intptr_t m_base_addr;
+        uint64_t m_base_addr;
         pid_t m_pid;
         dwarf::dwarf m_dwarf;
         elf::elf m_elf;

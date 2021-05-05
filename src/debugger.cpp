@@ -262,7 +262,7 @@ void debugger::print_source(const std::string &file_name, unsigned line, unsigne
         if(c == '\n') {
             ++current_line;
             if(current_line == line) {
-                std::cout << green << std::dec << current_line << std::setw(5 - current_line/10) << std::setfill(' ') << "→";
+                std::cout << green << std::dec << current_line << std::setw(7 - current_line/10) << std::setfill(' ') << "→";
             } else {
                 std::cout << def << std::dec << current_line << std::setw(5 - current_line/10) << std::setfill(' ') << "";
             }
@@ -504,6 +504,10 @@ void debugger::read_variables() {
     }
 }
 
+//auto debugger::test_read(uint64_t) {
+
+//}
+
 void debugger::print_prompt() {
     struct winsize size;
     ioctl(STDOUT_FILENO, TIOCGWINSZ, &size);
@@ -524,6 +528,16 @@ void debugger::print_prompt() {
     auto offset_pc = offset_load_address(get_pc());
     auto line_entry = get_line_entry_from_pc(offset_pc);
     print_source(line_entry->file->path, line_entry->line, 5);
+    splitter("stack");
+    auto rbp = get_register_value(m_pid, reg::rbp);
+    auto rsp = get_register_value(m_pid, reg::rsp);
+    auto stack_size = rbp-rsp;
+    for(int i = 0; i < stack_size+8; i+=8) {
+        cout << std::hex << green << rsp+i << def << " : " << read_memory(rsp+i) << "\n";
+    }
+    splitter("trace");
+    print_backtrace();
+    cout << endl;
 }
 
 bool is_prefix(const string &s, const string &of) {

@@ -5,6 +5,9 @@
 #include <algorithm>
 
 namespace minidbg {
+    /**
+     * Holds all the register values on the x86-64 chip
+     */
     enum class reg {
         rax, rbx, rcx, rdx,
         rdi, rsi, rbp, rsp,
@@ -16,14 +19,17 @@ namespace minidbg {
         fs, gs, ss, ds, es
     };
 
+    /* Number of registers */
     constexpr std::size_t n_registers = 27;
 
+    /* A struct to hold all registers descriptions */
     struct reg_descriptor {
         reg r;
         int dwarf_r;
         std::string name;
     };
 
+    /* An array of all the register descriptor objects */
     static const std::array<reg_descriptor, n_registers> g_register_descriptors {{
             { reg::r15, 15, "r15" },
             { reg::r14, 14, "r14" },
@@ -54,13 +60,31 @@ namespace minidbg {
             { reg::gs, 55, "gs" },
     }};
 
+    /**
+     * Returns the value of a register
+     *
+     * @param pid - pid of the process being asked about
+     * @param r   - The register being asked for
+     *
+     * @return the value the register holds
+     *
+     * @example get_register_value(1234, reg::rsp)
+     */
     uint64_t get_register_value(pid_t pid, reg r) {
-        user_regs_struct regs;
-        ptrace(PTRACE_GETREGS, pid, nullptr, &regs);
-        auto it = std::find_if(begin(g_register_descriptors), end(g_register_descriptors), [r](auto&& rd) { return rd.r == r; });
-        return *(reinterpret_cast<uint64_t*>(&regs) + (it - begin(g_register_descriptors)));
+        user_regs_struct regs; // A system created struct that holds all the registers
+        ptrace(PTRACE_GETREGS, pid, nullptr, &regs); // A call to PTRACE to GETREGS
+        auto it = std::find_if(begin(g_register_descriptors), end(g_register_descriptors), [r](auto&& rd) { return rd.r == r; }); // Gets the correct register value if it's there
+        return *(reinterpret_cast<uint64_t*>(&regs) + (it - begin(g_register_descriptors))); // unsafe cast to a uint64_t
     }
 
+    /**
+     * Returns a register from the dwarf registers 
+     *
+     * @param pid - the PID of the process being asked about
+     * @param regnum - The number of the register being asked for
+     *
+     * @return the value of the register being asked for
+     */
     uint64_t get_register_value_from_dwarf_register(pid_t pid, unsigned regnum) {
         auto it = std::find_if(begin(g_register_descriptors), end(g_register_descriptors), [regnum](auto&& rd){return rd.dwarf_r == regnum;});
         if(it == end(g_register_descriptors)) {
@@ -69,6 +93,13 @@ namespace minidbg {
         return get_register_value(pid, it->r);
     }
 
+    /**
+     * Sets the value of a register
+     *
+     * @param pid - the PID of the process we are changing
+     * @param r   - The register i.e reg::rsp
+     * @param value - The value to change the register to
+     */
     void set_register_value(pid_t pid, reg r, uint64_t value) {
         user_regs_struct regs;
         ptrace(PTRACE_GETREGS, pid, nullptr, &regs);
@@ -77,12 +108,26 @@ namespace minidbg {
         ptrace(PTRACE_SETREGS, pid, nullptr, &regs);
     }
 
+    /**
+     * Gets the string name of the register
+     *
+     * @param r - The register i.e reg::rsp
+     *
+     * @return The string name of the register
+     */
     std::string get_register_name(reg r) {
         auto it = std::find_if(begin(g_register_descriptors), end(g_register_descriptors),
                                [r](auto&& rd) { return rd.r == r; });
         return it->name;
     }
 
+    /**
+     * Gets a register by its string name
+     *
+     * @param name - The string name of the register. i.e "rsp"
+     *
+     * @return The reg type of the register
+     */
     reg get_register_from_name(const std::string& name) {
         auto it = std::find_if(begin(g_register_descriptors), end(g_register_descriptors),
                                [name](auto&& rd) { return rd.name == name; });

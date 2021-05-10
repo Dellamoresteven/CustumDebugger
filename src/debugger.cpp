@@ -128,24 +128,19 @@ void debugger::handle_command(const string& line) {
         read_variables();
     } else if(is_prefix(command, "hexdump")) {
         if(args.size() < 2) {
-            std::cout << "Usage hexdump <addr> <length>" << std::endl;
-            std::cout << "Usage hexdump <length>" << std::endl;
-        } else if(args.size() == 3){
-            std::string addr{args[1],2};
-            std::string num{args[2]};
+            std::cout << "Usage hexdump <b|w|dw|qw> <addr> <length>" << std::endl;
+        } else if(args.size() == 4){
+            std::string addr{args[2], 2};
+            if(args[2] == "rsp" || args[2] == "$rsp") {
+                std::stringstream stream;
+                stream << std::hex << get_register_value(m_pid, reg::rsp);
+                addr = stream.str();
+            }
+            std::string num{args[3]};
+            std::string print_format{args[1]};
             auto byte_dump = hexdump(std::stol(addr,0,16), std::stoi(num,0,10));
-            //for(int i = 0; i < byte_dump.size(); i++) {
-                //if(i != 0 && i % 16 == 0) std::cout << endl;
-                //std::cout << std::setw(2) << std::setfill('0') << int(byte_dump.at(i)) << " ";
-            //}
-        } else {
-            std::stringstream stream;
-            stream << std::hex << get_register_value(m_pid, reg::rsp);
-            std::string addr(stream.str());
-            std::string num{args[1]};
-            auto byte_dump = hexdump(std::stol(addr,0,16), std::stoi(num,0,10));
+            print_hexdump(byte_dump, print_format, std::stol(addr,0,16), std::stoi(num,0,10));
         }
-        cout << endl;
     } else {
         cerr << "Unknown Command\n";
     }
@@ -579,6 +574,22 @@ vector<uint8_t> debugger::hexdump(uint64_t address, unsigned num) {
         curr_num += 8;
     }
     return mem_dump;
+}
+
+void debugger::print_hexdump(std::vector<uint8_t> bytes, std::string print_format, uint64_t address, unsigned length) {
+    std::cout << green << std::hex << address << def << ":    ";
+    for(int i = 0; i < length; i++) {
+        if(i != 0 && i % 16 == 0) {
+            address+=16;
+            std::cout << green << std::endl << std::hex << address << ":    " << def;
+        }
+        if(int(bytes.at(i)) == 0) {
+            std::cout << line_color << std::setw(2) << std::setfill('0') << int(bytes.at(i)) << " " << def;
+        } else {
+            std::cout << def << std::setw(2) << std::setfill('0') << int(bytes.at(i)) << " ";
+        }
+    }
+    cout << endl;
 }
 
 bool is_prefix(const string &s, const string &of) {

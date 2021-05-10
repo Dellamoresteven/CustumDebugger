@@ -98,6 +98,7 @@ namespace minidbg {
         std::vector<uint8_t> hexdump(uint64_t address, unsigned num);
 
         void print_prompt();
+        void print_hexdump(std::vector<uint8_t> bytes, std::string print_format, uint64_t address, unsigned length);
 
     private:
         void handle_command(const std::string& line);

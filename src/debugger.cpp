@@ -8,6 +8,8 @@
 #include <fstream>
 #include <sys/personality.h>
 #include <sys/ioctl.h>
+#include <cmath>
+#include <cstddef>
 
 #include "linenoise.h"
 
@@ -66,6 +68,7 @@ void debugger::run() {
 
 void debugger::handle_command(const string& line) {
     auto args = split(line, ' ');
+    if(args.size() == 0) return;
     auto command = args[0];
 
 
@@ -123,6 +126,26 @@ void debugger::handle_command(const string& line) {
         continue_execution();
     } else if(is_prefix(command, "variables")) {
         read_variables();
+    } else if(is_prefix(command, "hexdump")) {
+        if(args.size() < 2) {
+            std::cout << "Usage hexdump <addr> <length>" << std::endl;
+            std::cout << "Usage hexdump <length>" << std::endl;
+        } else if(args.size() == 3){
+            std::string addr{args[1],2};
+            std::string num{args[2]};
+            auto byte_dump = hexdump(std::stol(addr,0,16), std::stoi(num,0,10));
+            //for(int i = 0; i < byte_dump.size(); i++) {
+                //if(i != 0 && i % 16 == 0) std::cout << endl;
+                //std::cout << std::setw(2) << std::setfill('0') << int(byte_dump.at(i)) << " ";
+            //}
+        } else {
+            std::stringstream stream;
+            stream << std::hex << get_register_value(m_pid, reg::rsp);
+            std::string addr(stream.str());
+            std::string num{args[1]};
+            auto byte_dump = hexdump(std::stol(addr,0,16), std::stoi(num,0,10));
+        }
+        cout << endl;
     } else {
         cerr << "Unknown Command\n";
     }
@@ -538,6 +561,24 @@ void debugger::print_prompt() {
     splitter("trace");
     print_backtrace();
     cout << endl;
+}
+
+vector<uint8_t> debugger::hexdump(uint64_t address, unsigned num) {
+    vector<uint8_t> mem_dump;
+    int curr_num = 0;
+    while(curr_num < num) {
+        uint64_t mem = read_memory(address+curr_num);
+        mem_dump.push_back(mem >> 8*0);
+        mem_dump.push_back(mem >> 8*1);
+        mem_dump.push_back(mem >> 8*2);
+        mem_dump.push_back(mem >> 8*3);
+        mem_dump.push_back(mem >> 8*4);
+        mem_dump.push_back(mem >> 8*5);
+        mem_dump.push_back(mem >> 8*6);
+        mem_dump.push_back(mem >> 8*7);
+        curr_num += 8;
+    }
+    return mem_dump;
 }
 
 bool is_prefix(const string &s, const string &of) {

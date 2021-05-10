@@ -658,6 +658,7 @@ cls	ext/libelfin/elf/data.hh	/^        static const elfclass cls = elfclass::_32
 cls	ext/libelfin/elf/data.hh	/^        static const elfclass cls = elfclass::_64;$/;"	m	struct:Elf64
 code	ext/libelfin/dwarf/internal.hh	/^        abbrev_code code;$/;"	m	struct:abbrev_entry
 col_major	ext/libelfin/dwarf/data.hh	/^        col_major = 0x01,$/;"	m	class:DW_ORD
+color_breaker	include/colors.h	/^std::string color_breaker = "\\x1B[36m";$/;"	v
 cols	ext/linenoise/linenoise.c	/^    size_t cols;        \/* Number of columns in terminal. *\/$/;"	m	struct:linenoiseState	file:
 column	ext/libelfin/dwarf/dwarf++.hh	/^        unsigned column;$/;"	m	class:line_table::entry
 common_block	ext/libelfin/dwarf/data.hh	/^        common_block             = 0x1a,$/;"	m	class:DW_TAG
@@ -750,6 +751,7 @@ declaration	ext/libelfin/dwarf/attrs.cc	/^AT_FLAG(declaration);$/;"	v
 declaration	ext/libelfin/dwarf/data.hh	/^        declaration          = 0x3c, \/\/ flag$/;"	m	class:DW_AT
 declared_inlined	ext/libelfin/dwarf/data.hh	/^        declared_inlined = 0x03,$/;"	m	class:DW_INL
 declared_not_inlined	ext/libelfin/dwarf/data.hh	/^        declared_not_inlined = 0x02,$/;"	m	class:DW_INL
+def	include/colors.h	/^std::string def = "\\033[39m";$/;"	v
 default	ext/libelfin/elf/enum-print.py	/^                  default="::")$/;"	v
 default_	ext/libelfin/dwarf/data.hh	/^        default_ = 0x00,$/;"	m	class:DW_END
 default_is_stmt	ext/libelfin/dwarf/line.cc	/^        bool default_is_stmt;$/;"	m	struct:line_table::impl	file:
@@ -989,6 +991,7 @@ get_unit	ext/libelfin/dwarf/die.cc	/^die::get_unit() const$/;"	f	class:die
 get_unit_offset	ext/libelfin/dwarf/dwarf++.hh	/^        section_offset get_unit_offset() const$/;"	f	class:die
 get_unit_offset	ext/libelfin/dwarf/dwarf++.hh	/^        section_offset get_unit_offset() const$/;"	f	class:value
 global	ext/libelfin/elf/data.hh	/^        global = 1,             \/\/ Global symbol$/;"	m	class:stb
+green	include/colors.h	/^std::string green = "\\033[32m";$/;"	v
 gs	include/registers.h	/^        fs, gs, ss, ds, es$/;"	m	class:minidbg::reg
 gs_base	include/registers.h	/^        gs_base,$/;"	m	class:minidbg::reg
 gt	ext/libelfin/dwarf/data.hh	/^        gt                  = 0x2b,$/;"	m	class:DW_OP
@@ -1006,6 +1009,7 @@ hdr	ext/libelfin/elf/elf.cc	/^        Phdr<> hdr;$/;"	m	struct:segment::impl	fil
 hdr	ext/libelfin/elf/elf.cc	/^        Shdr<> hdr;$/;"	m	struct:section::impl	file:
 help	ext/libelfin/elf/enum-print.py	/^                  help="omit type")$/;"	v
 help	ext/libelfin/elf/enum-print.py	/^                  help="strip leading and trailing underscores")$/;"	v
+hexdump	src/debugger.cpp	/^void debugger::hexdump(uint64_t address, unsigned num) {$/;"	f	class:debugger
 hi_user	ext/libelfin/dwarf/data.hh	/^        hi_user                  = 0xffff,$/;"	m	class:DW_TAG
 hi_user	ext/libelfin/dwarf/data.hh	/^        hi_user              = 0x3fff,$/;"	m	class:DW_AT
 hi_user	ext/libelfin/dwarf/data.hh	/^        hi_user             = 0xff,$/;"	m	class:DW_OP
@@ -1087,6 +1091,7 @@ info_version	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char
 info_version_internal	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_version_internal[] = {$/;"	v
 info_version_internal	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version_internal[] = {$/;"	v
 inheritance	ext/libelfin/dwarf/data.hh	/^        inheritance              = 0x1c,$/;"	m	class:DW_TAG
+initializer_list	src/debugger.cpp	/^template class std::initializer_list<dwarf::taddr>;$/;"	m	class:std	typeref:class:std::	file:
 inline_	ext/libelfin/dwarf/data.hh	/^        inline_              = 0x20, \/\/ constant$/;"	m	class:DW_AT
 inlined	ext/libelfin/dwarf/data.hh	/^        inlined = 0x01,$/;"	m	class:DW_INL
 inlined_subroutine	ext/libelfin/dwarf/data.hh	/^        inlined_subroutine       = 0x1d,$/;"	m	class:DW_TAG
@@ -1132,6 +1137,7 @@ line	ext/libelfin/dwarf/dwarf++.hh	/^                line,$/;"	m	class:value::ty
 line	ext/libelfin/dwarf/dwarf++.hh	/^        line,$/;"	m	class:section_type
 line	ext/libelfin/dwarf/dwarf++.hh	/^        unsigned line;$/;"	m	class:line_table::entry
 line_base	ext/libelfin/dwarf/line.cc	/^        sbyte line_base;$/;"	m	struct:line_table::impl	file:
+line_color	include/colors.h	/^std::string line_color = "\\x1B[34m";$/;"	v
 line_range	ext/libelfin/dwarf/line.cc	/^        ubyte line_range;$/;"	m	struct:line_table::impl	file:
 line_table	ext/libelfin/dwarf/dwarf++.hh	/^class line_table$/;"	c
 line_table	ext/libelfin/dwarf/line.cc	/^line_table::line_table(const shared_ptr<section> &sec, section_offset offset,$/;"	f	class:line_table
@@ -1230,13 +1236,16 @@ m	ext/libelfin/elf/elf++.hh	/^        std::shared_ptr<impl> m;$/;"	m	class:strta
 m	ext/libelfin/elf/elf++.hh	/^        std::shared_ptr<impl> m;$/;"	m	class:symtab
 m	ext/libelfin/elf/elf++.hh	/^       std::shared_ptr<impl> m;$/;"	m	class:segment
 m_addr	include/breakpoint.h	/^        std::intptr_t m_addr;$/;"	m	class:minidbg::breakpoint
-m_base_addr	include/debugger.hpp	/^        intptr_t m_base_addr;$/;"	m	class:minidbg::debugger
+m_base_addr	include/debugger.hpp	/^        uint64_t m_base_addr;$/;"	m	class:minidbg::debugger
+m_base_address	src/debugger.cpp	/^       m_pid{pid}, m_base_address(load_address) {};$/;"	f	class:ptrace_expr_context
+m_base_address	src/debugger.cpp	/^    uint64_t m_base_address;$/;"	m	class:ptrace_expr_context	file:
 m_breakpoints	include/debugger.hpp	/^        std::unordered_map<std::intptr_t, breakpoint> m_breakpoints;$/;"	m	class:minidbg::debugger
 m_dwarf	include/debugger.hpp	/^        dwarf::dwarf m_dwarf;$/;"	m	class:minidbg::debugger
 m_elf	include/debugger.hpp	/^        elf::elf m_elf;$/;"	m	class:minidbg::debugger
 m_enabled	include/breakpoint.h	/^        bool m_enabled;$/;"	m	class:minidbg::breakpoint
 m_pid	include/breakpoint.h	/^        pid_t m_pid;$/;"	m	class:minidbg::breakpoint
 m_pid	include/debugger.hpp	/^        pid_t m_pid;$/;"	m	class:minidbg::debugger
+m_pid	src/debugger.cpp	/^    pid_t m_pid;$/;"	m	class:ptrace_expr_context	file:
 m_prog_name	include/debugger.hpp	/^        std::string m_prog_name;$/;"	m	class:minidbg::debugger
 m_saved_data	include/breakpoint.h	/^        uint8_t m_saved_data;$/;"	m	class:minidbg::breakpoint
 mac	ext/libelfin/dwarf/dwarf++.hh	/^                mac,$/;"	m	class:value::type
@@ -1248,6 +1257,7 @@ main	build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"
 main	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f
 main	build/CMakeFiles/feature_tests.c	/^int main(int argc, char** argv) { (void)argv; return features[argc]; }$/;"	f
 main	build/CMakeFiles/feature_tests.cxx	/^int main(int argc, char** argv) { (void)argv; return features[argc]; }$/;"	f
+main	build/test.cpp	/^int main(int argc, char ** argv){$/;"	f
 main	examples/hello.cpp	/^int main () {$/;"	f
 main	examples/more_code.cpp	/^int main() {$/;"	f
 main	ext/libelfin/examples/dump-lines.cc	/^main(int argc, char **argv)$/;"	f
@@ -1498,6 +1508,8 @@ pos	ext/libelfin/dwarf/dwarf++.hh	/^        section_offset pos;$/;"	m	class:rang
 pos	ext/libelfin/dwarf/internal.hh	/^        const char *pos;$/;"	m	struct:cursor
 pos	ext/libelfin/elf/elf++.hh	/^                const char *pos;$/;"	m	class:symtab::iterator
 pos	ext/linenoise/linenoise.c	/^    size_t pos;         \/* Current cursor position. *\/$/;"	m	struct:linenoiseState	file:
+print_backtrace	src/debugger.cpp	/^void debugger::print_backtrace() {$/;"	f	class:debugger
+print_prompt	src/debugger.cpp	/^void debugger::print_prompt() {$/;"	f	class:debugger
 print_source	src/debugger.cpp	/^void debugger::print_source(const std::string &file_name, unsigned line, unsigned n_lines_context) {$/;"	f	class:debugger
 priority	ext/libelfin/dwarf/attrs.cc	/^AT_REFERENCE(priority);         \/\/ XXX Computed might be useful$/;"	v
 priority	ext/libelfin/dwarf/data.hh	/^        priority             = 0x45, \/\/ reference$/;"	m	class:DW_AT
@@ -1514,6 +1526,8 @@ prototyped	ext/libelfin/dwarf/attrs.cc	/^AT_FLAG(prototyped);$/;"	v
 prototyped	ext/libelfin/dwarf/data.hh	/^        prototyped           = 0x27, \/\/ flag$/;"	m	class:DW_AT
 pt	ext/libelfin/elf/data.hh	/^enum class pt : ElfTypes::Word$/;"	c
 ptr_to_member_type	ext/libelfin/dwarf/data.hh	/^        ptr_to_member_type       = 0x1f,$/;"	m	class:DW_TAG
+ptrace_expr_context	src/debugger.cpp	/^   ptrace_expr_context (pid_t pid, uint64_t load_address) :$/;"	f	class:ptrace_expr_context
+ptrace_expr_context	src/debugger.cpp	/^class ptrace_expr_context : public dwarf::expr_context {$/;"	c	file:
 public_	ext/libelfin/dwarf/data.hh	/^        public_    = 0x01,$/;"	m	class:DW_ACCESS
 pubnames	ext/libelfin/dwarf/dwarf++.hh	/^        pubnames,$/;"	m	class:section_type
 pubtypes	ext/libelfin/dwarf/dwarf++.hh	/^        pubtypes,$/;"	m	class:section_type
@@ -1557,6 +1571,7 @@ read	ext/libelfin/dwarf/internal.hh	/^        void read(cursor *cur)$/;"	f	struc
 read_file_entry	ext/libelfin/dwarf/line.cc	/^line_table::impl::read_file_entry(cursor *cur, bool in_header)$/;"	f	class:line_table::impl
 read_memory	src/debugger.cpp	/^uint64_t debugger::read_memory(uint64_t address) {$/;"	f	class:debugger
 read_toks	ext/libelfin/elf/enum-print.py	/^def read_toks():$/;"	f
+read_variables	src/debugger.cpp	/^void debugger::read_variables() {$/;"	f	class:debugger
 recursive	ext/libelfin/dwarf/attrs.cc	/^AT_FLAG(recursive);$/;"	v
 recursive	ext/libelfin/dwarf/data.hh	/^        recursive            = 0x68, \/\/ flag$/;"	m	class:DW_AT
 ref1	ext/libelfin/dwarf/data.hh	/^        ref1         = 0x11,    \/\/ reference$/;"	m	class:DW_FORM
@@ -1578,6 +1593,7 @@ reg	ext/libelfin/dwarf/dwarf++.hh	/^        virtual taddr reg(unsigned regnum)$/
 reg	include/registers.h	/^    enum class reg {$/;"	c	namespace:minidbg
 reg0	ext/libelfin/dwarf/data.hh	/^        reg0                = 0x50,$/;"	m	class:DW_OP
 reg31	ext/libelfin/dwarf/data.hh	/^        reg31               = 0x6f,$/;"	m	class:DW_OP
+reg_color	include/colors.h	/^std::string reg_color = "\\033[31m";$/;"	v
 reg_descriptor	include/registers.h	/^    struct reg_descriptor {$/;"	s	namespace:minidbg
 regs	ext/libelfin/dwarf/dwarf++.hh	/^        line_table::entry entry, regs;$/;"	m	class:line_table::iterator
 regx	ext/libelfin/dwarf/data.hh	/^        regx                = 0x90, \/\/ [ULEB128 register]$/;"	m	class:DW_OP

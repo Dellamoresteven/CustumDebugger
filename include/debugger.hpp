@@ -95,6 +95,7 @@ namespace minidbg {
         std::vector<symbol> lookup_symbol(const std::string &name);
         void print_backtrace();
         void read_variables();
+        std::vector<uint8_t> hexdump(uint64_t address, unsigned num);
 
         void print_prompt();
 

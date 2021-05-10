@@ -100,12 +100,12 @@ void debugger::handle_command(const string& line) {
             std::string val{args[3], 2};
             write_memory(std::stol(addr,0,16), std::stol(val, 0, 16));
         }
+    } else if(is_prefix(command, "step")) {
+        step_in();
     } else if(is_prefix(command, "stepi")) {
         single_step_instruction_with_breakpoint_check();
         auto line_entry = get_line_entry_from_pc(get_pc());
         print_source(line_entry->file->path, line_entry->line);
-    } else if(is_prefix(command, "step")) {
-        step_in();
     } else if(is_prefix(command, "next")) {
         step_over();
     } else if(is_prefix(command, "finish")) {

@@ -138,8 +138,7 @@ void debugger::handle_command(const string& line) {
             }
             std::string num{args[3]};
             std::string print_format{args[1]};
-            auto byte_dump = hexdump(std::stol(addr,0,16), std::stoi(num,0,10));
-            print_hexdump(byte_dump, print_format, std::stol(addr,0,16), std::stoi(num,0,10));
+            auto byte_dump = hexdump(std::stol(addr,0,16), std::stoi(num,0,10), print_format);
         }
     } else {
         cerr << "Unknown Command\n";
@@ -558,10 +557,10 @@ void debugger::print_prompt() {
     cout << endl;
 }
 
-vector<uint8_t> debugger::hexdump(uint64_t address, unsigned num) {
+std::vector<uint8_t> debugger::hexdump(uint64_t address, unsigned length, std::string hex_format) {
     vector<uint8_t> mem_dump;
     int curr_num = 0;
-    while(curr_num < num) {
+    while(curr_num < length) {
         uint64_t mem = read_memory(address+curr_num);
         mem_dump.push_back(mem >> 8*0);
         mem_dump.push_back(mem >> 8*1);
@@ -573,23 +572,25 @@ vector<uint8_t> debugger::hexdump(uint64_t address, unsigned num) {
         mem_dump.push_back(mem >> 8*7);
         curr_num += 8;
     }
-    return mem_dump;
-}
 
-void debugger::print_hexdump(std::vector<uint8_t> bytes, std::string print_format, uint64_t address, unsigned length) {
     std::cout << green << std::hex << address << def << ":    ";
-    for(int i = 0; i < length; i++) {
+    int print_size = 2;
+    if(hex_format == "w") print_size = 4;
+    if(hex_format == "dw") print_size = 8;
+    if(hex_format == "qw") print_size = 16;
+    for(int i = 0; i < mem_dump.size(); i++) {
         if(i != 0 && i % 16 == 0) {
             address+=16;
             std::cout << green << std::endl << std::hex << address << ":    " << def;
         }
-        if(int(bytes.at(i)) == 0) {
-            std::cout << line_color << std::setw(2) << std::setfill('0') << int(bytes.at(i)) << " " << def;
+        if(int(mem_dump.at(i)) == 0) {
+            std::cout << line_color << int(mem_dump.at(i)) << " " << def;
         } else {
-            std::cout << def << std::setw(2) << std::setfill('0') << int(bytes.at(i)) << " ";
+            std::cout << def << int(mem_dump.at(i)) << " ";
         }
     }
     cout << endl;
+    //return mem_dump;
 }
 
 bool is_prefix(const string &s, const string &of) {

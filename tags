@@ -1009,7 +1009,7 @@ hdr	ext/libelfin/elf/elf.cc	/^        Phdr<> hdr;$/;"	m	struct:segment::impl	fil
 hdr	ext/libelfin/elf/elf.cc	/^        Shdr<> hdr;$/;"	m	struct:section::impl	file:
 help	ext/libelfin/elf/enum-print.py	/^                  help="omit type")$/;"	v
 help	ext/libelfin/elf/enum-print.py	/^                  help="strip leading and trailing underscores")$/;"	v
-hexdump	src/debugger.cpp	/^void debugger::hexdump(uint64_t address, unsigned num) {$/;"	f	class:debugger
+hexdump	src/debugger.cpp	/^std::vector<uint8_t> debugger::hexdump(uint64_t address, unsigned length, std::string hex_format) {$/;"	f	class:debugger
 hi_user	ext/libelfin/dwarf/data.hh	/^        hi_user                  = 0xffff,$/;"	m	class:DW_TAG
 hi_user	ext/libelfin/dwarf/data.hh	/^        hi_user              = 0x3fff,$/;"	m	class:DW_AT
 hi_user	ext/libelfin/dwarf/data.hh	/^        hi_user             = 0xff,$/;"	m	class:DW_OP
